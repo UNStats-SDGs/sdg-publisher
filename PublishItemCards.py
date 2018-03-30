@@ -1,38 +1,200 @@
-import time
-from arcgis.gis import GIS
+# coding: utf-8
+
+# ## Process the SDG Data Items
+# The purpose of this notebook is to illustrate how to use the SDG Metadata API in conjunction with local CSV files to publish spatial data to ArcGIS Online.  While this example has some elements that are specific to the UNSD workflow it is generic enough to show how to loop and use the API for publishing.  You may to need add or update workflows around publishing to meet your exact needs and working environments.
+
+# ### Import python libraries
+
+# In[2]:
+
 
 import os, re, json, traceback, sys, copy, urllib
 import urllib.request as urlopen
 import urllib.request as request
 import requests
+
+from arcgis.gis import GIS
+
+import time
 from datetime import datetime
 
-online_username = ""
-online_password = ""
-online_connection = "http://<your org>.maps.arcgis.com"
+# used to prompt for user input
+# when using this script internally, you may remove this and simply hard code in your username and password
+import getpass
+
+# this helps us do some debugging within the Python Notebook
+# another optional component
+from IPython.display import display
+
+# ### Create a connection to your ArcGIS Online Organization
+# This will rely on using the ArcGIS API for python to connect to your ArcGIS Online Organization to publish and manage data.  For more information about this python library visit the developer resources at [https://developers.arcgis.com/python/](https://developers.arcgis.com/python/)
+
+# In[5]:
+
+
+online_username = input('Username: ')
+online_password = getpass.getpass('Password: ')
+
+online_connection = "https://www.arcgis.com"
 gis_online_connection = GIS(online_connection, online_username, online_password)
 
-# location for the Koop Connection
-service_url = "https://sdgseries.herokuapp.com/sdgs/series/"
-# location for the metadata API
-metadata_url = "https://sdg-metadata.herokuapp.com"
+user = gis_online_connection.properties.user.username
+print('Logged in as: ' + user)
 
-# Load the Layer info JSON into an object
-#layer_info = json.load(open("layerinfo.json"))
+# ### Get the JSON Data from the UN SDG Metadata API
+#
+# The SDG Metadata API is designed to  retrieve information and metadata on the [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
+#
+# The Inter-agency Expert Group on SDG Indicators released a series of PDFs that includes metadata for each Indicator. Those PDFs can be downloaded [here](http://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/).
+#
+# The metadata API is an Open Source project maintained by the UN Statisitics division and be be accessed on [github](https://github.com/UNStats-SDGs/sdg-metadata-api)
 
-def set_field_alias(field_name):
-    if field_name == "geoAreaName_x":
-        return "Geographic Area Name"
-    elif field_name == "seriesDescription":
-        return "Series Description"
-    elif field_name == "ISO3CD":
-        return "ISO3 Code"
-    elif field_name == "freq":
-        return "Frequency"
-    elif field_name == "last_5_years_mean":
-        return "Mean of the Last 5 Years"
-    else:
-        return field_name.capitalize()
+# In[7]:
+
+
+url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
+req = request.Request(url)
+response = urlopen.urlopen(req)
+response_bytes = response.read()
+json_data = json.loads(response_bytes.decode("UTF-8"))
+
+# show an example from the metadata
+if (json_data):
+    print(json_data[0])
+
+# ## Process the SDG Infomation
+#
+# ### processSDGInfomation
+# Allow the SDG information to be processed either as a batch of by individual series of infomation
+# This function is where the majority of the work will happen. Here is a basic outline of the steps we will take:
+# - Build out the item card infomation from the Metadata API and addtional information
+# - Create an Group in ArcGIS Online for the Goal if needed, otherwise update the property information
+# - If exists, update and move to Open Data Group
+# - Publish the CSV File (if the property_update_only flag is False)
+# - If it doesn't exist, publish as a new Item then move to the Open Data Group
+#
+# ##### goal_code (default None):  Indvidual goal code.  This will process this goal and all the children targets as well
+# processSDGInfomation(goal_code='1')
+# ##### indicator_code (default None):  Individual indicator code.  This will process this indicator and all the children targets as well
+# processSDGInfomation(goal_code='1',indicator_code='1.1')
+# ##### target_code (default None):  Individual Target code.  This will process this target code only
+# processSDGInfomation(goal_code='1',indicator_code='1.1',target_code='1.1.1')
+# ##### series_code (default None):  Individual Series code.  This will process this series code only
+# processSDGInfomation(goal_code='1',indicator_code='1.1',target_code='1.1.1',series_code='SI_POV_DAY1')
+# ##### property_update_only (default False):  If True this will only update the metadata in the item card and will not process the actual data sources
+# processSDGInfomation(goal_code='1',indicator_code='1.1',target_code='1.1.1',series_code='SI_POV_DAY1',property_update_only=True)
+
+# In[ ]:
+
+
+processSDGInfomation()
+
+
+def processSDGInfomation(goal_code=None, indicator_code=None, target_code=None, series_code=None,
+                         property_update_only=False):
+    try:
+        for goal in json_data:
+            # Determine if we are processing this query Only process a specific series code
+            if goal_code is not None and int(goal["code"]) not in goal_code:
+                continue
+
+            # Get the Thumbnail from the SDG API
+            goal_metadata = getMetadata(goal["code"])
+            print(goal_metadata)
+
+            # if a thumbnail was not found use a default thumbnail for icon
+            if "icon_url_sq" in goal_metadata:
+                thumbnail = goal_metadata["icon_url_sq"]
+            else:
+                thumbnail = "http://undesa.maps.arcgis.com/sharing/rest/content/items/aaa0678dba0a466e8efef6b9f11775fe/data"
+
+            # Create a Group for the Goal
+            group_goal_properties = dict()
+            group_goal_properties["title"] = "SDG " + goal["code"]
+            group_goal_properties["snippet"] = goal["title"]
+            group_goal_properties["description"] = goal["description"]
+            group_goal_properties["tags"] = [group_goal_properties["title"]]
+            group_goal_properties["thumbnail"] = thumbnail
+            group_id = createGroup(group_goal_properties)
+
+            # Iterate through each of the targets
+            for target in goal["targets"]:
+                group_target_properties = dict()
+                group_target_properties["tags"] = ["Target " + target["code"]]
+                group_id.update(tags=group_id["tags"] + group_target_properties["tags"])
+
+                # Iterate through each of the indicators
+                for indicator in target["indicators"]:
+                    # Allow processing a single indicator
+                    if indicator_code and not indicator["code"] == indicator_code:
+                        continue
+
+                    process_indicator = dict()
+                    process_indicator["name"] = "Indicator " + indicator["code"]  # eg. Indicator 1.1.1
+                    process_indicator["tags"] = [process_indicator["name"]]
+
+                    # Append the keyword tags from the metadata as well
+                    group_id.update(tags=group_id["tags"] + process_indicator["tags"])
+
+                    process_indicator["snippet"] = indicator["code"] + ": " + indicator["description"]
+                    process_indicator["description"] = "<p><b>Indicator " + indicator["code"] + ": </b>" + indicator[
+                        "description"] + "</p>" + "</p><p><b>Target " + target["code"] + ": </b>" + target[
+                                                           "description"] + "</p>" + "<p>" + goal[
+                                                           "description"] + "</p>"
+
+                    process_indicator["credits"] = "UNSD"
+                    process_indicator["thumbnail"] = thumbnail
+
+                    # Iterate through each of the series
+                    for series in indicator["series"]:
+                        # Determine if we are processing this query Only process a specific series code
+                        if indicator_code and not (series["code"] == series_code or series_code is None):
+                            continue
+
+                        # Build the metadata properties for the item card
+                        item_properties = dict()
+                        item_properties["title"] = process_indicator["name"] + " (" + series["code"] + "): " + series[
+                            "description"]
+                        if not series["description"]:
+                            series["description"] = series["code"]
+                        snippet = series["code"] + ": " + series["description"]
+                        item_properties["snippet"] = (snippet[:250] + "..") if len(snippet) > 250 else snippet
+                        item_properties["description"] = "<p><b>Series " + series["code"] + ": </b>" + series[
+                            "description"] + "</p>" + process_indicator["description"]
+                        final_tags = group_goal_properties["tags"] + group_target_properties["tags"] + \
+                                     process_indicator["tags"]
+                        final_tags.extend(get_series_tags(series["code"]))
+                        item_properties["tags"] = final_tags
+
+                        # Add this item to ArcGIS Online
+                        print("Processing series code:", indicator["code"], series["code"])
+                        try:
+                            online_item = publish_csv(series["code"], item_properties=item_properties,
+                                                      thumbnail=thumbnail)
+                            display(online_item)
+
+                            if online_item is not None:
+                                # Share this content with the goals group
+                                online_item.share(everyone=True, org=True, groups=group_id["id"],
+                                                  allow_members_to_edit=False)
+                                # Update the Group Information with Data from the Indicator and targets
+                                group_id.update(tags=group_id["tags"] + [series["code"]])
+                        except:
+                            traceback.print_exc()
+                            print("Failed to process series code:", indicator["code"], series["code"])
+                            return
+
+except:
+traceback.print_exc()
+
+
+# ### Analyze the CSV file
+# Using the ArcGIS REST API `analyze` endpoint, we can prepare the CSV file we are going to use before publishing it to ArcGIS Online. This will help us by returning information about the file inlcuding fields as well as sample records. This step will also lead into future steps in the publishing process.
+#
+# More info about the analyze endpoint can be found [here](https://developers.arcgis.com/rest/users-groups-and-items/analyze.htm).
+
+# In[20]:
+
 
 def analyze_csv(item_id):
     try:
@@ -56,7 +218,17 @@ def analyze_csv(item_id):
         raise
 
 
-def publish_csv(series_code, item_properties, thumbnail,property_update_only=False):
+# ### Publish the CSV file
+# This function is where the majority of the work will happen. Here is a basic outline of the steps we will take:
+# - Begin by asking for the path to the CSV file itself
+# - Check if the CSV file exists
+# - If exists, update and move to Open Data Folder under the owner content
+# - If it doesn't exist, publish as a new Item then move to the Open Data Group
+
+# In[19]:
+
+
+def publish_csv(series_code, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
         data_dir = r"/Users/trav5516/Box Sync/Projects/UNSD - HUB Pilot/Technical/Data/Dataset-nofolders"
@@ -88,8 +260,6 @@ def publish_csv(series_code, item_properties, thumbnail,property_update_only=Fal
                 csv_item = gis_online_connection.content.add(item_properties=csv_item_properties, thumbnail=thumbnail,
                                                              data=file)
 
-
-
             # find the published service
             query_string = "title:'{}' AND owner:{}".format(item_properties["title"], online_username)
             search_results = gis_online_connection.content.search(query_string)
@@ -106,7 +276,7 @@ def publish_csv(series_code, item_properties, thumbnail,property_update_only=Fal
             publish_parameters = analyze_csv(csv_item["id"])
             publish_parameters["name"] = csv_item_properties["title"]
             print('Publishing Feature Service....')
-            csv_lyr = csv_item.publish(publish_parameters=publish_parameters,overwrite=True)
+            csv_lyr = csv_item.publish(publish_parameters=publish_parameters, overwrite=True)
             csv_lyr.update(item_properties=item_properties, thumbnail=thumbnail)
             if csv_item["ownerFolder"] is None:
                 print('Moving CSV to Open Data Folder')
@@ -123,10 +293,15 @@ def publish_csv(series_code, item_properties, thumbnail,property_update_only=Fal
         raise
 
 
+# ### Collect SDG Metadata
+# For each new Item published, we can use the SDG Metadata API to return all the metadata associated with that layer
+
+# In[4]:
+
+
 def getMetadata(value):
     try:
         url = metadata_url + "/goals?ids=" + value
-        print(url)
         req = request.Request(url)
         response = urlopen.urlopen(req)
         response_bytes = response.read()
@@ -137,10 +312,17 @@ def getMetadata(value):
             key = str(value)
 
         if "icon_url_sq" not in json_data["data"][0]:
-            json_data["data"][0]["icon_url_sq"] = "https://raw.githubusercontent.com/UNStats-SDGs/sdg-metadata-api/master/icons/SDG" + key + ".png"
+            json_data["data"][0][
+                "icon_url_sq"] = "https://raw.githubusercontent.com/UNStats-SDGs/sdg-metadata-api/master/icons/SDG" + key + ".png"
         return json_data["data"][0]
     except:
         return "https://raw.githubusercontent.com/UNStats-SDGs/sdgs-data/master/images/en/TGG_Icon_Color_" + value + ".png"
+
+
+# ### Collect SDG Series Metadata
+# Information such as standard Tags can also be retrieved from the SDG Metadata API
+
+# In[12]:
 
 
 def get_series_tags(series_code):
@@ -158,18 +340,10 @@ def get_series_tags(series_code):
         return []
 
 
-def addItemtoOnline(item_properties, thumbnail):
-    # Check if there is a group here
-    query_string = "title:'{}' AND owner:{}".format(item_properties["title"], online_username)
-    search_results = gis_online_connection.content.search(query_string)
-    if not search_results:
-        return gis_online_connection.content.add(item_properties=item_properties, thumbnail=thumbnail)
-    else:
-        for search_result in search_results:
-            if search_result["title"] == item_properties["title"]:
-                search_result.update(item_properties=item_properties, thumbnail=thumbnail)
-                return search_result
-    return None
+# ### Create a Group for each SDG Goal
+# You can create a Group within your ArcGIS Online Organization for each SDG. As you publish Items, you can share them to the relevant Group(s). This function will create the Group, query the SDG Metadata API to return the Title, Summary, Description, Tags, and Thumbnail for that particular SDG.
+
+# In[9]:
 
 
 def createGroup(group_info):
@@ -191,7 +365,10 @@ def createGroup(group_info):
         query_string = "title:'{}' AND owner:{}".format(group_info["title"], online_username)
         search_results = gis_online_connection.groups.search(query_string)
         if not search_results:
-            return gis_online_connection.groups.create_from_dict(item_properties)
+            # Update the group information
+            group = gis_online_connection.groups.create_from_dict(item_properties)
+            display(group)
+            return group
         else:
             for search_result in search_results:
                 if search_result["title"] == group_info["title"]:
@@ -201,121 +378,31 @@ def createGroup(group_info):
                                          snippet=group_info["snippet"], access="Public",
                                          thumbnail=group_info["thumbnail"])
                     return search_result
-            # The correct group was not found in the search results add it now
-            return gis_online_connection.groups.create_from_dict(item_properties)
+            # the group was not in the returned search results so create now
+            group = gis_online_connection.groups.create_from_dict(item_properties)
+            display(group)
+            return group
     except:
         traceback.print_exc()
 
 
-def processSDGInfomation(goal_code=None,indicator_code=None, series_code=None,property_update_only=False):
-    try:
-        #  Get the JSON Values from the SDG API
-        url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
-        req = request.Request(url)
-        response = urlopen.urlopen(req)
-        response_bytes = response.read()
-        json_data = json.loads(response_bytes.decode("UTF-8"))
+# ### Add Item to Online
+# Add this item into the user content area in ArcGIS Online
 
-        for goal in json_data:
-            # Determine if we are processing this query Only process a specific series code
-            if goal_code is not None and int(goal["code"]) not in goal_code:
-                continue
-
-            # Get the Thumbnail from the SDG API
-            goal_metadata = getMetadata(goal["code"])
-            print(goal_metadata)
-            if "icon_url_sq" in goal_metadata:
-                thumbnail = goal_metadata["icon_url_sq"]
-            else:
-                thumbnail = "http://undesa.maps.arcgis.com/sharing/rest/content/items/aaa0678dba0a466e8efef6b9f11775fe/data"
-
-            # Create a Group for the Goal
-            group_goal_properties = dict()
-            group_goal_properties["title"] = "SDG " + goal["code"]
-            group_goal_properties["snippet"] = goal["title"]
-            group_goal_properties["description"] = goal["description"]
-            group_goal_properties["tags"] = [group_goal_properties["title"]]
-            #if "keywords" in goal_metadata:
-            #    if "tags" in goal_metadata["keywords"]:
-            #        group_goal_properties["tags"] += goal_metadata["keywords"]["tags"]
-            #    if "descriptions" in goal_metadata["keywords"]:
-            #        group_goal_properties["tags"] += goal_metadata["keywords"]["descriptions"]
-            #    if "groups" in goal_metadata["keywords"]:
-            #        group_goal_properties["tags"] += goal_metadata["keywords"]["groups"]
-            group_goal_properties["thumbnail"] = thumbnail
-            group_id = createGroup(group_goal_properties)
-
-            for target in goal["targets"]:
-                group_target_properties = dict()
-                group_target_properties["tags"] = ["Target " + target["code"]]
-                group_id.update(tags=group_id["tags"] + group_target_properties["tags"])
-
-                # Iterate through each of the targets
-                # Allow processing a single indicator
-                for indicator in target["indicators"]:
-                    if indicator_code and not indicator["code"] == indicator_code:
-                        continue
-
-                    process_indicator = dict()
-                    process_indicator["name"] = "Indicator " + indicator["code"]  # eg. Indicator 1.1.1
-                    process_indicator["tags"] = [process_indicator["name"]]
-                    # Append the keyword tags from the metadata as well
-                    group_id.update(tags=group_id["tags"] + process_indicator["tags"])
-
-                    process_indicator["snippet"] = indicator["code"] + ": " + indicator["description"]
-                    process_indicator["description"] = "<p><b>Indicator " + indicator["code"] + ": </b>" + indicator["description"] + "</p>" + \
-                                                       "</p><p><b>Target " + target["code"] + ": </b>" + target["description"] + "</p>" + \
-                                                       "<p>" + goal["description"] + "</p>"
-
-                    process_indicator["credits"] = "UNSD"
-                    process_indicator["thumbnail"] = thumbnail
-
-                    for series in indicator["series"]:
-                        # Determine if we are processing this query Only process a specific series code
-                        if indicator_code and not (series["code"] == series_code or series_code is None):
-                            continue
-
-                        # indicator_code = None
-                        item_properties = dict()
-                        item_properties["title"] = process_indicator["name"] + " (" + series["code"] + "): " + series["description"]
-                        if not series["description"]:
-                            series["description"] = series["code"]
-                        snippet = series["code"] + ": " + series["description"]
-                        item_properties["snippet"] = (snippet[:250] + "..") if len(snippet) > 250 else snippet
-                        item_properties["description"] = "<p><b>Series " + series["code"] + ": </b>" + \
-                                                         series["description"] + "</p>" + \
-                                                         process_indicator["description"]
-                        final_tags = group_goal_properties["tags"] + \
-                                        group_target_properties["tags"] + \
-                                        process_indicator["tags"]
-                        final_tags.extend(get_series_tags(series["code"]))
-                        #final_tags = set(final_tags)
-                        #final_tags = list(final_tags)
-                        item_properties["tags"] = final_tags
-
-                        # Add this item to ArcGIS Online
-                        print("Processing series code:", indicator["code"], series["code"])
-                        try:
-                            online_item = publish_csv(series["code"], item_properties=item_properties,
-                                                      thumbnail=thumbnail,property_update_only=property_update_only)
-
-                            if online_item is not None:
-                                # Share this content with the goals group
-                                online_item.share(everyone=True, org=True, groups=group_id["id"],
-                                                  allow_members_to_edit=False)
-                                # Update the Group Information with Data from the Indicator and targets
-                                group_id.update(tags=group_id["tags"] + [series["code"]])
-                        except:
-                            print("Failed to process series code:", indicator["code"], series["code"], item_properties)
-
-        return
-    except:
-        traceback.print_exc()
+# In[14]:
 
 
-if __name__ == "__main__":se
-    start_time = str(datetime.now())
-    processSDGInfomation()
-    end_time = str(datetime.now())
-    print(start_time, end_time)
-    print("Completed")
+def addItemtoOnline(item_properties, thumbnail):
+    # Check if there is a group here
+    query_string = "title:'{}' AND owner:{}".format(item_properties["title"], online_username)
+    search_results = gis_online_connection.content.search(query_string)
+    if not search_results:
+        return gis_online_connection.content.add(item_properties=item_properties, thumbnail=thumbnail)
+    else:
+        for search_result in search_results:
+            if search_result["title"] == item_properties["title"]:
+                search_result.update(item_properties=item_properties, thumbnail=thumbnail)
+                display(search_result)
+                return search_result
+    return None
+
