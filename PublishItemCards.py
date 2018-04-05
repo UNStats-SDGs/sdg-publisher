@@ -296,14 +296,14 @@ def publish_csv(series, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
         #Get the csv file from the GitHub Repo (First version will be pivot only)
-        data_dir = r"/Users/trav5516/Box Sync/Projects/UNSD - HUB Pilot/Technical/Data/Dataset-pivot"
-        csv_url = metadata_url + '/master/csv/' + series["code"] + '_cube.pivot.csv'
-        csv_response = requests.get(csv_url)
+        data_dir = r"FIS4SDGs/csv/"
+        #csv_url = metadata_url + '/master/csv/' + series["code"] + '_cube.pivot.csv'
+        #csv_response = requests.get(csv_url)
         series_title = series["code"] + "_" + series["release"].replace('.', '')
-        with open(os.path.join(data_dir, series_title + ".csv"), 'wb') as f:
-            f.write(csv_response.content)
+        #with open(os.path.join(data_dir, series_title + ".csv"), 'wb') as f:
+         #   f.write(csv_response.content)
 
-        file = os.path.join(data_dir, series_title + ".csv")
+        file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
             csv_item_properties["title"] = series_title
@@ -311,7 +311,7 @@ def publish_csv(series, item_properties, thumbnail, property_update_only=False):
             csv_item_properties["url"] = ""
 
             # Does this CSV already exist
-            query_string = "title:'{}' AND owner:{}".format(csv_item_properties["title"], online_username)
+            query_string = "title:'{}' AND owner:{}".format(csv_item_properties["title"], 'tbutcher_undesa')
             search_results = gis_online_connection.content.search(query_string)
 
             csv_item = None
@@ -427,8 +427,10 @@ def create_group(group_info):
             return group
     except:
         traceback.print_exc()
+#
+# This will delete everything. Use with caution, with a wise and clear head!!!!
+#
+#cleanup_site()
 
-
-cleanup_site()
 process_sdg_information()
 print(failed_series)
