@@ -1,0 +1,249 @@
+geoAreaCode	years	Freq	Units	sliceId	series.release	series.code	series.description	X	Y	OBJECTID	ISO3CD	geoAreaName	value	valueType	time_detail	source	Nature
+4	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	66.02688198	33.83160199	2	AFG	Afghanistan	89622.038	Float		International Civil Aviation Organization (ICAO)	
+8	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	20.06660928	41.13897007	6	ALB	Albania					
+10	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	21.47585697	-80.40897662	13	ATA	Antarctica					
+12	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	2.678164227	28.15940032	66	DZA	Algeria	16811.687104	Float		International Civil Aviation Organization (ICAO)	
+16	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-170.7187269	-14.30587306	12	ASM	American Samoa					
+20	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	1.576257417	42.54548611	7	AND	Andorra					
+24	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	17.57817062	-12.33724746	3	AGO	Angola	9801	Float		International Civil Aviation Organization (ICAO)	
+28	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.7999755	17.07761471	15	ATG	Antigua and Barbuda	1454.334	Float		International Civil Aviation Organization (ICAO)	
+31	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	50.01064725	40.39229544	19	AZE	Azerbaijan	11535.5	Float		International Civil Aviation Organization (ICAO)	
+32	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-65.14563274	-35.19446255	10	ARG	Argentina	47495.988	Float		International Civil Aviation Organization (ICAO)	
+36	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	134.3499412	-25.57717202	17	AUS	Australia	291033.44	Float		International Civil Aviation Organization (ICAO)	
+40	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	14.14172472	47.58704857	18	AUT	Austria	62739	Float		International Civil Aviation Organization (ICAO)	
+44	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-78.05111663	24.69546597	27	BHS	Bahamas	7327.905	Float		International Civil Aviation Organization (ICAO)	
+48	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	50.5490754	26.04407747	26	BHR	Bahrain	155114.004	Float		International Civil Aviation Organization (ICAO)	
+50	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	89.17660788	22.86961622	24	BGD	Bangladesh	53733.232491	Float		International Civil Aviation Organization (ICAO)	
+51	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	44.93839317	40.29499741	11	ARM	Armenia					
+52	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-59.5346489	13.13648273	35	BRB	Barbados					
+56	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	4.660976456	50.64104975	21	BEL	Belgium	342080.45	Float		International Civil Aviation Organization (ICAO)	
+60	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-64.78155012	32.27881922	32	BMU	Bermuda					
+64	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	90.45098484	27.39598568	37	BTN	Bhutan	406.64	Float		International Civil Aviation Organization (ICAO)	
+68	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-64.66224284	-16.71273412	33	BOL	Bolivia (Plurinational State of)	11850.05463	Float		International Civil Aviation Organization (ICAO)	
+70	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	17.78584332	44.16845548	28	BIH	Bosnia and Herzegovina	0.12	Float		International Civil Aviation Organization (ICAO)	
+72	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	23.81380223	-22.18810073	39	BWA	Botswana	109.186	Float		International Civil Aviation Organization (ICAO)	
+74	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	3.410732868	-54.43295905	38	BVT	Bouvet Island					
+76	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-53.08432878	-10.77668561	34	BRA	Brazil	510348	Float		International Civil Aviation Organization (ICAO)	
+84	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-88.70199554	17.19965901	31	BLZ	Belize	50369.91	Float		International Civil Aviation Organization (ICAO)	
+86	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	72.38715553	-7.299281071	107	IOT	British Indian Ocean Territory					
+90	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	160.1584117	-9.622391719	204	SLB	Solomon Islands	1206.14	Float		International Civil Aviation Organization (ICAO)	
+92	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-64.63294223	18.42256578	254	VGB	British Virgin Islands					
+96	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	114.6288563	4.49736984	36	BRN	Brunei Darussalam	20440	Float		International Civil Aviation Organization (ICAO)	
+100	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	25.23763153	42.75731323	25	BGR	Bulgaria	1416	Float		International Civil Aviation Organization (ICAO)	
+104	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	96.51752295	21.19332882	149	MMR	Myanmar	22937.736134	Float		International Civil Aviation Organization (ICAO)	
+108	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	29.89080992	-3.366387428	20	BDI	Burundi					
+112	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	28.04940161	53.54193075	30	BLR	Belarus	2233	Float		International Civil Aviation Organization (ICAO)	
+116	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	104.922836	12.71163737	121	KHM	Cambodia	1592.49	Float		International Civil Aviation Organization (ICAO)	
+120	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	12.7419827	5.692387031	47	CMR	Cameroon	0	Float		International Civil Aviation Organization (ICAO)	
+124	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-101.6575058	57.72360191	41	CAN	Canada	794167.344	Float		International Civil Aviation Organization (ICAO)	
+132	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-23.63544151	15.07791834	53	CPV	Cabo Verde	1380.437	Float		International Civil Aviation Organization (ICAO)	
+136	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-81.16740559	19.32266656	58	CYM	Cayman Islands					
+140	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	20.93559492	7.003720791	40	CAF	Central African Republic					
+144	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	80.70489654	7.614693343	132	LKA	Sri Lanka	118456	Float		International Civil Aviation Organization (ICAO)	
+148	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	18.66618401	15.36279341	222	TCD	Chad					
+152	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-71.23029019	-35.2652885	44	CHL	Chile	278758	Float		International Civil Aviation Organization (ICAO)	
+156	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	104.1403375	32.30955217	45	CHN	China	6292942	Float		International Civil Aviation Organization (ICAO)	
+162	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	105.6426067	-10.4882473	57	CXR	Christmas Island					
+166	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	96.82633757	-12.18600682	42	CCK	Cocos (Keeling) Islands					
+170	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-73.07446751	3.888209046	51	COL	Colombia	557806.188	Float		International Civil Aviation Organization (ICAO)	
+174	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	43.34234565	-11.66121732	52	COM	Comoros					
+175	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	45.14015057	-12.82217691	160	MYT	Mayotte					
+178	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	15.22052612	-0.840544119	49	COG	Congo	6678.47	Float		International Civil Aviation Organization (ICAO)	
+180	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	23.65496507	-2.877154732	48	COD	Democratic Republic of the Congo	31.849884	Float		International Civil Aviation Organization (ICAO)	
+184	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-159.7711391	-21.22696458	50	COK	Cook Islands	3657.979	Float		International Civil Aviation Organization (ICAO)	
+188	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-84.19712782	9.970998683	54	CRI	Costa Rica	6341.658	Float		International Civil Aviation Organization (ICAO)	
+191	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	17.95874553	45.45172212	101	HRV	Croatia	1347.37	Float		International Civil Aviation Organization (ICAO)	
+192	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-79.54460144	22.10030366	55	CUB	Cuba	9543.657734	Float		International Civil Aviation Organization (ICAO)	
+196	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	33.22285964	35.05659437	59	CYP	Cyprus	108.286	Float		International Civil Aviation Organization (ICAO)	
+203	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	15.33151382	49.73913871	60	CZE	Czechia	5790.47	Float		International Civil Aviation Organization (ICAO)	
+204	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	2.339933594	9.65401646	22	BEN	Benin	674.309	Float		International Civil Aviation Organization (ICAO)	
+208	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	9.326571283	56.03829721	64	DNK	Denmark					
+212	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.3493756	15.43391378	63	DMA	Dominica					
+214	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-70.49847576	18.89832088	65	DOM	Dominican Republic	0	Float		International Civil Aviation Organization (ICAO)	
+218	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-78.37005241	-1.447785891	67	ECU	Ecuador	41814.272	Float		International Civil Aviation Organization (ICAO)	
+222	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-88.86862995	13.73603564	206	SLV	El Salvador	10080.64	Float		International Civil Aviation Organization (ICAO)	
+226	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	10.46535826	1.565792376	90	GNQ	Equatorial Guinea	580.003399	Float		International Civil Aviation Organization (ICAO)	
+231	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	39.63505296	8.631223181	73	ETH	Ethiopia	246076.24	Float		International Civil Aviation Organization (ICAO)	
+232	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	38.11074289	16.12894644	69	ERI	Eritrea	0	Float		International Civil Aviation Organization (ICAO)	
+233	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	25.84093481	58.68487172	72	EST	Estonia	95.347	Float		International Civil Aviation Organization (ICAO)	
+234	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-7.122044325	62.21228119	78	FRO	Faroe Islands					
+238	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-58.75246778	-51.74562601	76	FLK	Falkland Islands (Malvinas)					
+239	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-36.90662765	-54.20736749	201	SGS	South Georgia and the South Sandwich Islands					
+242	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	177.9660884	-17.83301566	75	FJI	Fiji	16888.869	Float		International Civil Aviation Organization (ICAO)	
+246	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	23.308447	61.91586738	74	FIN	Finland	108863	Float		International Civil Aviation Organization (ICAO)	
+248	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	19.80945969	60.1544901	5	ALA	Åland Islands					
+250	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	2.457288129	46.62660861	77	FRA	France	588106	Float		International Civil Aviation Organization (ICAO)	
+254	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-53.23619089	3.922673437	95	GUF	French Guiana					
+258	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-149.4052367	-17.67709294	191	PYF	French Polynesia					
+260	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	69.64849091	-49.6068576	14	ATF	French Southern Territories					
+262	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	42.18274707	11.56004161	62	DJI	Djibouti					
+266	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	11.78727747	-0.60687619	80	GAB	Gabon	0	Float		International Civil Aviation Organization (ICAO)	
+268	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	43.3713615	42.04813028	82	GEO	Georgia	84.84	Float		International Civil Aviation Organization (ICAO)	
+270	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-15.39944785	13.45295927	88	GMB	Gambia	17.302	Float		International Civil Aviation Organization (ICAO)	
+275	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	35.25694122	31.94347933	189	PSE	State of Palestine					
+276	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	10.3806066	51.08862743	61	DEU	Germany	1022163.315	Float		International Civil Aviation Organization (ICAO)	
+288	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-1.205623522	7.964825185	84	GHA	Ghana	7491.388	Float		International Civil Aviation Organization (ICAO)	
+292	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-5.347561686	36.13895036	85	GIB	Gibraltar					
+296	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-157.5643005	1.768837732	122	KIR	Kiribati					
+300	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	22.58307827	39.47301873	91	GRC	Greece	3398.631	Float		International Civil Aviation Organization (ICAO)	
+304	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-41.39371316	74.75625681	93	GRL	Greenland					
+308	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.68248568	12.11238395	92	GRD	Grenada					
+312	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.64762115	16.14416917	87	GLP	Guadeloupe					
+316	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	144.7029305	13.35485404	96	GUM	Guam					
+320	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-91.2312746	15.00273719	94	GTM	Guatemala	1049.7	Float		International Civil Aviation Organization (ICAO)	
+324	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-11.28173419	11.00210343	86	GIN	Guinea					
+328	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-58.97322037	4.788012784	97	GUY	Guyana					
+332	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-72.33640958	18.40426539	102	HTI	Haiti					
+334	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	73.52633626	-53.09106147	99	HMD	Heard Island and McDonald Islands					
+336	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	12.45315803	41.90343751	250	VAT	Holy See					
+340	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-86.59974381	14.82243161	100	HND	Honduras	3054.361	Float		International Civil Aviation Organization (ICAO)	
+344	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	114.0266445	22.41749934	98	HKG	China, Hong Kong Special Administrative Region	2272888.315	Float		International Civil Aviation Organization (ICAO)	
+348	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	19.41221519	47.1651448	103	HUN	Hungary					
+352	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-19.02116966	64.79134763	111	ISL	Iceland	45792.804	Float		International Civil Aviation Organization (ICAO)	
+356	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	79.3608464	22.34642074	106	IND	India	832258.01	Float		International Civil Aviation Organization (ICAO)	
+360	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	113.9174	-0.994582204	104	IDN	Indonesia	567306.4317	Float		International Civil Aviation Organization (ICAO)	
+364	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	54.19766348	32.74370885	109	IRN	Iran (Islamic Republic of)	56721.109	Float		International Civil Aviation Organization (ICAO)	
+368	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	43.76606267	33.05013795	110	IRQ	Iraq	6300.127581	Float		International Civil Aviation Organization (ICAO)	
+372	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-7.121425272	53.25274054	108	IRL	Ireland	35263	Float		International Civil Aviation Organization (ICAO)	
+376	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	34.62277992	31.06164552	112	ISR	Israel	168870.996	Float		International Civil Aviation Organization (ICAO)	
+380	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	12.57022427	42.79917282	113	ITA	Italy	156862.18	Float		International Civil Aviation Organization (ICAO)	
+384	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-5.552690016	7.62211586	46	CIV	Côte d'Ivoire	2688.083	Float		International Civil Aviation Organization (ICAO)	
+388	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-77.31068409	18.15616857	114	JAM	Jamaica					
+392	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	139.2716103	36.6554539	117	JPN	Japan	2321511	Float		International Civil Aviation Organization (ICAO)	
+398	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	66.65359159	48.01963494	118	KAZ	Kazakhstan	13911	Float		International Civil Aviation Organization (ICAO)	
+400	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	37.13024774	30.65365973	116	JOR	Jordan	48616	Float		International Civil Aviation Organization (ICAO)	
+404	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	37.86096816	0.534797278	119	KEN	Kenya	85599.165	Float		International Civil Aviation Organization (ICAO)	
+408	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	127.1803633	40.1462645	183	PRK	Democratic People's Republic of Korea	10142.637	Float		International Civil Aviation Organization (ICAO)	
+410	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	127.8610254	36.45201023	124	KOR	Republic of Korea	2312236.21	Float		International Civil Aviation Organization (ICAO)	
+414	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	47.49305029	29.53949468	125	KWT	Kuwait	81062.983337	Float		International Civil Aviation Organization (ICAO)	
+417	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	74.52324839	41.46204516	120	KGZ	Kyrgyzstan	50.213	Float		International Civil Aviation Organization (ICAO)	
+418	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	101.9901968	20.27482773	126	LAO	Lao People's Democratic Republic	1275.492034	Float		International Civil Aviation Organization (ICAO)	
+422	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	35.89391711	33.92152458	127	LBN	Lebanon	25403.976	Float		International Civil Aviation Organization (ICAO)	
+426	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	28.25362195	-29.58041814	133	LSO	Lesotho					
+428	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	26.42461876	56.64196636	136	LVA	Latvia	7455	Float		International Civil Aviation Organization (ICAO)	
+430	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-9.311879038	6.448381009	128	LBR	Liberia					
+434	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	18.0295985	27.04042819	129	LBY	Libya	1917.834574	Float		International Civil Aviation Organization (ICAO)	
+438	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	9.552985019	47.14167005	131	LIE	Liechtenstein					
+440	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	23.90517807	55.33680309	134	LTU	Lithuania	618.573	Float		International Civil Aviation Organization (ICAO)	
+442	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	6.092656563	49.77679538	135	LUX	Luxembourg	896438.676	Float		International Civil Aviation Organization (ICAO)	
+446	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	113.5665388	22.1237259	137	MAC	China, Macao Special Administrative Region	17131	Float		International Civil Aviation Organization (ICAO)	
+450	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	46.6982339	-19.38514785	142	MDG	Madagascar	5061.543406	Float		International Civil Aviation Organization (ICAO)	
+454	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	33.4884625	-13.40819859	158	MWI	Malawi	15.912	Float		International Civil Aviation Organization (ICAO)	
+458	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	116.8346314	5.452415309	159	MYS	Malaysia	524070.449	Float		International Civil Aviation Organization (ICAO)	
+462	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	73.09672546	-0.614385021	143	MDV	Maldives					
+466	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-3.522016039	17.35311254	147	MLI	Mali					
+470	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	14.44617519	35.89194275	148	MLT	Malta	1881	Float		International Civil Aviation Organization (ICAO)	
+474	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-60.91544135	14.56086108	156	MTQ	Martinique					
+478	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-10.33187259	20.26089546	154	MRT	Mauritania	0	Float		International Civil Aviation Organization (ICAO)	
+480	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	57.568022	-20.28581998	157	MUS	Mauritius	30745	Float		International Civil Aviation Organization (ICAO)	
+484	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-102.5148166	23.93378032	144	MEX	Mexico	292102.541	Float		International Civil Aviation Organization (ICAO)	
+492	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	7.424214814	43.73532918	140	MCO	Monaco	0	Float		International Civil Aviation Organization (ICAO)	
+496	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	103.0728057	46.83892054	151	MNG	Mongolia	3535.56	Float		International Civil Aviation Organization (ICAO)	
+498	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	28.4650624	47.20236795	141	MDA	Republic of Moldova	512.584	Float		International Civil Aviation Organization (ICAO)	
+499	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	19.25214024	42.78717043	150	MNE	Montenegro					
+500	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-62.19261223	16.73558313	155	MSR	Montserrat					
+504	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-6.281942841	31.8440131	139	MAR	Morocco	20099.811	Float		International Civil Aviation Organization (ICAO)	
+508	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	38.18479941	-14.27963886	153	MOZ	Mozambique	4007.364	Float		International Civil Aviation Organization (ICAO)	
+512	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	57.87743482	21.98805614	173	OMN	Oman	99140.004	Float		International Civil Aviation Organization (ICAO)	
+516	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	17.21907885	-22.13817068	161	NAM	Namibia	4317.478	Float		International Civil Aviation Organization (ICAO)	
+520	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	166.92313	-0.528742623	171	NRU	Nauru	5494.311	Float		International Civil Aviation Organization (ICAO)	
+524	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	83.94678863	28.25866332	170	NPL	Nepal	10820.970228	Float		International Civil Aviation Organization (ICAO)	
+528	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	5.331480568	51.86728884	168	NLD	Netherlands	677674.553	Float		International Civil Aviation Organization (ICAO)	
+530	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-68.30676179	12.22720635	8	ANT	Netherlands Antilles					
+531	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-68.95033464	12.15058042	56	CUW	Curaçao					
+533	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-69.97050586	12.50878756	1	ABW	Aruba					
+534	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-63.06198692	18.03926508	218	SXM	Sint Maarten (Dutch part)					
+540	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	165.5067368	-21.41742531	162	NCL	New Caledonia					
+548	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	167.0679779	-15.34445547	257	VUT	Vanuatu	1155.694	Float		International Civil Aviation Organization (ICAO)	
+554	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	170.4755673	-43.98721568	172	NZL	New Zealand	181885.718	Float		International Civil Aviation Organization (ICAO)	
+558	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-85.03060315	12.84210839	166	NIC	Nicaragua					
+562	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	9.400167877	17.42143036	163	NER	Niger	0	Float		International Civil Aviation Organization (ICAO)	
+566	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	8.097363256	9.585789025	165	NGA	Nigeria	6226.335976	Float		International Civil Aviation Organization (ICAO)	
+570	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-169.8601693	-19.05000475	167	NIU	Niue					
+574	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	167.9515548	-29.03230018	164	NFK	Norfolk Island					
+578	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	11.47846389	61.34311134	169	NOR	Norway	159967.938	Float		International Civil Aviation Organization (ICAO)	
+580	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	145.7582114	15.19099517	152	MNP	Northern Mariana Islands					
+581	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-162.4343752	5.874443968	245	UMI	US Minor Outlying Islands					
+583	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	158.225216	6.880670092	79	FSM	Micronesia, Federated States of					
+584	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	171.0839119	7.110213497	145	MHL	Marshall Islands					
+585	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	134.5733878	7.502307591	179	PLW	Palau					
+586	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	68.80479684	29.36491634	174	PAK	Pakistan	66605.4	Float		International Civil Aviation Organization (ICAO)	
+591	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-81.26616623	8.450965746	175	PAN	Panama	64773.988	Float		International Civil Aviation Organization (ICAO)	
+598	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	145.8587761	-6.756057077	180	PNG	Papua New Guinea	17296.43	Float		International Civil Aviation Organization (ICAO)	
+600	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-60.54854225	-21.70216237	187	PRY	Paraguay	1368.996	Float		International Civil Aviation Organization (ICAO)	
+604	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-71.82093277	-13.58939705	177	PER	Peru	142957.74	Float		International Civil Aviation Organization (ICAO)	
+608	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	120.8601418	14.16591706	178	PHL	Philippines	204547.662	Float		International Civil Aviation Organization (ICAO)	
+612	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-128.3225873	-24.37538456	176	PCN	Pitcairn					
+616	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	19.40660158	52.1226733	181	POL	Poland	35490.447	Float		International Civil Aviation Organization (ICAO)	
+620	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-7.961599811	39.68509315	186	PRT	Portugal	66243.351	Float		International Civil Aviation Organization (ICAO)	
+624	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-14.40182514	12.11760394	89	GNB	Guinea-Bissau					
+626	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	125.9451052	-8.797497247	228	TLS	Timor-Leste					
+630	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-66.47591017	18.22753799	182	PRI	Puerto Rico					
+634	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	51.19152467	25.28355379	192	QAT	Qatar	1449734.92	Float		International Civil Aviation Organization (ICAO)	
+638	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	55.53171398	-21.13183266	193	REU	Réunion					
+642	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	24.98481009	45.83893563	194	ROU	Romania	4519.56	Float		International Civil Aviation Organization (ICAO)	
+643	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	99.01404926	61.61899849	195	RUS	Russian Federation	881419.86	Float		International Civil Aviation Organization (ICAO)	
+646	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	29.92310194	-1.999842114	196	RWA	Rwanda	7260.203653	Float		International Civil Aviation Organization (ICAO)	
+652	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-62.83173536	17.89513362	29	BLM	Saint Barthélemy					
+654	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-5.705752501	-15.96503946	202	SHN	Saint Helena					
+659	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-62.76628613	17.33994219	123	KNA	Saint Kitts and Nevis					
+660	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-63.05651612	18.21525315	4	AIA	Anguilla					
+662	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-60.96529553	13.89405601	130	LCA	Saint Lucia					
+663	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-63.04505461	18.0882685	138	MAF	Saint Martin (French Part)					
+666	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-56.33682442	46.85812735	209	SPM	Saint Pierre and Miquelon					
+670	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.19024321	13.24627968	251	VCT	Saint Vincent and the Grenadines					
+674	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	12.46329038	43.93841766	207	SMR	San Marino					
+678	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	6.609772265	0.241554875	212	STP	Sao Tome and Principe					
+682	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	44.54763347	24.12594211	197	SAU	Saudi Arabia	492554	Float		International Civil Aviation Organization (ICAO)	
+686	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-14.46636926	14.35920905	199	SEN	Senegal	1320.341982	Float		International Civil Aviation Organization (ICAO)	
+688	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	20.805876	44.03145697	210	SRB	Serbia	2207.999	Float		International Civil Aviation Organization (ICAO)	
+690	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	55.46561591	-4.678053059	219	SYC	Seychelles	26393.484	Float		International Civil Aviation Organization (ICAO)	
+694	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-11.78306584	8.568604164	205	SLE	Sierra Leone					
+702	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	103.8107883	1.361009155	200	SGP	Singapore	1113826.401	Float		International Civil Aviation Organization (ICAO)	
+703	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	19.48495604	48.70741446	214	SVK	Slovakia					
+704	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	105.802499	10.09643079	256	VNM	Viet Nam	239759.33	Float		International Civil Aviation Organization (ICAO)	
+705	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	14.82209486	46.11958061	215	SVN	Slovenia	1588.272	Float		International Civil Aviation Organization (ICAO)	
+706	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	46.20367477	4.406485729	208	SOM	Somalia					
+710	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	24.67184355	-29.99957544	283	ZAF	South Africa	172760.223	Float		International Civil Aviation Organization (ICAO)	
+716	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	29.86909584	-19.00075492	285	ZWE	Zimbabwe	1330.656	Float		International Civil Aviation Organization (ICAO)	
+724	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-3.554078296	40.39211472	71	ESP	Spain	185199.419	Float		International Civil Aviation Organization (ICAO)	
+728	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	30.32618773	7.290839152	211	SSD	South Sudan					
+732	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-13.13515523	24.66265342	70	ESH	Western Sahara					
+736	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	29.95650159	16.02643066	198	SDN	Sudan					
+740	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-55.90626394	4.132603197	213	SUR	Suriname	6099	Float		International Civil Aviation Organization (ICAO)	
+744	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	13.38071013	78.82894131	203	SJM	Svalbard and Jan Mayen Islands					
+748	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	31.50149288	-26.56471011	217	SWZ	Swaziland					
+752	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	14.3775338	60.60103109	216	SWE	Sweden					
+756	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	8.223158	46.96617097	43	CHE	Switzerland	287879.906	Float		International Civil Aviation Organization (ICAO)	
+760	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	38.50466565	35.01676176	220	SYR	Syrian Arab Republic (Syria)					
+762	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	69.294998	38.43069666	225	TJK	Tajikistan	31.666	Float		International Civil Aviation Organization (ICAO)	
+764	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	101.0202951	15.13089239	224	THA	Thailand	573589.115	Float		International Civil Aviation Organization (ICAO)	
+768	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	0.97835765	8.532096072	223	TGO	Togo	0	Float		International Civil Aviation Organization (ICAO)	
+772	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-171.8154473	-9.214545558	226	TKL	Tokelau					
+776	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-175.1959991	-21.19511329	229	TON	Tonga					
+780	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-61.29389504	10.41877263	230	TTO	Trinidad and Tobago	6746.859	Float		International Civil Aviation Organization (ICAO)	
+784	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	53.98279159	23.43322219	9	ARE	United Arab Emirates	3392918.799	Float		International Civil Aviation Organization (ICAO)	
+788	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	9.572737411	34.11439971	231	TUN	Tunisia	6244.146	Float		International Civil Aviation Organization (ICAO)	
+792	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	35.42890329	38.9899684	232	TUR	Turkey	721512	Float		International Civil Aviation Organization (ICAO)	
+795	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	58.9787665	40.0912346	227	TKM	Turkmenistan	0	Float		International Civil Aviation Organization (ICAO)	
+796	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-71.745121	21.80780585	221	TCA	Turks and Caicos Islands					
+798	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	178.6679611	-7.460048071	233	TUV	Tuvalu					
+800	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	32.39100438	1.279557331	236	UGA	Uganda	62.604	Float		International Civil Aviation Organization (ICAO)	
+804	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	31.40270802	49.00735945	237	UKR	Ukraine	19236.7	Float		International Civil Aviation Organization (ICAO)	
+807	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	21.7007909	41.60048068	146	MKD	Macedonia, Republic of					
+818	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	29.77468534	26.57438204	68	EGY	Egypt	155970.028	Float		International Civil Aviation Organization (ICAO)	
+826	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-2.23830539	53.27691757	81	GBR	United Kingdom	849254.121	Float		International Civil Aviation Organization (ICAO)	
+831	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-2.200712402	49.71561166	83	GGY	Guernsey					
+832	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-2.136773508	49.22353354	115	JEY	Jersey					
+833	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-4.538190305	54.22880901	105	IMN	Isle of Man					
+834	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	34.80521182	-6.265332606	235	TZA	Tanzania, United Republic of	1253.073	Float		International Civil Aviation Organization (ICAO)	
+840	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-99.13830311	39.5277871	248	USA	United States of America	13669362.042	Float		International Civil Aviation Organization (ICAO)	
+850	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-64.76960113	17.73297693	255	VIR	United States Virgin Islands					
+854	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-1.742843829	12.27491081	23	BFA	Burkina Faso	59.296	Float		International Civil Aviation Organization (ICAO)	
+858	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-56.01387025	-32.8002838	247	URY	Uruguay					
+860	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	63.11944558	41.77560518	249	UZB	Uzbekistan	38778.03	Float		International Civil Aviation Organization (ICAO)	
+862	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-66.15642084	7.121324748	253	VEN	Venezuela (Bolivarian Republic)	5081.08	Float		International Civil Aviation Organization (ICAO)	
+876	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-176.2034788	-13.28471201	258	WLF	Wallis and Futuna Islands					
+882	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	-172.4430749	-13.61541469	259	WSM	Samoa	69.212	Float		International Civil Aviation Organization (ICAO)	
+887	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	45.22389143	15.22242099	282	YEM	Yemen	0	Float		International Civil Aviation Organization (ICAO)	
+894	2015	ANNUAL	METONS	1	2017.Q2.G.01	IS_TRP_FRGHT	Freight volume, by air transport	27.850329	-14.59701056	284	ZMB	Zambia	13290.089	Float		International Civil Aviation Organization (ICAO)	
