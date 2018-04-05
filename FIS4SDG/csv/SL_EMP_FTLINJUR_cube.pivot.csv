@@ -1,0 +1,745 @@
+series.release	series.code	series.description	geoAreaCode	X	Y	ISO3CD	geoAreaName	sliceId	Freq	Sex	Units	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	last.5.years.mean	latest.year	latest.value	latest.source	latest.nature
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	4	66.02688198	33.83160199	AFG	Afghanistan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	4	66.02688198	33.83160199	AFG	Afghanistan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	4	66.02688198	33.83160199	AFG	Afghanistan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	8	20.06660928	41.13897007	ALB	Albania	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	8	20.06660928	41.13897007	ALB	Albania	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	8	20.06660928	41.13897007	ALB	Albania	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	10	21.47585697	-80.40897662	ATA	Antarctica	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	10	21.47585697	-80.40897662	ATA	Antarctica	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	10	21.47585697	-80.40897662	ATA	Antarctica	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	12	2.678164227	28.15940032	DZA	Algeria	1	ANNUAL	BOTHSEX	PER_100000_EMP	27.28	23.24	20.88	19.03	17.59														2004	17.59	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	12	2.678164227	28.15940032	DZA	Algeria	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	12	2.678164227	28.15940032	DZA	Algeria	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	16	-170.7187269	-14.30587306	ASM	American Samoa	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	16	-170.7187269	-14.30587306	ASM	American Samoa	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	16	-170.7187269	-14.30587306	ASM	American Samoa	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	20	1.576257417	42.54548611	AND	Andorra	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	20	1.576257417	42.54548611	AND	Andorra	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	20	1.576257417	42.54548611	AND	Andorra	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	24	17.57817062	-12.33724746	AGO	Angola	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	24	17.57817062	-12.33724746	AGO	Angola	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	24	17.57817062	-12.33724746	AGO	Angola	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	28	-61.7999755	17.07761471	ATG	Antigua and Barbuda	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	28	-61.7999755	17.07761471	ATG	Antigua and Barbuda	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	28	-61.7999755	17.07761471	ATG	Antigua and Barbuda	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	31	50.01064725	40.39229544	AZE	Azerbaijan	1	ANNUAL	BOTHSEX	PER_100000_EMP	4	3	6	6	8	6	8	13	7										2008	7	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	31	50.01064725	40.39229544	AZE	Azerbaijan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	31	50.01064725	40.39229544	AZE	Azerbaijan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	32	-65.14563274	-35.19446255	ARG	Argentina	1	ANNUAL	BOTHSEX	PER_100000_EMP	18.59		15.21	15.22	15.01	14.28	14.91	14.07				7.671887	6.77782		4.742354	4.755197		5.42512366666667	2015	4.755197	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	32	-65.14563274	-35.19446255	ARG	Argentina	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	32	-65.14563274	-35.19446255	ARG	Argentina	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	36	134.3499412	-25.57717202	AUS	Australia	1	ANNUAL	BOTHSEX	PER_100000_EMP	2	2.6	2.4	2.3	2.1	2	2.1	2	2.1										2008	2.1	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	36	134.3499412	-25.57717202	AUS	Australia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	36	134.3499412	-25.57717202	AUS	Australia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	40	14.14172472	47.58704857	AUT	Austria	1	ANNUAL	BOTHSEX	PER_100000_EMP	5.3	4.5	4.7	3.8	5	4.6	3.9	3.9	4.1			2.6	3.4	3.1		2.3		2.93333333333333	2015	2.3	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	40	14.14172472	47.58704857	AUT	Austria	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	40	14.14172472	47.58704857	AUT	Austria	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	44	-78.05111663	24.69546597	BHS	Bahamas	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	44	-78.05111663	24.69546597	BHS	Bahamas	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	44	-78.05111663	24.69546597	BHS	Bahamas	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	48	50.5490754	26.04407747	BHR	Bahrain	1	ANNUAL	BOTHSEX	PER_100000_EMP	10	5.9	7.5	10	5	10	8	7	5										2008	5	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	48	50.5490754	26.04407747	BHR	Bahrain	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	48	50.5490754	26.04407747	BHR	Bahrain	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	50	89.17660788	22.86961622	BGD	Bangladesh	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	50	89.17660788	22.86961622	BGD	Bangladesh	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	50	89.17660788	22.86961622	BGD	Bangladesh	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	51	44.93839317	40.29499741	ARM	Armenia	1	ANNUAL	BOTHSEX	PER_100000_EMP														1.9				1.9	2013	1.9	Other official source	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	51	44.93839317	40.29499741	ARM	Armenia	2	ANNUAL	MALE	PER_100000_EMP														3.1				3.1	2013	3.1	Other official source	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	51	44.93839317	40.29499741	ARM	Armenia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	52	-59.5346489	13.13648273	BRB	Barbados	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	52	-59.5346489	13.13648273	BRB	Barbados	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	52	-59.5346489	13.13648273	BRB	Barbados	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	56	4.660976456	50.64104975	BEL	Belgium	1	ANNUAL	BOTHSEX	PER_100000_EMP					4.4														2004	4.4	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	56	4.660976456	50.64104975	BEL	Belgium	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	56	4.660976456	50.64104975	BEL	Belgium	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	60	-64.78155012	32.27881922	BMU	Bermuda	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	60	-64.78155012	32.27881922	BMU	Bermuda	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	60	-64.78155012	32.27881922	BMU	Bermuda	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	64	90.45098484	27.39598568	BTN	Bhutan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	64	90.45098484	27.39598568	BTN	Bhutan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	64	90.45098484	27.39598568	BTN	Bhutan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	68	-64.66224284	-16.71273412	BOL	Bolivia (Plurinational State of)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	68	-64.66224284	-16.71273412	BOL	Bolivia (Plurinational State of)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	68	-64.66224284	-16.71273412	BOL	Bolivia (Plurinational State of)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	70	17.78584332	44.16845548	BIH	Bosnia and Herzegovina	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	70	17.78584332	44.16845548	BIH	Bosnia and Herzegovina	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	70	17.78584332	44.16845548	BIH	Bosnia and Herzegovina	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	72	23.81380223	-22.18810073	BWA	Botswana	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	72	23.81380223	-22.18810073	BWA	Botswana	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	72	23.81380223	-22.18810073	BWA	Botswana	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	74	3.410732868	-54.43295905	BVT	Bouvet Island	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	74	3.410732868	-54.43295905	BVT	Bouvet Island	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	74	3.410732868	-54.43295905	BVT	Bouvet Island	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	76	-53.08432878	-10.77668561	BRA	Brazil	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.53											7.432863							2011	7.432863	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	76	-53.08432878	-10.77668561	BRA	Brazil	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	76	-53.08432878	-10.77668561	BRA	Brazil	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	84	-88.70199554	17.19965901	BLZ	Belize	1	ANNUAL	BOTHSEX	PER_100000_EMP												4.5	6.7					6.7	2012	6.7	ILOSTAT - Establishment or business register	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	84	-88.70199554	17.19965901	BLZ	Belize	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	84	-88.70199554	17.19965901	BLZ	Belize	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	86	72.38715553	-7.299281071	IOT	British Indian Ocean Territory	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	86	72.38715553	-7.299281071	IOT	British Indian Ocean Territory	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	86	72.38715553	-7.299281071	IOT	British Indian Ocean Territory	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	90	160.1584117	-9.622391719	SLB	Solomon Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	90	160.1584117	-9.622391719	SLB	Solomon Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	90	160.1584117	-9.622391719	SLB	Solomon Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	92	-64.63294223	18.42256578	VGB	British Virgin Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	92	-64.63294223	18.42256578	VGB	British Virgin Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	92	-64.63294223	18.42256578	VGB	British Virgin Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	96	114.6288563	4.49736984	BRN	Brunei Darussalam	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	96	114.6288563	4.49736984	BRN	Brunei Darussalam	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	96	114.6288563	4.49736984	BRN	Brunei Darussalam	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	100	25.23763153	42.75731323	BGR	Bulgaria	1	ANNUAL	BOTHSEX	PER_100000_EMP	7.3	7.3	6	5.2	6	5.8	7.2	7.1	6.4	3.26	3.6	3.63	3	3.11	4.35	3.6		3.515	2015	3.6	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	100	25.23763153	42.75731323	BGR	Bulgaria	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	100	25.23763153	42.75731323	BGR	Bulgaria	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	104	96.51752295	21.19332882	MMR	Myanmar	1	ANNUAL	BOTHSEX	PER_100000_EMP				3	3	2		7	8.6										2008	8.6	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	104	96.51752295	21.19332882	MMR	Myanmar	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	104	96.51752295	21.19332882	MMR	Myanmar	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	108	29.89080992	-3.366387428	BDI	Burundi	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	108	29.89080992	-3.366387428	BDI	Burundi	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	108	29.89080992	-3.366387428	BDI	Burundi	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	112	28.04940161	53.54193075	BLR	Belarus	1	ANNUAL	BOTHSEX	PER_100000_EMP	6.4	5.8	5.9	5.6	6.4	6.1	5.8	5.4	5.1	4.9	5.1	4.4	3.9	3.8	3	2		3.175	2015	2	ILOSTAT - Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	112	28.04940161	53.54193075	BLR	Belarus	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	112	28.04940161	53.54193075	BLR	Belarus	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	116	104.922836	12.71163737	KHM	Cambodia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	116	104.922836	12.71163737	KHM	Cambodia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	116	104.922836	12.71163737	KHM	Cambodia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	120	12.7419827	5.692387031	CMR	Cameroon	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	120	12.7419827	5.692387031	CMR	Cameroon	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	120	12.7419827	5.692387031	CMR	Cameroon	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	124	-101.6575058	57.72360191	CAN	Canada	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.4	3.3	3.2	2.9	2.9	3	2.7	2.3	2.7	2.123344	2.235784	2.09		2.04	2			2.02	2014	2	ILOSTAT - Records of employers' organizations	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	124	-101.6575058	57.72360191	CAN	Canada	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	124	-101.6575058	57.72360191	CAN	Canada	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	132	-23.63544151	15.07791834	CPV	Cabo Verde	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	132	-23.63544151	15.07791834	CPV	Cabo Verde	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	132	-23.63544151	15.07791834	CPV	Cabo Verde	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	136	-81.16740559	19.32266656	CYM	Cayman Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	136	-81.16740559	19.32266656	CYM	Cayman Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	136	-81.16740559	19.32266656	CYM	Cayman Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	140	20.93559492	7.003720791	CAF	Central African Republic	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	140	20.93559492	7.003720791	CAF	Central African Republic	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	140	20.93559492	7.003720791	CAF	Central African Republic	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	144	80.70489654	7.614693343	LKA	Sri Lanka	1	ANNUAL	BOTHSEX	PER_100000_EMP	1.6	1.3	1.3	2	1.4	1.7	2.8	6.2	1.6										2008	1.6	Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	144	80.70489654	7.614693343	LKA	Sri Lanka	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	144	80.70489654	7.614693343	LKA	Sri Lanka	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	148	18.66618401	15.36279341	TCD	Chad	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	148	18.66618401	15.36279341	TCD	Chad	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	148	18.66618401	15.36279341	TCD	Chad	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	152	-71.23029019	-35.2652885	CHL	Chile	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.97	10.21	11.39	11.56	9.28					6.9		5.5	6	5.12				5.56	2013	5.12	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	152	-71.23029019	-35.2652885	CHL	Chile	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	152	-71.23029019	-35.2652885	CHL	Chile	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	156	104.1403375	32.30955217	CHN	China	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	156	104.1403375	32.30955217	CHN	China	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	156	104.1403375	32.30955217	CHN	China	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	162	105.6426067	-10.4882473	CXR	Christmas Island	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	162	105.6426067	-10.4882473	CXR	Christmas Island	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	162	105.6426067	-10.4882473	CXR	Christmas Island	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	166	96.82633757	-12.18600682	CCK	Cocos (Keeling) Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	166	96.82633757	-12.18600682	CCK	Cocos (Keeling) Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	166	96.82633757	-12.18600682	CCK	Cocos (Keeling) Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	170	-73.07446751	3.888209046	COL	Colombia	1	ANNUAL	BOTHSEX	PER_100000_EMP												4.032908	3.504467	5	4	4		4.12611675	2015	4	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	170	-73.07446751	3.888209046	COL	Colombia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	170	-73.07446751	3.888209046	COL	Colombia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	174	43.34234565	-11.66121732	COM	Comoros	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	174	43.34234565	-11.66121732	COM	Comoros	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	174	43.34234565	-11.66121732	COM	Comoros	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	175	45.14015057	-12.82217691	MYT	Mayotte	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	175	45.14015057	-12.82217691	MYT	Mayotte	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	175	45.14015057	-12.82217691	MYT	Mayotte	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	178	15.22052612	-0.840544119	COG	Congo	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	178	15.22052612	-0.840544119	COG	Congo	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	178	15.22052612	-0.840544119	COG	Congo	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	180	23.65496507	-2.877154732	COD	Democratic Republic of the Congo	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	180	23.65496507	-2.877154732	COD	Democratic Republic of the Congo	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	180	23.65496507	-2.877154732	COD	Democratic Republic of the Congo	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	184	-159.7711391	-21.22696458	COK	Cook Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	184	-159.7711391	-21.22696458	COK	Cook Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	184	-159.7711391	-21.22696458	COK	Cook Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	188	-84.19712782	9.970998683	CRI	Costa Rica	1	ANNUAL	BOTHSEX	PER_100000_EMP	9.6	9.5	7.5	7	6.1	6.4	7.2	9.9	9.1										2008	9.1	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	188	-84.19712782	9.970998683	CRI	Costa Rica	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	188	-84.19712782	9.970998683	CRI	Costa Rica	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	191	17.95874553	45.45172212	HRV	Croatia	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.08	3.22	3.31	3.4	2.7	4.3	5	4.7	5.2			2.69	2.87	1.913866		2.05		2.27795533333333	2015	2.05	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	191	17.95874553	45.45172212	HRV	Croatia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	191	17.95874553	45.45172212	HRV	Croatia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	192	-79.54460144	22.10030366	CUB	Cuba	1	ANNUAL	BOTHSEX	PER_100000_EMP										23	25								2010	25	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	192	-79.54460144	22.10030366	CUB	Cuba	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	192	-79.54460144	22.10030366	CUB	Cuba	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	196	33.22285964	35.05659437	CYP	Cyprus	1	ANNUAL	BOTHSEX	PER_100000_EMP	2.3	3.9	7	3.2	5.4	5	6	5	3.9			1.530231	2.776938	2.91	1.68	1.3		2.1667345	2015	1.3	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	196	33.22285964	35.05659437	CYP	Cyprus	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	196	33.22285964	35.05659437	CYP	Cyprus	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	203	15.33151382	49.73913871	CZE	Czechia	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.9	5.2	4.6	4.5	4.2	3.7	3.4	4.1	3.8	2.468765	2.806799								2010	2.806799	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	203	15.33151382	49.73913871	CZE	Czechia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	203	15.33151382	49.73913871	CZE	Czechia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	204	2.339933594	9.65401646	BEN	Benin	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	204	2.339933594	9.65401646	BEN	Benin	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	204	2.339933594	9.65401646	BEN	Benin	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	208	9.326571283	56.03829721	DNK	Denmark	1	ANNUAL	BOTHSEX	PER_100000_EMP	2	2										2	2					2	2012	2	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	208	9.326571283	56.03829721	DNK	Denmark	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	208	9.326571283	56.03829721	DNK	Denmark	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	212	-61.3493756	15.43391378	DMA	Dominica	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	212	-61.3493756	15.43391378	DMA	Dominica	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	212	-61.3493756	15.43391378	DMA	Dominica	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	214	-70.49847576	18.89832088	DOM	Dominican Republic	1	ANNUAL	BOTHSEX	PER_100000_EMP									17.93										2008	17.93	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	214	-70.49847576	18.89832088	DOM	Dominican Republic	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	214	-70.49847576	18.89832088	DOM	Dominican Republic	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	218	-78.37005241	-1.447785891	ECU	Ecuador	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	218	-78.37005241	-1.447785891	ECU	Ecuador	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	218	-78.37005241	-1.447785891	ECU	Ecuador	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	222	-88.86862995	13.73603564	SLV	El Salvador	1	ANNUAL	BOTHSEX	PER_100000_EMP	47.6	44.6	33.1	35.1						0.15	0.14								2010	0.14	ILOSTAT - Economic or establishment census	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	222	-88.86862995	13.73603564	SLV	El Salvador	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	222	-88.86862995	13.73603564	SLV	El Salvador	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	226	10.46535826	1.565792376	GNQ	Equatorial Guinea	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	226	10.46535826	1.565792376	GNQ	Equatorial Guinea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	226	10.46535826	1.565792376	GNQ	Equatorial Guinea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	231	39.63505296	8.631223181	ETH	Ethiopia	1	ANNUAL	BOTHSEX	PER_100000_EMP										0.213	0.1939								2010	0.1939	ILOSTAT - Records of workers' organizations	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	231	39.63505296	8.631223181	ETH	Ethiopia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	231	39.63505296	8.631223181	ETH	Ethiopia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	232	38.11074289	16.12894644	ERI	Eritrea	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	232	38.11074289	16.12894644	ERI	Eritrea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	232	38.11074289	16.12894644	ERI	Eritrea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	233	25.84093481	58.68487172	EST	Estonia	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.4	6.23	5.98	5.22	5.71	3.95	4.3	3.2	3.2	3.19	2.98	3.12	2.24	3.22	2.56	2.5		2.63	2015	2.5	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	233	25.84093481	58.68487172	EST	Estonia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	233	25.84093481	58.68487172	EST	Estonia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	234	-7.122044325	62.21228119	FRO	Faroe Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	234	-7.122044325	62.21228119	FRO	Faroe Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	234	-7.122044325	62.21228119	FRO	Faroe Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	238	-58.75246778	-51.74562601	FLK	Falkland Islands (Malvinas)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	238	-58.75246778	-51.74562601	FLK	Falkland Islands (Malvinas)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	238	-58.75246778	-51.74562601	FLK	Falkland Islands (Malvinas)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	239	-36.90662765	-54.20736749	SGS	South Georgia and the South Sandwich Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	239	-36.90662765	-54.20736749	SGS	South Georgia and the South Sandwich Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	239	-36.90662765	-54.20736749	SGS	South Georgia and the South Sandwich Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	242	177.9660884	-17.83301566	FJI	Fiji	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	242	177.9660884	-17.83301566	FJI	Fiji	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	242	177.9660884	-17.83301566	FJI	Fiji	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	246	23.308447	61.91586738	FIN	Finland	1	ANNUAL	BOTHSEX	PER_100000_EMP	2.3	2.1	1.8	2.1	2.1	2.4	2.2	1.7		1.2	1.6	1.2		0.752233				0.752233	2013	0.752233	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	246	23.308447	61.91586738	FIN	Finland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	246	23.308447	61.91586738	FIN	Finland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	248	19.80945969	60.1544901	ALA	Åland Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	248	19.80945969	60.1544901	ALA	Åland Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	248	19.80945969	60.1544901	ALA	Åland Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	250	2.457288129	46.62660861	FRA	France	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.41	4.2	3.8	3.7	3.5	2.65	3.02	3.4	2										2008	2	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	250	2.457288129	46.62660861	FRA	France	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	250	2.457288129	46.62660861	FRA	France	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	254	-53.23619089	3.922673437	GUF	French Guiana	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	254	-53.23619089	3.922673437	GUF	French Guiana	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	254	-53.23619089	3.922673437	GUF	French Guiana	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	258	-149.4052367	-17.67709294	PYF	French Polynesia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	258	-149.4052367	-17.67709294	PYF	French Polynesia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	258	-149.4052367	-17.67709294	PYF	French Polynesia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	260	69.64849091	-49.6068576	ATF	French Southern Territories	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	260	69.64849091	-49.6068576	ATF	French Southern Territories	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	260	69.64849091	-49.6068576	ATF	French Southern Territories	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	262	42.18274707	11.56004161	DJI	Djibouti	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	262	42.18274707	11.56004161	DJI	Djibouti	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	262	42.18274707	11.56004161	DJI	Djibouti	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	266	11.78727747	-0.60687619	GAB	Gabon	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	266	11.78727747	-0.60687619	GAB	Gabon	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	266	11.78727747	-0.60687619	GAB	Gabon	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	268	43.3713615	42.04813028	GEO	Georgia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	268	43.3713615	42.04813028	GEO	Georgia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	268	43.3713615	42.04813028	GEO	Georgia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	270	-15.39944785	13.45295927	GMB	Gambia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	270	-15.39944785	13.45295927	GMB	Gambia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	270	-15.39944785	13.45295927	GMB	Gambia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	275	35.25694122	31.94347933	PSE	State of Palestine	1	ANNUAL	BOTHSEX	PER_100000_EMP																38.4		38.4	2015	38.4	Other administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	275	35.25694122	31.94347933	PSE	State of Palestine	2	ANNUAL	MALE	PER_100000_EMP																49.8		49.8	2015	49.8	Other administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	275	35.25694122	31.94347933	PSE	State of Palestine	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	276	10.3806066	51.08862743	DEU	Germany	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.05	2.95	2.92	2.83	2.57	2.38	2.54	2.16	2.04	1.65	1.77			1.51		1.59		1.55	2015	1.59	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	276	10.3806066	51.08862743	DEU	Germany	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	276	10.3806066	51.08862743	DEU	Germany	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	288	-1.205623522	7.964825185	GHA	Ghana	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	288	-1.205623522	7.964825185	GHA	Ghana	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	288	-1.205623522	7.964825185	GHA	Ghana	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	292	-5.347561686	36.13895036	GIB	Gibraltar	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	292	-5.347561686	36.13895036	GIB	Gibraltar	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	292	-5.347561686	36.13895036	GIB	Gibraltar	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	296	-157.5643005	1.768837732	KIR	Kiribati	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	296	-157.5643005	1.768837732	KIR	Kiribati	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	296	-157.5643005	1.768837732	KIR	Kiribati	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	300	22.58307827	39.47301873	GRC	Greece	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.1	5.9	5.3	5.43															2003	5.43	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	300	22.58307827	39.47301873	GRC	Greece	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	300	22.58307827	39.47301873	GRC	Greece	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	304	-41.39371316	74.75625681	GRL	Greenland	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	304	-41.39371316	74.75625681	GRL	Greenland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	304	-41.39371316	74.75625681	GRL	Greenland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	308	-61.68248568	12.11238395	GRD	Grenada	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	308	-61.68248568	12.11238395	GRD	Grenada	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	308	-61.68248568	12.11238395	GRD	Grenada	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	312	-61.64762115	16.14416917	GLP	Guadeloupe	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	312	-61.64762115	16.14416917	GLP	Guadeloupe	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	312	-61.64762115	16.14416917	GLP	Guadeloupe	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	316	144.7029305	13.35485404	GUM	Guam	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	316	144.7029305	13.35485404	GUM	Guam	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	316	144.7029305	13.35485404	GUM	Guam	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	320	-91.2312746	15.00273719	GTM	Guatemala	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	320	-91.2312746	15.00273719	GTM	Guatemala	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	320	-91.2312746	15.00273719	GTM	Guatemala	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	324	-11.28173419	11.00210343	GIN	Guinea	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	324	-11.28173419	11.00210343	GIN	Guinea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	324	-11.28173419	11.00210343	GIN	Guinea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	328	-58.97322037	4.788012784	GUY	Guyana	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	328	-58.97322037	4.788012784	GUY	Guyana	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	328	-58.97322037	4.788012784	GUY	Guyana	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	332	-72.33640958	18.40426539	HTI	Haiti	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	332	-72.33640958	18.40426539	HTI	Haiti	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	332	-72.33640958	18.40426539	HTI	Haiti	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	334	73.52633626	-53.09106147	HMD	Heard Island and McDonald Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	334	73.52633626	-53.09106147	HMD	Heard Island and McDonald Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	334	73.52633626	-53.09106147	HMD	Heard Island and McDonald Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	336	12.45315803	41.90343751	VAT	Holy See	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	336	12.45315803	41.90343751	VAT	Holy See	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	336	12.45315803	41.90343751	VAT	Holy See	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	340	-86.59974381	14.82243161	HND	Honduras	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	340	-86.59974381	14.82243161	HND	Honduras	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	340	-86.59974381	14.82243161	HND	Honduras	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	344	114.0266445	22.41749934	HKG	China, Hong Kong Special Administrative Region	1	ANNUAL	BOTHSEX	PER_100000_EMP	8	7.1	8.6	7.2	7.7	7.5	7.3	6.6	6.8	6	7	7	7	7	7	6		6.75	2015	6	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	344	114.0266445	22.41749934	HKG	China, Hong Kong Special Administrative Region	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	344	114.0266445	22.41749934	HKG	China, Hong Kong Special Administrative Region	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	348	19.41221519	47.1651448	HUN	Hungary	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.98	3.21	4.21	3.39	4.1	3.2	3.13	3.01	2.99	2.991001	2.863613	2.1	1.6		1.909338			1.754669	2014	1.909338	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	348	19.41221519	47.1651448	HUN	Hungary	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	348	19.41221519	47.1651448	HUN	Hungary	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	352	-19.02116966	64.79134763	ISL	Iceland	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	352	-19.02116966	64.79134763	ISL	Iceland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	352	-19.02116966	64.79134763	ISL	Iceland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	356	79.3608464	22.34642074	IND	India	1	ANNUAL	BOTHSEX	PER_100000_EMP	51	77.9	87.8	82.5	89.3	133.4	98.3	116.8											2007	116.8	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	356	79.3608464	22.34642074	IND	India	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	356	79.3608464	22.34642074	IND	India	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	360	113.9174	-0.994582204	IDN	Indonesia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	360	113.9174	-0.994582204	IDN	Indonesia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	360	113.9174	-0.994582204	IDN	Indonesia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	364	54.19766348	32.74370885	IRN	Iran (Islamic Republic of)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	364	54.19766348	32.74370885	IRN	Iran (Islamic Republic of)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	364	54.19766348	32.74370885	IRN	Iran (Islamic Republic of)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	368	43.76606267	33.05013795	IRQ	Iraq	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	368	43.76606267	33.05013795	IRQ	Iraq	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	368	43.76606267	33.05013795	IRQ	Iraq	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	372	-7.121425272	53.25274054	IRL	Ireland	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.2	3.8	3	3.2	2.5	3.3	2.2	2.8	2.5										2008	2.5	ILOSTAT - Labour force survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	372	-7.121425272	53.25274054	IRL	Ireland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	372	-7.121425272	53.25274054	IRL	Ireland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	376	34.62277992	31.06164552	ISR	Israel	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.3	4.2	3.83	3.6	3.3	3	3	2.6								1.73		1.73	2015	1.73	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	376	34.62277992	31.06164552	ISR	Israel	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	376	34.62277992	31.06164552	ISR	Israel	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	380	12.57022427	42.79917282	ITA	Italy	1	ANNUAL	BOTHSEX	PER_100000_EMP	7	6	5	5	5	5	5	4	4										2008	4	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	380	12.57022427	42.79917282	ITA	Italy	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	380	12.57022427	42.79917282	ITA	Italy	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	384	-5.552690016	7.62211586	CIV	Côte d'Ivoire	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	384	-5.552690016	7.62211586	CIV	Côte d'Ivoire	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	384	-5.552690016	7.62211586	CIV	Côte d'Ivoire	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	388	-77.31068409	18.15616857	JAM	Jamaica	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	388	-77.31068409	18.15616857	JAM	Jamaica	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	388	-77.31068409	18.15616857	JAM	Jamaica	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	392	139.2716103	36.6554539	JPN	Japan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	392	139.2716103	36.6554539	JPN	Japan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	392	139.2716103	36.6554539	JPN	Japan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	398	66.65359159	48.01963494	KAZ	Kazakhstan	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.3	9.7	10.7	9.3	10.4	10.3	11.3	8.7	8.2							5		5	2015	5	ILOSTAT - Establishment or business register	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	398	66.65359159	48.01963494	KAZ	Kazakhstan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	398	66.65359159	48.01963494	KAZ	Kazakhstan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	400	37.13024774	30.65365973	JOR	Jordan	1	ANNUAL	BOTHSEX	PER_100000_EMP		9.2	11.8	15	10	10.6	13.2												2006	13.2	Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	400	37.13024774	30.65365973	JOR	Jordan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	400	37.13024774	30.65365973	JOR	Jordan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	404	37.86096816	0.534797278	KEN	Kenya	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	404	37.86096816	0.534797278	KEN	Kenya	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	404	37.86096816	0.534797278	KEN	Kenya	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	408	127.1803633	40.1462645	PRK	Democratic People's Republic of Korea	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	408	127.1803633	40.1462645	PRK	Democratic People's Republic of Korea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	408	127.1803633	40.1462645	PRK	Democratic People's Republic of Korea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	410	127.8610254	36.45201023	KOR	Republic of Korea	1	ANNUAL	BOTHSEX	PER_100000_EMP																0.03		0.03	2015	0.03	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	410	127.8610254	36.45201023	KOR	Republic of Korea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	410	127.8610254	36.45201023	KOR	Republic of Korea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	414	47.49305029	29.53949468	KWT	Kuwait	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	414	47.49305029	29.53949468	KWT	Kuwait	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	414	47.49305029	29.53949468	KWT	Kuwait	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	417	74.52324839	41.46204516	KGZ	Kyrgyzstan	1	ANNUAL	BOTHSEX	PER_100000_EMP	7	7	7	5	8	5	5	5	5					6		4.1		5.05	2015	4.1	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	417	74.52324839	41.46204516	KGZ	Kyrgyzstan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	417	74.52324839	41.46204516	KGZ	Kyrgyzstan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	418	101.9901968	20.27482773	LAO	Lao People's Democratic Republic	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	418	101.9901968	20.27482773	LAO	Lao People's Democratic Republic	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	418	101.9901968	20.27482773	LAO	Lao People's Democratic Republic	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	422	35.89391711	33.92152458	LBN	Lebanon	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	422	35.89391711	33.92152458	LBN	Lebanon	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	422	35.89391711	33.92152458	LBN	Lebanon	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	426	28.25362195	-29.58041814	LSO	Lesotho	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	426	28.25362195	-29.58041814	LSO	Lesotho	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	426	28.25362195	-29.58041814	LSO	Lesotho	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	428	26.42461876	56.64196636	LVA	Latvia	1	ANNUAL	BOTHSEX	PER_100000_EMP			6.9	4.9	6.9	6	5.5	5.7											2007	5.7	ILOSTAT - Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	428	26.42461876	56.64196636	LVA	Latvia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	428	26.42461876	56.64196636	LVA	Latvia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	430	-9.311879038	6.448381009	LBR	Liberia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	430	-9.311879038	6.448381009	LBR	Liberia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	430	-9.311879038	6.448381009	LBR	Liberia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	434	18.0295985	27.04042819	LBY	Libya	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	434	18.0295985	27.04042819	LBY	Libya	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	434	18.0295985	27.04042819	LBY	Libya	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	438	9.552985019	47.14167005	LIE	Liechtenstein	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	438	9.552985019	47.14167005	LIE	Liechtenstein	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	438	9.552985019	47.14167005	LIE	Liechtenstein	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	440	23.90517807	55.33680309	LTU	Lithuania	1	ANNUAL	BOTHSEX	PER_100000_EMP	8.6	8.9	8.1	11.3	9	10.9	9.6	8.7	6.8	4.2	4.6	5.35	5.64	5.83	5.734531	3.96		5.29113275	2015	3.96	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	440	23.90517807	55.33680309	LTU	Lithuania	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	440	23.90517807	55.33680309	LTU	Lithuania	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	442	6.092656563	49.77679538	LUX	Luxembourg	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.6		5.7	4.9	1.9				2.9										2008	2.9	Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	442	6.092656563	49.77679538	LUX	Luxembourg	2	ANNUAL	MALE	PER_100000_EMP			7.3	7.6	3.1				4.9										2008	4.9	Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	442	6.092656563	49.77679538	LUX	Luxembourg	3	ANNUAL	FEMALE	PER_100000_EMP			3.2	0.8															2003	0.8	Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	446	113.5665388	22.1237259	MAC	China, Macao Special Administrative Region	1	ANNUAL	BOTHSEX	PER_100000_EMP								4.660453	4.334365	2.204724	3.770028	3.97	5.54	4.99	3.09	6.31		4.9825	2015	6.31	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	446	113.5665388	22.1237259	MAC	China, Macao Special Administrative Region	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	446	113.5665388	22.1237259	MAC	China, Macao Special Administrative Region	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	450	46.6982339	-19.38514785	MDG	Madagascar	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	450	46.6982339	-19.38514785	MDG	Madagascar	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	450	46.6982339	-19.38514785	MDG	Madagascar	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	454	33.4884625	-13.40819859	MWI	Malawi	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	454	33.4884625	-13.40819859	MWI	Malawi	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	454	33.4884625	-13.40819859	MWI	Malawi	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	458	116.8346314	5.452415309	MYS	Malaysia	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.3	10.9	10.8									9	6	5		5		5.33333333333333	2015	5	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	458	116.8346314	5.452415309	MYS	Malaysia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	458	116.8346314	5.452415309	MYS	Malaysia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	462	73.09672546	-0.614385021	MDV	Maldives	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	462	73.09672546	-0.614385021	MDV	Maldives	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	462	73.09672546	-0.614385021	MDV	Maldives	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	466	-3.522016039	17.35311254	MLI	Mali	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	466	-3.522016039	17.35311254	MLI	Mali	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	466	-3.522016039	17.35311254	MLI	Mali	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	470	14.44617519	35.89194275	MLT	Malta	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.67	4.28	2.82	8.2	8.1	4	5.2	4.5	1.867146	5	1.8	0.59273	3.474213			0.36904		1.9216265	2015	0.36904	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	470	14.44617519	35.89194275	MLT	Malta	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	470	14.44617519	35.89194275	MLT	Malta	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	474	-60.91544135	14.56086108	MTQ	Martinique	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	474	-60.91544135	14.56086108	MTQ	Martinique	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	474	-60.91544135	14.56086108	MTQ	Martinique	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	478	-10.33187259	20.26089546	MRT	Mauritania	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	478	-10.33187259	20.26089546	MRT	Mauritania	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	478	-10.33187259	20.26089546	MRT	Mauritania	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	480	57.568022	-20.28581998	MUS	Mauritius	1	ANNUAL	BOTHSEX	PER_100000_EMP		2	7						1										2008	1	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	480	57.568022	-20.28581998	MUS	Mauritius	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	480	57.568022	-20.28581998	MUS	Mauritius	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	484	-102.5148166	23.93378032	MEX	Mexico	1	ANNUAL	BOTHSEX	PER_100000_EMP	14	12	11	12	11	11	10	9	10	10	10	10.54	9.78	8.09	7.91	8.23		8.5025	2015	8.23	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	484	-102.5148166	23.93378032	MEX	Mexico	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	484	-102.5148166	23.93378032	MEX	Mexico	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	492	7.424214814	43.73532918	MCO	Monaco	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	492	7.424214814	43.73532918	MCO	Monaco	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	492	7.424214814	43.73532918	MCO	Monaco	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	496	103.0728057	46.83892054	MNG	Mongolia	1	ANNUAL	BOTHSEX	PER_100000_EMP																	2.7	2.7	2016	2.7	Official estimate	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	496	103.0728057	46.83892054	MNG	Mongolia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	496	103.0728057	46.83892054	MNG	Mongolia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	498	28.4650624	47.20236795	MDA	Republic of Moldova	1	ANNUAL	BOTHSEX	PER_100000_EMP	6.5	5	5.3	5.6	4.9	6.4	4.7	7.1	5.3	4.9	6.6			6.2	5.9	5.7		5.93333333333333	2015	5.7	ILOSTAT - Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	498	28.4650624	47.20236795	MDA	Republic of Moldova	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	498	28.4650624	47.20236795	MDA	Republic of Moldova	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	499	19.25214024	42.78717043	MNE	Montenegro	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	499	19.25214024	42.78717043	MNE	Montenegro	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	499	19.25214024	42.78717043	MNE	Montenegro	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	500	-62.19261223	16.73558313	MSR	Montserrat	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	500	-62.19261223	16.73558313	MSR	Montserrat	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	500	-62.19261223	16.73558313	MSR	Montserrat	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	504	-6.281942841	31.8440131	MAR	Morocco	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	504	-6.281942841	31.8440131	MAR	Morocco	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	504	-6.281942841	31.8440131	MAR	Morocco	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	508	38.18479941	-14.27963886	MOZ	Mozambique	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	508	38.18479941	-14.27963886	MOZ	Mozambique	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	508	38.18479941	-14.27963886	MOZ	Mozambique	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	512	57.87743482	21.98805614	OMN	Oman	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	512	57.87743482	21.98805614	OMN	Oman	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	512	57.87743482	21.98805614	OMN	Oman	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	516	17.21907885	-22.13817068	NAM	Namibia	1	ANNUAL	BOTHSEX	PER_100000_EMP	7	5																	2001	5	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	516	17.21907885	-22.13817068	NAM	Namibia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	516	17.21907885	-22.13817068	NAM	Namibia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	520	166.92313	-0.528742623	NRU	Nauru	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	520	166.92313	-0.528742623	NRU	Nauru	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	520	166.92313	-0.528742623	NRU	Nauru	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	524	83.94678863	28.25866332	NPL	Nepal	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	524	83.94678863	28.25866332	NPL	Nepal	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	524	83.94678863	28.25866332	NPL	Nepal	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	528	5.331480568	51.86728884	NLD	Netherlands	1	ANNUAL	BOTHSEX	PER_100000_EMP												0.69							2011	0.69	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	528	5.331480568	51.86728884	NLD	Netherlands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	528	5.331480568	51.86728884	NLD	Netherlands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	530	-68.30676179	12.22720635	ANT	Netherlands Antilles	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	530	-68.30676179	12.22720635	ANT	Netherlands Antilles	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	530	-68.30676179	12.22720635	ANT	Netherlands Antilles	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	531	-68.95033464	12.15058042	CUW	Curaçao	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	531	-68.95033464	12.15058042	CUW	Curaçao	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	531	-68.95033464	12.15058042	CUW	Curaçao	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	533	-69.97050586	12.50878756	ABW	Aruba	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	533	-69.97050586	12.50878756	ABW	Aruba	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	533	-69.97050586	12.50878756	ABW	Aruba	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	534	-63.06198692	18.03926508	SXM	Sint Maarten (Dutch part)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	534	-63.06198692	18.03926508	SXM	Sint Maarten (Dutch part)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	534	-63.06198692	18.03926508	SXM	Sint Maarten (Dutch part)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	540	165.5067368	-21.41742531	NCL	New Caledonia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	540	165.5067368	-21.41742531	NCL	New Caledonia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	540	165.5067368	-21.41742531	NCL	New Caledonia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	548	167.0679779	-15.34445547	VUT	Vanuatu	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	548	167.0679779	-15.34445547	VUT	Vanuatu	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	548	167.0679779	-15.34445547	VUT	Vanuatu	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	554	170.4755673	-43.98721568	NZL	New Zealand	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	554	170.4755673	-43.98721568	NZL	New Zealand	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	554	170.4755673	-43.98721568	NZL	New Zealand	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	558	-85.03060315	12.84210839	NIC	Nicaragua	1	ANNUAL	BOTHSEX	PER_100000_EMP	9	10	9	6															2003	6	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	558	-85.03060315	12.84210839	NIC	Nicaragua	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	558	-85.03060315	12.84210839	NIC	Nicaragua	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	562	9.400167877	17.42143036	NER	Niger	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	562	9.400167877	17.42143036	NER	Niger	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	562	9.400167877	17.42143036	NER	Niger	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	566	8.097363256	9.585789025	NGA	Nigeria	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	566	8.097363256	9.585789025	NGA	Nigeria	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	566	8.097363256	9.585789025	NGA	Nigeria	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	570	-169.8601693	-19.05000475	NIU	Niue	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	570	-169.8601693	-19.05000475	NIU	Niue	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	570	-169.8601693	-19.05000475	NIU	Niue	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	574	167.9515548	-29.03230018	NFK	Norfolk Island	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	574	167.9515548	-29.03230018	NFK	Norfolk Island	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	574	167.9515548	-29.03230018	NFK	Norfolk Island	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	578	11.47846389	61.34311134	NOR	Norway	1	ANNUAL	BOTHSEX	PER_100000_EMP	2.5	1.6	1.7	2.1	1.7	2.1	1.3	1.6	2	1.7	1.8	2.08	1.43	1.86				1.645	2013	1.86	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	578	11.47846389	61.34311134	NOR	Norway	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	578	11.47846389	61.34311134	NOR	Norway	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	580	145.7582114	15.19099517	MNP	Northern Mariana Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	580	145.7582114	15.19099517	MNP	Northern Mariana Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	580	145.7582114	15.19099517	MNP	Northern Mariana Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	581	-162.4343752	5.874443968	UMI	US Minor Outlying Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	581	-162.4343752	5.874443968	UMI	US Minor Outlying Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	581	-162.4343752	5.874443968	UMI	US Minor Outlying Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	583	158.225216	6.880670092	FSM	Micronesia, Federated States of	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	583	158.225216	6.880670092	FSM	Micronesia, Federated States of	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	583	158.225216	6.880670092	FSM	Micronesia, Federated States of	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	584	171.0839119	7.110213497	MHL	Marshall Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	584	171.0839119	7.110213497	MHL	Marshall Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	584	171.0839119	7.110213497	MHL	Marshall Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	585	134.5733878	7.502307591	PLW	Palau	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	585	134.5733878	7.502307591	PLW	Palau	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	585	134.5733878	7.502307591	PLW	Palau	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	586	68.80479684	29.36491634	PAK	Pakistan	1	ANNUAL	BOTHSEX	PER_100000_EMP		55.8	44.2																2002	44.2	Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	586	68.80479684	29.36491634	PAK	Pakistan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	586	68.80479684	29.36491634	PAK	Pakistan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	591	-81.26616623	8.450965746	PAN	Panama	1	ANNUAL	BOTHSEX	PER_100000_EMP												1.6	1.5	1.3				1.4	2013	1.3	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	591	-81.26616623	8.450965746	PAN	Panama	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	591	-81.26616623	8.450965746	PAN	Panama	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	598	145.8587761	-6.756057077	PNG	Papua New Guinea	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	598	145.8587761	-6.756057077	PNG	Papua New Guinea	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	598	145.8587761	-6.756057077	PNG	Papua New Guinea	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	600	-60.54854225	-21.70216237	PRY	Paraguay	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	600	-60.54854225	-21.70216237	PRY	Paraguay	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	600	-60.54854225	-21.70216237	PRY	Paraguay	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	604	-71.82093277	-13.58939705	PER	Peru	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	604	-71.82093277	-13.58939705	PER	Peru	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	604	-71.82093277	-13.58939705	PER	Peru	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	608	120.8601418	14.16591706	PHL	Philippines	1	ANNUAL	BOTHSEX	PER_100000_EMP	9.5		11.8	7.1				3.9		4		4.4		6.4				6.4	2013	6.4	Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	608	120.8601418	14.16591706	PHL	Philippines	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	608	120.8601418	14.16591706	PHL	Philippines	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	612	-128.3225873	-24.37538456	PCN	Pitcairn	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	612	-128.3225873	-24.37538456	PCN	Pitcairn	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	612	-128.3225873	-24.37538456	PCN	Pitcairn	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	616	19.40660158	52.1226733	POL	Poland	1	ANNUAL	BOTHSEX	PER_100000_EMP	5.2	5.1	4.9	4.9	4.7	4.4	4.6	4.3	4.5	3.48	3.86	3.46	2.97		2.21	2.21		2.46333333333333	2015	2.21	ILOSTAT - Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	616	19.40660158	52.1226733	POL	Poland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	616	19.40660158	52.1226733	POL	Poland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	620	-7.961599811	39.68509315	PRT	Portugal	1	ANNUAL	BOTHSEX	PER_100000_EMP	8.7	8.3	8.1	7.1	7	7	6	6.3						3.612246				3.612246	2013	3.612246	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	620	-7.961599811	39.68509315	PRT	Portugal	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	620	-7.961599811	39.68509315	PRT	Portugal	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	624	-14.40182514	12.11760394	GNB	Guinea-Bissau	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	624	-14.40182514	12.11760394	GNB	Guinea-Bissau	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	624	-14.40182514	12.11760394	GNB	Guinea-Bissau	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	626	125.9451052	-8.797497247	TLS	Timor-Leste	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	626	125.9451052	-8.797497247	TLS	Timor-Leste	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	626	125.9451052	-8.797497247	TLS	Timor-Leste	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	630	-66.47591017	18.22753799	PRI	Puerto Rico	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	630	-66.47591017	18.22753799	PRI	Puerto Rico	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	630	-66.47591017	18.22753799	PRI	Puerto Rico	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	634	51.19152467	25.28355379	QAT	Qatar	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	634	51.19152467	25.28355379	QAT	Qatar	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	634	51.19152467	25.28355379	QAT	Qatar	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	638	55.53171398	-21.13183266	REU	Réunion	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	638	55.53171398	-21.13183266	REU	Réunion	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	638	55.53171398	-21.13183266	REU	Réunion	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	642	24.98481009	45.83893563	ROU	Romania	1	ANNUAL	BOTHSEX	PER_100000_EMP	8	7.069922	7	7	7	8.988327	7.171314	8.408478	9	8.01	8.25	6.37	5.11	4.69	4.72	4.12		4.66	2015	4.12	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	642	24.98481009	45.83893563	ROU	Romania	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	642	24.98481009	45.83893563	ROU	Romania	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	643	99.01404926	61.61899849	RUS	Russian Federation	1	ANNUAL	BOTHSEX	PER_100000_EMP	14.9	15	13.8	13.1	12.9	12.4	11.9	12.4	10.9			9	8	8	7	6		7.25	2015	6	ILOSTAT - Official estimate	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	643	99.01404926	61.61899849	RUS	Russian Federation	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	643	99.01404926	61.61899849	RUS	Russian Federation	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	646	29.92310194	-1.999842114	RWA	Rwanda	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	646	29.92310194	-1.999842114	RWA	Rwanda	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	646	29.92310194	-1.999842114	RWA	Rwanda	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	652	-62.83173536	17.89513362	BLM	Saint Barthélemy	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	652	-62.83173536	17.89513362	BLM	Saint Barthélemy	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	652	-62.83173536	17.89513362	BLM	Saint Barthélemy	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	654	-5.705752501	-15.96503946	SHN	Saint Helena	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	654	-5.705752501	-15.96503946	SHN	Saint Helena	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	654	-5.705752501	-15.96503946	SHN	Saint Helena	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	659	-62.76628613	17.33994219	KNA	Saint Kitts and Nevis	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	659	-62.76628613	17.33994219	KNA	Saint Kitts and Nevis	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	659	-62.76628613	17.33994219	KNA	Saint Kitts and Nevis	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	660	-63.05651612	18.21525315	AIA	Anguilla	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	660	-63.05651612	18.21525315	AIA	Anguilla	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	660	-63.05651612	18.21525315	AIA	Anguilla	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	662	-60.96529553	13.89405601	LCA	Saint Lucia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	662	-60.96529553	13.89405601	LCA	Saint Lucia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	662	-60.96529553	13.89405601	LCA	Saint Lucia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	663	-63.04505461	18.0882685	MAF	Saint Martin (French Part)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	663	-63.04505461	18.0882685	MAF	Saint Martin (French Part)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	663	-63.04505461	18.0882685	MAF	Saint Martin (French Part)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	666	-56.33682442	46.85812735	SPM	Saint Pierre and Miquelon	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	666	-56.33682442	46.85812735	SPM	Saint Pierre and Miquelon	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	666	-56.33682442	46.85812735	SPM	Saint Pierre and Miquelon	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	670	-61.19024321	13.24627968	VCT	Saint Vincent and the Grenadines	1	ANNUAL	BOTHSEX	PER_100000_EMP	0	0	0	0	0	0	0	0	0										2008	0	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	670	-61.19024321	13.24627968	VCT	Saint Vincent and the Grenadines	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	670	-61.19024321	13.24627968	VCT	Saint Vincent and the Grenadines	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	674	12.46329038	43.93841766	SMR	San Marino	1	ANNUAL	BOTHSEX	PER_100000_EMP	0	0	0	0	0	0													2005	0	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	674	12.46329038	43.93841766	SMR	San Marino	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	674	12.46329038	43.93841766	SMR	San Marino	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	678	6.609772265	0.241554875	STP	Sao Tome and Principe	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	678	6.609772265	0.241554875	STP	Sao Tome and Principe	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	678	6.609772265	0.241554875	STP	Sao Tome and Principe	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	682	44.54763347	24.12594211	SAU	Saudi Arabia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	682	44.54763347	24.12594211	SAU	Saudi Arabia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	682	44.54763347	24.12594211	SAU	Saudi Arabia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	686	-14.46636926	14.35920905	SEN	Senegal	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	686	-14.46636926	14.35920905	SEN	Senegal	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	686	-14.46636926	14.35920905	SEN	Senegal	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	688	20.805876	44.03145697	SRB	Serbia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	688	20.805876	44.03145697	SRB	Serbia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	688	20.805876	44.03145697	SRB	Serbia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	690	55.46561591	-4.678053059	SYC	Seychelles	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	690	55.46561591	-4.678053059	SYC	Seychelles	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	690	55.46561591	-4.678053059	SYC	Seychelles	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	694	-11.78306584	8.568604164	SLE	Sierra Leone	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	694	-11.78306584	8.568604164	SLE	Sierra Leone	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	694	-11.78306584	8.568604164	SLE	Sierra Leone	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	702	103.8107883	1.361009155	SGP	Singapore	1	ANNUAL	BOTHSEX	PER_100000_EMP								2.9	2.8	2.9	2.2	2.3	2.1	2.1	1.8	1.9		1.975	2015	1.9	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	702	103.8107883	1.361009155	SGP	Singapore	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	702	103.8107883	1.361009155	SGP	Singapore	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	703	19.48495604	48.70741446	SVK	Slovakia	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.27	4.91	4.29	4.66	3.91	3.72	4.6	4.1	4.2			1.95	2.74	2.69		2.77		2.73333333333333	2015	2.77	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	703	19.48495604	48.70741446	SVK	Slovakia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	703	19.48495604	48.70741446	SVK	Slovakia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	704	105.802499	10.09643079	VNM	Viet Nam	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	704	105.802499	10.09643079	VNM	Viet Nam	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	704	105.802499	10.09643079	VNM	Viet Nam	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	705	14.82209486	46.11958061	SVN	Slovenia	1	ANNUAL	BOTHSEX	PER_100000_EMP	3.3	4.3	4	5.1	2.6	2.6	3.8	5				2.2			3.1			3.1	2014	3.1	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	705	14.82209486	46.11958061	SVN	Slovenia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	705	14.82209486	46.11958061	SVN	Slovenia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	706	46.20367477	4.406485729	SOM	Somalia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	706	46.20367477	4.406485729	SOM	Somalia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	706	46.20367477	4.406485729	SOM	Somalia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	710	24.67184355	-29.99957544	ZAF	South Africa	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	710	24.67184355	-29.99957544	ZAF	South Africa	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	710	24.67184355	-29.99957544	ZAF	South Africa	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	716	29.86909584	-19.00075492	ZWE	Zimbabwe	1	ANNUAL	BOTHSEX	PER_100000_EMP						6.2	7.5	6.3											2007	6.3	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	716	29.86909584	-19.00075492	ZWE	Zimbabwe	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	716	29.86909584	-19.00075492	ZWE	Zimbabwe	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	724	-3.554078296	40.39211472	ESP	Spain	1	ANNUAL	BOTHSEX	PER_100000_EMP	9.2	8	6.06	5.27	4.89	4.5	4.4	3.6	3.3	2.61	2.32	2.297364	1.889789	1.73	1.8	2.051926		1.86792875	2015	2.051926	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	724	-3.554078296	40.39211472	ESP	Spain	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	724	-3.554078296	40.39211472	ESP	Spain	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	728	30.32618773	7.290839152	SSD	South Sudan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	728	30.32618773	7.290839152	SSD	South Sudan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	728	30.32618773	7.290839152	SSD	South Sudan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	732	-13.13515523	24.66265342	ESH	Western Sahara	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	732	-13.13515523	24.66265342	ESH	Western Sahara	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	732	-13.13515523	24.66265342	ESH	Western Sahara	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	736	29.95650159	16.02643066	SDN	Sudan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	736	29.95650159	16.02643066	SDN	Sudan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	736	29.95650159	16.02643066	SDN	Sudan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	740	-55.90626394	4.132603197	SUR	Suriname	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	740	-55.90626394	4.132603197	SUR	Suriname	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	740	-55.90626394	4.132603197	SUR	Suriname	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	744	13.38071013	78.82894131	SJM	Svalbard and Jan Mayen Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	744	13.38071013	78.82894131	SJM	Svalbard and Jan Mayen Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	744	13.38071013	78.82894131	SJM	Svalbard and Jan Mayen Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	748	31.50149288	-26.56471011	SWZ	Swaziland	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	748	31.50149288	-26.56471011	SWZ	Swaziland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	748	31.50149288	-26.56471011	SWZ	Swaziland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	752	14.3775338	60.60103109	SWE	Sweden	1	ANNUAL	BOTHSEX	PER_100000_EMP	1.5	1.4	1.4	1.3	1.4	1.6	1.6	1.7	1.5	1	1	1	1	1	1	1		1	2015	1	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	752	14.3775338	60.60103109	SWE	Sweden	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	752	14.3775338	60.60103109	SWE	Sweden	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	756	8.223158	46.96617097	CHE	Switzerland	1	ANNUAL	BOTHSEX	PER_100000_EMP	2.3	2	1.5	1.3	1.9	1.3	1.4	1.6	1.1	4.835241		5		7.010107	5.627817			6.318962	2014	5.627817	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	756	8.223158	46.96617097	CHE	Switzerland	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	756	8.223158	46.96617097	CHE	Switzerland	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	760	38.50466565	35.01676176	SYR	Syrian Arab Republic (Syria)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	760	38.50466565	35.01676176	SYR	Syrian Arab Republic (Syria)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	760	38.50466565	35.01676176	SYR	Syrian Arab Republic (Syria)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	762	69.294998	38.43069666	TJK	Tajikistan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	762	69.294998	38.43069666	TJK	Tajikistan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	762	69.294998	38.43069666	TJK	Tajikistan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	764	101.0202951	15.13089239	THA	Thailand	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.3	10.9	9.94	11.19	11.66	18.7	10.1	9.1						0.02				0.02	2013	0.02	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	764	101.0202951	15.13089239	THA	Thailand	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	764	101.0202951	15.13089239	THA	Thailand	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	768	0.97835765	8.532096072	TGO	Togo	1	ANNUAL	BOTHSEX	PER_100000_EMP	11.7	16.8	11.31	15	16.3														2004	16.3	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	768	0.97835765	8.532096072	TGO	Togo	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	768	0.97835765	8.532096072	TGO	Togo	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	772	-171.8154473	-9.214545558	TKL	Tokelau	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	772	-171.8154473	-9.214545558	TKL	Tokelau	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	772	-171.8154473	-9.214545558	TKL	Tokelau	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	776	-175.1959991	-21.19511329	TON	Tonga	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	776	-175.1959991	-21.19511329	TON	Tonga	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	776	-175.1959991	-21.19511329	TON	Tonga	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	780	-61.29389504	10.41877263	TTO	Trinidad and Tobago	1	ANNUAL	BOTHSEX	PER_100000_EMP	0.9	0.5	0.1	0.5	0.5	3.1	1.9												2006	1.9	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	780	-61.29389504	10.41877263	TTO	Trinidad and Tobago	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	780	-61.29389504	10.41877263	TTO	Trinidad and Tobago	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	784	53.98279159	23.43322219	ARE	United Arab Emirates	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	784	53.98279159	23.43322219	ARE	United Arab Emirates	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	784	53.98279159	23.43322219	ARE	United Arab Emirates	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	788	9.572737411	34.11439971	TUN	Tunisia	1	ANNUAL	BOTHSEX	PER_100000_EMP	14.93	15.86	14.31	16.02	13.07														2004	13.07	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	788	9.572737411	34.11439971	TUN	Tunisia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	788	9.572737411	34.11439971	TUN	Tunisia	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	792	35.42890329	38.9899684	TUR	Turkey	1	ANNUAL	BOTHSEX	PER_100000_EMP	24.6	20.6	16.8	14.4	13.6	15.8	20.5	12.2745	9.83	20.87	20.79	15.5	6.24					6.24	2012	6.24	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	792	35.42890329	38.9899684	TUR	Turkey	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	792	35.42890329	38.9899684	TUR	Turkey	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	795	58.9787665	40.0912346	TKM	Turkmenistan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	795	58.9787665	40.0912346	TKM	Turkmenistan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	795	58.9787665	40.0912346	TKM	Turkmenistan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	796	-71.745121	21.80780585	TCA	Turks and Caicos Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	796	-71.745121	21.80780585	TCA	Turks and Caicos Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	796	-71.745121	21.80780585	TCA	Turks and Caicos Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	798	178.6679611	-7.460048071	TUV	Tuvalu	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	798	178.6679611	-7.460048071	TUV	Tuvalu	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	798	178.6679611	-7.460048071	TUV	Tuvalu	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	800	32.39100438	1.279557331	UGA	Uganda	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	800	32.39100438	1.279557331	UGA	Uganda	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	800	32.39100438	1.279557331	UGA	Uganda	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	804	31.40270802	49.00735945	UKR	Ukraine	1	ANNUAL	BOTHSEX	PER_100000_EMP	9.5	10.5	10	9.4	8.9	8.4	8.3	9.3	8	5.51	5.58	5.82	5.68	5.021	4.3	4		4.75025	2015	4	ILOSTAT - Establishment survey	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	804	31.40270802	49.00735945	UKR	Ukraine	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	804	31.40270802	49.00735945	UKR	Ukraine	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	807	21.7007909	41.60048068	MKD	Macedonia, Republic of	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	807	21.7007909	41.60048068	MKD	Macedonia, Republic of	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	807	21.7007909	41.60048068	MKD	Macedonia, Republic of	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	818	29.77468534	26.57438204	EGY	Egypt	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	818	29.77468534	26.57438204	EGY	Egypt	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	818	29.77468534	26.57438204	EGY	Egypt	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	826	-2.23830539	53.27691757	GBR	United Kingdom	1	ANNUAL	BOTHSEX	PER_100000_EMP	0.9	0.8	0.74	0.7	0.7	0.6	0.72			0.5	0.6	0.58		0.5		0.44		0.47	2015	0.44	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	826	-2.23830539	53.27691757	GBR	United Kingdom	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	826	-2.23830539	53.27691757	GBR	United Kingdom	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	831	-2.200712402	49.71561166	GGY	Guernsey	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	831	-2.200712402	49.71561166	GGY	Guernsey	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	831	-2.200712402	49.71561166	GGY	Guernsey	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	832	-2.136773508	49.22353354	JEY	Jersey	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	832	-2.136773508	49.22353354	JEY	Jersey	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	832	-2.136773508	49.22353354	JEY	Jersey	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	833	-4.538190305	54.22880901	IMN	Isle of Man	1	ANNUAL	BOTHSEX	PER_100000_EMP	6	5	0	0	0	3	0	0	2										2008	2	ILOSTAT - Labour inspectorate records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	833	-4.538190305	54.22880901	IMN	Isle of Man	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	833	-4.538190305	54.22880901	IMN	Isle of Man	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	834	34.80521182	-6.265332606	TZA	Tanzania, United Republic of	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	834	34.80521182	-6.265332606	TZA	Tanzania, United Republic of	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	834	34.80521182	-6.265332606	TZA	Tanzania, United Republic of	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	840	-99.13830311	39.5277871	USA	United States of America	1	ANNUAL	BOTHSEX	PER_100000_EMP	4	4	4	4	4	4	4	4	3.7	3.5	3.5								2010	3.5	ILOSTAT - Administrative records and related sources	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	840	-99.13830311	39.5277871	USA	United States of America	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	840	-99.13830311	39.5277871	USA	United States of America	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	850	-64.76960113	17.73297693	VIR	United States Virgin Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	850	-64.76960113	17.73297693	VIR	United States Virgin Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	850	-64.76960113	17.73297693	VIR	United States Virgin Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	854	-1.742843829	12.27491081	BFA	Burkina Faso	1	ANNUAL	BOTHSEX	PER_100000_EMP	4.4																		2000	4.4	ILOSTAT - Insurance records	C
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	854	-1.742843829	12.27491081	BFA	Burkina Faso	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	854	-1.742843829	12.27491081	BFA	Burkina Faso	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	858	-56.01387025	-32.8002838	URY	Uruguay	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	858	-56.01387025	-32.8002838	URY	Uruguay	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	858	-56.01387025	-32.8002838	URY	Uruguay	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	860	63.11944558	41.77560518	UZB	Uzbekistan	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	860	63.11944558	41.77560518	UZB	Uzbekistan	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	860	63.11944558	41.77560518	UZB	Uzbekistan	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	862	-66.15642084	7.121324748	VEN	Venezuela (Bolivarian Republic)	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	862	-66.15642084	7.121324748	VEN	Venezuela (Bolivarian Republic)	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	862	-66.15642084	7.121324748	VEN	Venezuela (Bolivarian Republic)	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	876	-176.2034788	-13.28471201	WLF	Wallis and Futuna Islands	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	876	-176.2034788	-13.28471201	WLF	Wallis and Futuna Islands	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	876	-176.2034788	-13.28471201	WLF	Wallis and Futuna Islands	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	882	-172.4430749	-13.61541469	WSM	Samoa	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	882	-172.4430749	-13.61541469	WSM	Samoa	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	882	-172.4430749	-13.61541469	WSM	Samoa	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	887	45.22389143	15.22242099	YEM	Yemen	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	887	45.22389143	15.22242099	YEM	Yemen	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	887	45.22389143	15.22242099	YEM	Yemen	3	ANNUAL	FEMALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	894	27.850329	-14.59701056	ZMB	Zambia	1	ANNUAL	BOTHSEX	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	894	27.850329	-14.59701056	ZMB	Zambia	2	ANNUAL	MALE	PER_100000_EMP																						
+2017.Q2.G.01	SL_EMP_FTLINJUR	Frequency rates of fatal occupational injuries among employees	894	27.850329	-14.59701056	ZMB	Zambia	3	ANNUAL	FEMALE	PER_100000_EMP																						

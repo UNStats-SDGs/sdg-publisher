@@ -1,0 +1,249 @@
+series.release	series.code	series.description	geoAreaCode	X	Y	ISO3CD	geoAreaName	sliceId	Freq	Units	2015	latest.year	latest.value	latest.source	latest.nature
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	4	66.02688198	33.83160199	AFG	Afghanistan	1	ANNUAL	NUMBER	1929907.728	2015	1929907.728	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	8	20.06660928	41.13897007	ALB	Albania	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	10	21.47585697	-80.40897662	ATA	Antarctica	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	12	2.678164227	28.15940032	DZA	Algeria	1	ANNUAL	NUMBER	5910835.509682	2015	5910835.509682	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	16	-170.7187269	-14.30587306	ASM	American Samoa	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	20	1.576257417	42.54548611	AND	Andorra	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	24	17.57817062	-12.33724746	AGO	Angola	1	ANNUAL	NUMBER	1244491	2015	1244491	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	28	-61.7999755	17.07761471	ATG	Antigua and Barbuda	1	ANNUAL	NUMBER	1039809.96	2015	1039809.96	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	31	50.01064725	40.39229544	AZE	Azerbaijan	1	ANNUAL	NUMBER	1803112	2015	1803112	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	32	-65.14563274	-35.19446255	ARG	Argentina	1	ANNUAL	NUMBER	14245183.352	2015	14245183.352	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	36	134.3499412	-25.57717202	AUS	Australia	1	ANNUAL	NUMBER	69294187	2015	69294187	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	40	14.14172472	47.58704857	AUT	Austria	1	ANNUAL	NUMBER	14718641.22	2015	14718641.22	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	44	-78.05111663	24.69546597	BHS	Bahamas	1	ANNUAL	NUMBER	587516.94	2015	587516.94	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	48	50.5490754	26.04407747	BHR	Bahrain	1	ANNUAL	NUMBER	5313756	2015	5313756	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	50	89.17660788	22.86961622	BGD	Bangladesh	1	ANNUAL	NUMBER	2906799.490286	2015	2906799.490286	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	51	44.93839317	40.29499741	ARM	Armenia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	52	-59.5346489	13.13648273	BRB	Barbados	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	56	4.660976456	50.64104975	BEL	Belgium	1	ANNUAL	NUMBER	11193023.096	2015	11193023.096	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	60	-64.78155012	32.27881922	BMU	Bermuda	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	64	90.45098484	27.39598568	BTN	Bhutan	1	ANNUAL	NUMBER	162864.24	2015	162864.24	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	68	-64.66224284	-16.71273412	BOL	Bolivia (Plurinational State of)	1	ANNUAL	NUMBER	2578959.921511	2015	2578959.921511	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	70	17.78584332	44.16845548	BIH	Bosnia and Herzegovina	1	ANNUAL	NUMBER	7070.748	2015	7070.748	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	72	23.81380223	-22.18810073	BWA	Botswana	1	ANNUAL	NUMBER	194005.56	2015	194005.56	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	74	3.410732868	-54.43295905	BVT	Bouvet Island	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	76	-53.08432878	-10.77668561	BRA	Brazil	1	ANNUAL	NUMBER	102039359	2015	102039359	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	84	-88.70199554	17.19965901	BLZ	Belize	1	ANNUAL	NUMBER	935603.636	2015	935603.636	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	86	72.38715553	-7.299281071	IOT	British Indian Ocean Territory	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	90	160.1584117	-9.622391719	SLB	Solomon Islands	1	ANNUAL	NUMBER	373738.716	2015	373738.716	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	92	-64.63294223	18.42256578	VGB	British Virgin Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	96	114.6288563	4.49736984	BRN	Brunei Darussalam	1	ANNUAL	NUMBER	1150003	2015	1150003	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	100	25.23763153	42.75731323	BGR	Bulgaria	1	ANNUAL	NUMBER	1118689.8	2015	1118689.8	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	104	96.51752295	21.19332882	MMR	Myanmar	1	ANNUAL	NUMBER	2029139.652	2015	2029139.652	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	108	29.89080992	-3.366387428	BDI	Burundi	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	112	28.04940161	53.54193075	BLR	Belarus	1	ANNUAL	NUMBER	1489035	2015	1489035	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	116	104.922836	12.71163737	KHM	Cambodia	1	ANNUAL	NUMBER	1103880	2015	1103880	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	120	12.7419827	5.692387031	CMR	Cameroon	1	ANNUAL	NUMBER	267208.848	2015	267208.848	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	124	-101.6575058	57.72360191	CAN	Canada	1	ANNUAL	NUMBER	80228301.716	2015	80228301.716	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	132	-23.63544151	15.07791834	CPV	Cabo Verde	1	ANNUAL	NUMBER	567182.328	2015	567182.328	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	136	-81.16740559	19.32266656	CYM	Cayman Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	140	20.93559492	7.003720791	CAF	Central African Republic	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	144	80.70489654	7.614693343	LKA	Sri Lanka	1	ANNUAL	NUMBER	4911730	2015	4911730	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	148	18.66618401	15.36279341	TCD	Chad	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	152	-71.23029019	-35.2652885	CHL	Chile	1	ANNUAL	NUMBER	15006762	2015	15006762	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	156	104.1403375	32.30955217	CHN	China	1	ANNUAL	NUMBER	436183969	2015	436183969	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	162	105.6426067	-10.4882473	CXR	Christmas Island	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	166	96.82633757	-12.18600682	CCK	Cocos (Keeling) Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	170	-73.07446751	3.888209046	COL	Colombia	1	ANNUAL	NUMBER	30742928	2015	30742928	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	174	43.34234565	-11.66121732	COM	Comoros	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	175	45.14015057	-12.82217691	MYT	Mayotte	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	178	15.22052612	-0.840544119	COG	Congo	1	ANNUAL	NUMBER	657926.892	2015	657926.892	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	180	23.65496507	-2.877154732	COD	Democratic Republic of the Congo	1	ANNUAL	NUMBER	476352.998641	2015	476352.998641	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	184	-159.7711391	-21.22696458	COK	Cook Islands	1	ANNUAL	NUMBER	87125.4	2015	87125.4	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	188	-84.19712782	9.970998683	CRI	Costa Rica	1	ANNUAL	NUMBER	1617075.73	2015	1617075.73	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	191	17.95874553	45.45172212	HRV	Croatia	1	ANNUAL	NUMBER	1782666	2015	1782666	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	192	-79.54460144	22.10030366	CUB	Cuba	1	ANNUAL	NUMBER	1294458.245619	2015	1294458.245619	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	196	33.22285964	35.05659437	CYP	Cyprus	1	ANNUAL	NUMBER	23404.512	2015	23404.512	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	203	15.33151382	49.73913871	CZE	Czechia	1	ANNUAL	NUMBER	4971616.027	2015	4971616.027	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	204	2.339933594	9.65401646	BEN	Benin	1	ANNUAL	NUMBER	112392.36	2015	112392.36	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	208	9.326571283	56.03829721	DNK	Denmark	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	212	-61.3493756	15.43391378	DMA	Dominica	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	214	-70.49847576	18.89832088	DOM	Dominican Republic	1	ANNUAL	NUMBER	14463.036	2015	14463.036	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	218	-78.37005241	-1.447785891	ECU	Ecuador	1	ANNUAL	NUMBER	5762485.23	2015	5762485.23	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	222	-88.86862995	13.73603564	SLV	El Salvador	1	ANNUAL	NUMBER	2597649	2015	2597649	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	226	10.46535826	1.565792376	GNQ	Equatorial Guinea	1	ANNUAL	NUMBER	400759.014794	2015	400759.014794	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	231	39.63505296	8.631223181	ETH	Ethiopia	1	ANNUAL	NUMBER	7074779.524639	2015	7074779.524639	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	232	38.11074289	16.12894644	ERI	Eritrea	1	ANNUAL	NUMBER	53074.43	2015	53074.43	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	233	25.84093481	58.68487172	EST	Estonia	1	ANNUAL	NUMBER	512388.96	2015	512388.96	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	234	-7.122044325	62.21228119	FRO	Faroe Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	238	-58.75246778	-51.74562601	FLK	Falkland Islands (Malvinas)	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	239	-36.90662765	-54.20736749	SGS	South Georgia and the South Sandwich Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	242	177.9660884	-17.83301566	FJI	Fiji	1	ANNUAL	NUMBER	1336976	2015	1336976	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	246	23.308447	61.91586738	FIN	Finland	1	ANNUAL	NUMBER	9972333	2015	9972333	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	248	19.80945969	60.1544901	ALA	Åland Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	250	2.457288129	46.62660861	FRA	France	1	ANNUAL	NUMBER	65039503	2015	65039503	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	254	-53.23619089	3.922673437	GUF	French Guiana	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	258	-149.4052367	-17.67709294	PYF	French Polynesia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	260	69.64849091	-49.6068576	ATF	French Southern Territories	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	262	42.18274707	11.56004161	DJI	Djibouti	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	266	11.78727747	-0.60687619	GAB	Gabon	1	ANNUAL	NUMBER	137331.296	2015	137331.296	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	268	43.3713615	42.04813028	GEO	Georgia	1	ANNUAL	NUMBER	232263.6	2015	232263.6	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	270	-15.39944785	13.45295927	GMB	Gambia	1	ANNUAL	NUMBER	3035.52	2015	3035.52	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	275	35.25694122	31.94347933	PSE	State of Palestine	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	276	10.3806066	51.08862743	DEU	Germany	1	ANNUAL	NUMBER	115540885.98	2015	115540885.98	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	288	-1.205623522	7.964825185	GHA	Ghana	1	ANNUAL	NUMBER	390457.776	2015	390457.776	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	292	-5.347561686	36.13895036	GIB	Gibraltar	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	296	-157.5643005	1.768837732	KIR	Kiribati	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	300	22.58307827	39.47301873	GRC	Greece	1	ANNUAL	NUMBER	12583541.150197	2015	12583541.150197	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	304	-41.39371316	74.75625681	GRL	Greenland	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	308	-61.68248568	12.11238395	GRD	Grenada	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	312	-61.64762115	16.14416917	GLP	Guadeloupe	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	316	144.7029305	13.35485404	GUM	Guam	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	320	-91.2312746	15.00273719	GTM	Guatemala	1	ANNUAL	NUMBER	93129	2015	93129	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	324	-11.28173419	11.00210343	GIN	Guinea	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	328	-58.97322037	4.788012784	GUY	Guyana	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	332	-72.33640958	18.40426539	HTI	Haiti	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	334	73.52633626	-53.09106147	HMD	Heard Island and McDonald Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	336	12.45315803	41.90343751	VAT	Holy See	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	340	-86.59974381	14.82243161	HND	Honduras	1	ANNUAL	NUMBER	251149.784	2015	251149.784	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	344	114.0266445	22.41749934	HKG	China, Hong Kong Special Administrative Region	1	ANNUAL	NUMBER	41867157	2015	41867157	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	348	19.41221519	47.1651448	HUN	Hungary	1	ANNUAL	NUMBER	20042184.96	2015	20042184.96	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	352	-19.02116966	64.79134763	ISL	Iceland	1	ANNUAL	NUMBER	3413950	2015	3413950	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	356	79.3608464	22.34642074	IND	India	1	ANNUAL	NUMBER	98927860	2015	98927860	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	360	113.9174	-0.994582204	IDN	Indonesia	1	ANNUAL	NUMBER	88685767.498671	2015	88685767.498671	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	364	54.19766348	32.74370885	IRN	Iran (Islamic Republic of)	1	ANNUAL	NUMBER	15003958.211	2015	15003958.211	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	368	43.76606267	33.05013795	IRQ	Iraq	1	ANNUAL	NUMBER	484803.678331	2015	484803.678331	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	372	-7.121425272	53.25274054	IRL	Ireland	1	ANNUAL	NUMBER	113144501	2015	113144501	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	376	34.62277992	31.06164552	ISR	Israel	1	ANNUAL	NUMBER	6064478	2015	6064478	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	380	12.57022427	42.79917282	ITA	Italy	1	ANNUAL	NUMBER	26036010.657	2015	26036010.657	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	384	-5.552690016	7.62211586	CIV	Côte d'Ivoire	1	ANNUAL	NUMBER	359260.512	2015	359260.512	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	388	-77.31068409	18.15616857	JAM	Jamaica	1	ANNUAL	NUMBER	92836	2015	92836	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	392	139.2716103	36.6554539	JPN	Japan	1	ANNUAL	NUMBER	113762000	2015	113762000	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	398	66.65359159	48.01963494	KAZ	Kazakhstan	1	ANNUAL	NUMBER	5081631.864	2015	5081631.864	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	400	37.13024774	30.65365973	JOR	Jordan	1	ANNUAL	NUMBER	3065145	2015	3065145	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	404	37.86096816	0.534797278	KEN	Kenya	1	ANNUAL	NUMBER	4874590.48	2015	4874590.48	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	408	127.1803633	40.1462645	PRK	Democratic People's Republic of Korea	1	ANNUAL	NUMBER	223418.88	2015	223418.88	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	410	127.8610254	36.45201023	KOR	Republic of Korea	1	ANNUAL	NUMBER	65482307.207	2015	65482307.207	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	414	47.49305029	29.53949468	KWT	Kuwait	1	ANNUAL	NUMBER	3655366.498515	2015	3655366.498515	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	417	74.52324839	41.46204516	KGZ	Kyrgyzstan	1	ANNUAL	NUMBER	625294.212	2015	625294.212	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	418	101.9901968	20.27482773	LAO	Lao People's Democratic Republic	1	ANNUAL	NUMBER	1181187.70708	2015	1181187.70708	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	422	35.89391711	33.92152458	LBN	Lebanon	1	ANNUAL	NUMBER	2583274.525	2015	2583274.525	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	426	28.25362195	-29.58041814	LSO	Lesotho	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	428	26.42461876	56.64196636	LVA	Latvia	1	ANNUAL	NUMBER	2527368	2015	2527368	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	430	-9.311879038	6.448381009	LBR	Liberia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	434	18.0295985	27.04042819	LBY	Libya	1	ANNUAL	NUMBER	2566465.584592	2015	2566465.584592	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	438	9.552985019	47.14167005	LIE	Liechtenstein	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	440	23.90517807	55.33680309	LTU	Lithuania	1	ANNUAL	NUMBER	1363950.289	2015	1363950.289	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	442	6.092656563	49.77679538	LUX	Luxembourg	1	ANNUAL	NUMBER	1830972	2015	1830972	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	446	113.5665388	22.1237259	MAC	China, Macao Special Administrative Region	1	ANNUAL	NUMBER	2276436	2015	2276436	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	450	46.6982339	-19.38514785	MDG	Madagascar	1	ANNUAL	NUMBER	546946.110318	2015	546946.110318	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	454	33.4884625	-13.40819859	MWI	Malawi	1	ANNUAL	NUMBER	6010.8	2015	6010.8	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	458	116.8346314	5.452415309	MYS	Malaysia	1	ANNUAL	NUMBER	50347149.614	2015	50347149.614	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	462	73.09672546	-0.614385021	MDV	Maldives	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	466	-3.522016039	17.35311254	MLI	Mali	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	470	14.44617519	35.89194275	MLT	Malta	1	ANNUAL	NUMBER	1583046	2015	1583046	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	474	-60.91544135	14.56086108	MTQ	Martinique	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	478	-10.33187259	20.26089546	MRT	Mauritania	1	ANNUAL	NUMBER	248158.586849	2015	248158.586849	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	480	57.568022	-20.28581998	MUS	Mauritius	1	ANNUAL	NUMBER	1466527	2015	1466527	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	484	-102.5148166	23.93378032	MEX	Mexico	1	ANNUAL	NUMBER	45560063.272	2015	45560063.272	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	492	7.424214814	43.73532918	MCO	Monaco	1	ANNUAL	NUMBER	60381.6	2015	60381.6	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	496	103.0728057	46.83892054	MNG	Mongolia	1	ANNUAL	NUMBER	541129.466	2015	541129.466	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	498	28.4650624	47.20236795	MDA	Republic of Moldova	1	ANNUAL	NUMBER	1005942	2015	1005942	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	499	19.25214024	42.78717043	MNE	Montenegro	1	ANNUAL	NUMBER	526980	2015	526980	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	500	-62.19261223	16.73558313	MSR	Montserrat	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	504	-6.281942841	31.8440131	MAR	Morocco	1	ANNUAL	NUMBER	6786850.24	2015	6786850.24	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	508	38.18479941	-14.27963886	MOZ	Mozambique	1	ANNUAL	NUMBER	686892.935	2015	686892.935	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	512	57.87743482	21.98805614	OMN	Oman	1	ANNUAL	NUMBER	6365784	2015	6365784	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	516	17.21907885	-22.13817068	NAM	Namibia	1	ANNUAL	NUMBER	553322	2015	553322	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	520	166.92313	-0.528742623	NRU	Nauru	1	ANNUAL	NUMBER	38858.928	2015	38858.928	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	524	83.94678863	28.25866332	NPL	Nepal	1	ANNUAL	NUMBER	510341.736	2015	510341.736	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	528	5.331480568	51.86728884	NLD	Netherlands	1	ANNUAL	NUMBER	34870204.78	2015	34870204.78	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	530	-68.30676179	12.22720635	ANT	Netherlands Antilles	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	531	-68.95033464	12.15058042	CUW	Curaçao	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	533	-69.97050586	12.50878756	ABW	Aruba	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	534	-63.06198692	18.03926508	SXM	Sint Maarten (Dutch part)	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	540	165.5067368	-21.41742531	NCL	New Caledonia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	548	167.0679779	-15.34445547	VUT	Vanuatu	1	ANNUAL	NUMBER	287526.228	2015	287526.228	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	554	170.4755673	-43.98721568	NZL	New Zealand	1	ANNUAL	NUMBER	15304409.124	2015	15304409.124	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	558	-85.03060315	12.84210839	NIC	Nicaragua	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	562	9.400167877	17.42143036	NER	Niger	1	ANNUAL	NUMBER	15242.5	2015	15242.5	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	566	8.097363256	9.585789025	NGA	Nigeria	1	ANNUAL	NUMBER	3223459.776	2015	3223459.776	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	570	-169.8601693	-19.05000475	NIU	Niue	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	574	167.9515548	-29.03230018	NFK	Norfolk Island	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	578	11.47846389	61.34311134	NOR	Norway	1	ANNUAL	NUMBER	58516392.981	2015	58516392.981	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	580	145.7582114	15.19099517	MNP	Northern Mariana Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	581	-162.4343752	5.874443968	UMI	US Minor Outlying Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	583	158.225216	6.880670092	FSM	Micronesia, Federated States of	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	584	171.0839119	7.110213497	MHL	Marshall Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	585	134.5733878	7.502307591	PLW	Palau	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	586	68.80479684	29.36491634	PAK	Pakistan	1	ANNUAL	NUMBER	8467827.788	2015	8467827.788	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	591	-81.26616623	8.450965746	PAN	Panama	1	ANNUAL	NUMBER	12018103.416	2015	12018103.416	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	598	145.8587761	-6.756057077	PNG	Papua New Guinea	1	ANNUAL	NUMBER	2062584.024	2015	2062584.024	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	600	-60.54854225	-21.70216237	PRY	Paraguay	1	ANNUAL	NUMBER	452004	2015	452004	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	604	-71.82093277	-13.58939705	PER	Peru	1	ANNUAL	NUMBER	13907947.974	2015	13907947.974	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	608	120.8601418	14.16591706	PHL	Philippines	1	ANNUAL	NUMBER	32230986.944	2015	32230986.944	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	612	-128.3225873	-24.37538456	PCN	Pitcairn	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	616	19.40660158	52.1226733	POL	Poland	1	ANNUAL	NUMBER	4841128.645	2015	4841128.645	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	620	-7.961599811	39.68509315	PRT	Portugal	1	ANNUAL	NUMBER	12635233.13	2015	12635233.13	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	624	-14.40182514	12.11760394	GNB	Guinea-Bissau	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	626	125.9451052	-8.797497247	TLS	Timor-Leste	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	630	-66.47591017	18.22753799	PRI	Puerto Rico	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	634	51.19152467	25.28355379	QAT	Qatar	1	ANNUAL	NUMBER	25263224	2015	25263224	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	638	55.53171398	-21.13183266	REU	Réunion	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	642	24.98481009	45.83893563	ROU	Romania	1	ANNUAL	NUMBER	3636642.834	2015	3636642.834	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	643	99.01404926	61.61899849	RUS	Russian Federation	1	ANNUAL	NUMBER	76846126	2015	76846126	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	646	29.92310194	-1.999842114	RWA	Rwanda	1	ANNUAL	NUMBER	645815.006209	2015	645815.006209	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	652	-62.83173536	17.89513362	BLM	Saint Barthélemy	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	654	-5.705752501	-15.96503946	SHN	Saint Helena	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	659	-62.76628613	17.33994219	KNA	Saint Kitts and Nevis	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	660	-63.05651612	18.21525315	AIA	Anguilla	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	662	-60.96529553	13.89405601	LCA	Saint Lucia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	663	-63.04505461	18.0882685	MAF	Saint Martin (French Part)	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	666	-56.33682442	46.85812735	SPM	Saint Pierre and Miquelon	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	670	-61.19024321	13.24627968	VCT	Saint Vincent and the Grenadines	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	674	12.46329038	43.93841766	SMR	San Marino	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	678	6.609772265	0.241554875	STP	Sao Tome and Principe	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	682	44.54763347	24.12594211	SAU	Saudi Arabia	1	ANNUAL	NUMBER	32778827.769	2015	32778827.769	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	686	-14.46636926	14.35920905	SEN	Senegal	1	ANNUAL	NUMBER	115355.771672	2015	115355.771672	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	688	20.805876	44.03145697	SRB	Serbia	1	ANNUAL	NUMBER	2424886.552	2015	2424886.552	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	690	55.46561591	-4.678053059	SYC	Seychelles	1	ANNUAL	NUMBER	497496	2015	497496	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	694	-11.78306584	8.568604164	SLE	Sierra Leone	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	702	103.8107883	1.361009155	SGP	Singapore	1	ANNUAL	NUMBER	33290544.171	2015	33290544.171	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	703	19.48495604	48.70741446	SVK	Slovakia	1	ANNUAL	NUMBER	11100	2015	11100	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	704	105.802499	10.09643079	VNM	Viet Nam	1	ANNUAL	NUMBER	29944771	2015	29944771	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	705	14.82209486	46.11958061	SVN	Slovenia	1	ANNUAL	NUMBER	1130637.573	2015	1130637.573	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	706	46.20367477	4.406485729	SOM	Somalia	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	710	24.67184355	-29.99957544	ZAF	South Africa	1	ANNUAL	NUMBER	17188887.509	2015	17188887.509	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	716	29.86909584	-19.00075492	ZWE	Zimbabwe	1	ANNUAL	NUMBER	370164.18	2015	370164.18	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	724	-3.554078296	40.39211472	ESP	Spain	1	ANNUAL	NUMBER	60809228.073	2015	60809228.073	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	728	30.32618773	7.290839152	SSD	South Sudan	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	732	-13.13515523	24.66265342	ESH	Western Sahara	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	736	29.95650159	16.02643066	SDN	Sudan	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	740	-55.90626394	4.132603197	SUR	Suriname	1	ANNUAL	NUMBER	259682	2015	259682	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	744	13.38071013	78.82894131	SJM	Svalbard and Jan Mayen Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	748	31.50149288	-26.56471011	SWZ	Swaziland	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	752	14.3775338	60.60103109	SWE	Sweden	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	756	8.223158	46.96617097	CHE	Switzerland	1	ANNUAL	NUMBER	26843991.348	2015	26843991.348	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	760	38.50466565	35.01676176	SYR	Syrian Arab Republic (Syria)	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	762	69.294998	38.43069666	TJK	Tajikistan	1	ANNUAL	NUMBER	802470.311	2015	802470.311	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	764	101.0202951	15.13089239	THA	Thailand	1	ANNUAL	NUMBER	54259629.897	2015	54259629.897	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	768	0.97835765	8.532096072	TGO	Togo	1	ANNUAL	NUMBER	769904.928	2015	769904.928	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	772	-171.8154473	-9.214545558	TKL	Tokelau	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	776	-175.1959991	-21.19511329	TON	Tonga	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	780	-61.29389504	10.41877263	TTO	Trinidad and Tobago	1	ANNUAL	NUMBER	2617842.948	2015	2617842.948	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	784	53.98279159	23.43322219	ARE	United Arab Emirates	1	ANNUAL	NUMBER	84738479.925	2015	84738479.925	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	788	9.572737411	34.11439971	TUN	Tunisia	1	ANNUAL	NUMBER	3496190.204	2015	3496190.204	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	792	35.42890329	38.9899684	TUR	Turkey	1	ANNUAL	NUMBER	96604665	2015	96604665	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	795	58.9787665	40.0912346	TKM	Turkmenistan	1	ANNUAL	NUMBER	2138389.893067	2015	2138389.893067	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	796	-71.745121	21.80780585	TCA	Turks and Caicos Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	798	178.6679611	-7.460048071	TUV	Tuvalu	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	800	32.39100438	1.279557331	UGA	Uganda	1	ANNUAL	NUMBER	41812.296	2015	41812.296	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	804	31.40270802	49.00735945	UKR	Ukraine	1	ANNUAL	NUMBER	4613224.197	2015	4613224.197	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	807	21.7007909	41.60048068	MKD	Macedonia, Republic of	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	818	29.77468534	26.57438204	EGY	Egypt	1	ANNUAL	NUMBER	10159464.007	2015	10159464.007	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	826	-2.23830539	53.27691757	GBR	United Kingdom	1	ANNUAL	NUMBER	131449680.401	2015	131449680.401	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	831	-2.200712402	49.71561166	GGY	Guernsey	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	832	-2.136773508	49.22353354	JEY	Jersey	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	833	-4.538190305	54.22880901	IMN	Isle of Man	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	834	34.80521182	-6.265332606	TZA	Tanzania, United Republic of	1	ANNUAL	NUMBER	1239707.412	2015	1239707.412	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	840	-99.13830311	39.5277871	USA	United States of America	1	ANNUAL	NUMBER	798230000	2015	798230000	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	850	-64.76960113	17.73297693	VIR	United States Virgin Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	854	-1.742843829	12.27491081	BFA	Burkina Faso	1	ANNUAL	NUMBER	122589.24	2015	122589.24	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	858	-56.01387025	-32.8002838	URY	Uruguay	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	860	63.11944558	41.77560518	UZB	Uzbekistan	1	ANNUAL	NUMBER	2486673	2015	2486673	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	862	-66.15642084	7.121324748	VEN	Venezuela (Bolivarian Republic)	1	ANNUAL	NUMBER	6456853.732051	2015	6456853.732051	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	876	-176.2034788	-13.28471201	WLF	Wallis and Futuna Islands	1	ANNUAL	NUMBER					
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	882	-172.4430749	-13.61541469	WSM	Samoa	1	ANNUAL	NUMBER	98949.984	2015	98949.984	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	887	45.22389143	15.22242099	YEM	Yemen	1	ANNUAL	NUMBER	1387999.824	2015	1387999.824	International Civil Aviation Organization (ICAO)	
+2017.Q2.G.01	IS_TRP_PSSGR	Passenger volume, by air transport	894	27.850329	-14.59701056	ZMB	Zambia	1	ANNUAL	NUMBER	11796.816	2015	11796.816	International Civil Aviation Organization (ICAO)	

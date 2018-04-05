@@ -1,0 +1,249 @@
+geoAreaCode	years	Freq	Units	sliceId	series.release	series.code	series.description	X	Y	OBJECTID	ISO3CD	geoAreaName	value	valueType	time_detail	source	Nature
+4	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	66.02688198	33.83160199	2	AFG	Afghanistan					
+8	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	20.06660928	41.13897007	6	ALB	Albania	0	Float			G
+10	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	21.47585697	-80.40897662	13	ATA	Antarctica					
+12	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	2.678164227	28.15940032	66	DZA	Algeria					
+16	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-170.7187269	-14.30587306	12	ASM	American Samoa					
+20	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	1.576257417	42.54548611	7	AND	Andorra					
+24	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	17.57817062	-12.33724746	3	AGO	Angola					
+28	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.7999755	17.07761471	15	ATG	Antigua and Barbuda					
+31	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	50.01064725	40.39229544	19	AZE	Azerbaijan					
+32	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-65.14563274	-35.19446255	10	ARG	Argentina					
+36	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	134.3499412	-25.57717202	17	AUS	Australia					
+40	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	14.14172472	47.58704857	18	AUT	Austria					
+44	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-78.05111663	24.69546597	27	BHS	Bahamas					
+48	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	50.5490754	26.04407747	26	BHR	Bahrain					
+50	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	89.17660788	22.86961622	24	BGD	Bangladesh	0	Float			G
+51	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	44.93839317	40.29499741	11	ARM	Armenia					
+52	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-59.5346489	13.13648273	35	BRB	Barbados					
+56	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	4.660976456	50.64104975	21	BEL	Belgium					
+60	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-64.78155012	32.27881922	32	BMU	Bermuda					
+64	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	90.45098484	27.39598568	37	BTN	Bhutan					
+68	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-64.66224284	-16.71273412	33	BOL	Bolivia (Plurinational State of)					
+70	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	17.78584332	44.16845548	28	BIH	Bosnia and Herzegovina					
+72	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	23.81380223	-22.18810073	39	BWA	Botswana					
+74	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	3.410732868	-54.43295905	38	BVT	Bouvet Island					
+76	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-53.08432878	-10.77668561	34	BRA	Brazil					
+84	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-88.70199554	17.19965901	31	BLZ	Belize					
+86	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	72.38715553	-7.299281071	107	IOT	British Indian Ocean Territory					
+90	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	160.1584117	-9.622391719	204	SLB	Solomon Islands					
+92	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-64.63294223	18.42256578	254	VGB	British Virgin Islands					
+96	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	114.6288563	4.49736984	36	BRN	Brunei Darussalam					
+100	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	25.23763153	42.75731323	25	BGR	Bulgaria					
+104	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	96.51752295	21.19332882	149	MMR	Myanmar					
+108	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	29.89080992	-3.366387428	20	BDI	Burundi					
+112	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	28.04940161	53.54193075	30	BLR	Belarus					
+116	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	104.922836	12.71163737	121	KHM	Cambodia					
+120	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	12.7419827	5.692387031	47	CMR	Cameroon					
+124	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-101.6575058	57.72360191	41	CAN	Canada					
+132	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-23.63544151	15.07791834	53	CPV	Cabo Verde					
+136	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-81.16740559	19.32266656	58	CYM	Cayman Islands					
+140	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	20.93559492	7.003720791	40	CAF	Central African Republic					
+144	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	80.70489654	7.614693343	132	LKA	Sri Lanka					
+148	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	18.66618401	15.36279341	222	TCD	Chad					
+152	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-71.23029019	-35.2652885	44	CHL	Chile					
+156	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	104.1403375	32.30955217	45	CHN	China	1	Float			G
+162	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	105.6426067	-10.4882473	57	CXR	Christmas Island					
+166	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	96.82633757	-12.18600682	42	CCK	Cocos (Keeling) Islands					
+170	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-73.07446751	3.888209046	51	COL	Colombia	0	Float			G
+174	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	43.34234565	-11.66121732	52	COM	Comoros					
+175	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	45.14015057	-12.82217691	160	MYT	Mayotte					
+178	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	15.22052612	-0.840544119	49	COG	Congo					
+180	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	23.65496507	-2.877154732	48	COD	Democratic Republic of the Congo	0	Float			G
+184	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-159.7711391	-21.22696458	50	COK	Cook Islands					
+188	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-84.19712782	9.970998683	54	CRI	Costa Rica					
+191	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	17.95874553	45.45172212	101	HRV	Croatia	0	Float			G
+192	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-79.54460144	22.10030366	55	CUB	Cuba					
+196	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	33.22285964	35.05659437	59	CYP	Cyprus					
+203	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	15.33151382	49.73913871	60	CZE	Czechia	0	Float			G
+204	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	2.339933594	9.65401646	22	BEN	Benin					
+208	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	9.326571283	56.03829721	64	DNK	Denmark	0	Float			G
+212	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.3493756	15.43391378	63	DMA	Dominica					
+214	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-70.49847576	18.89832088	65	DOM	Dominican Republic	0	Float			G
+218	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-78.37005241	-1.447785891	67	ECU	Ecuador					
+222	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-88.86862995	13.73603564	206	SLV	El Salvador					
+226	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	10.46535826	1.565792376	90	GNQ	Equatorial Guinea					
+231	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	39.63505296	8.631223181	73	ETH	Ethiopia					
+232	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	38.11074289	16.12894644	69	ERI	Eritrea					
+233	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	25.84093481	58.68487172	72	EST	Estonia	0	Float			G
+234	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-7.122044325	62.21228119	78	FRO	Faroe Islands					
+238	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-58.75246778	-51.74562601	76	FLK	Falkland Islands (Malvinas)					
+239	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-36.90662765	-54.20736749	201	SGS	South Georgia and the South Sandwich Islands					
+242	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	177.9660884	-17.83301566	75	FJI	Fiji					
+246	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	23.308447	61.91586738	74	FIN	Finland	1	Float			G
+248	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	19.80945969	60.1544901	5	ALA	Åland Islands					
+250	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	2.457288129	46.62660861	77	FRA	France	1	Float			G
+254	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-53.23619089	3.922673437	95	GUF	French Guiana					
+258	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-149.4052367	-17.67709294	191	PYF	French Polynesia					
+260	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	69.64849091	-49.6068576	14	ATF	French Southern Territories					
+262	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	42.18274707	11.56004161	62	DJI	Djibouti					
+266	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	11.78727747	-0.60687619	80	GAB	Gabon					
+268	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	43.3713615	42.04813028	82	GEO	Georgia	0	Float			G
+270	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-15.39944785	13.45295927	88	GMB	Gambia					
+275	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	35.25694122	31.94347933	189	PSE	State of Palestine					
+276	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	10.3806066	51.08862743	61	DEU	Germany	1	Float			G
+288	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-1.205623522	7.964825185	84	GHA	Ghana					
+292	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-5.347561686	36.13895036	85	GIB	Gibraltar					
+296	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-157.5643005	1.768837732	122	KIR	Kiribati					
+300	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	22.58307827	39.47301873	91	GRC	Greece					
+304	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-41.39371316	74.75625681	93	GRL	Greenland					
+308	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.68248568	12.11238395	92	GRD	Grenada					
+312	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.64762115	16.14416917	87	GLP	Guadeloupe					
+316	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	144.7029305	13.35485404	96	GUM	Guam					
+320	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-91.2312746	15.00273719	94	GTM	Guatemala					
+324	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-11.28173419	11.00210343	86	GIN	Guinea					
+328	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-58.97322037	4.788012784	97	GUY	Guyana					
+332	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-72.33640958	18.40426539	102	HTI	Haiti					
+334	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	73.52633626	-53.09106147	99	HMD	Heard Island and McDonald Islands					
+336	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	12.45315803	41.90343751	250	VAT	Holy See					
+340	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-86.59974381	14.82243161	100	HND	Honduras					
+344	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	114.0266445	22.41749934	98	HKG	China, Hong Kong Special Administrative Region	0	Float			G
+348	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	19.41221519	47.1651448	103	HUN	Hungary					
+352	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-19.02116966	64.79134763	111	ISL	Iceland					
+356	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	79.3608464	22.34642074	106	IND	India					
+360	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	113.9174	-0.994582204	104	IDN	Indonesia	0	Float			G
+364	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	54.19766348	32.74370885	109	IRN	Iran (Islamic Republic of)					
+368	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	43.76606267	33.05013795	110	IRQ	Iraq					
+372	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-7.121425272	53.25274054	108	IRL	Ireland					
+376	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	34.62277992	31.06164552	112	ISR	Israel					
+380	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	12.57022427	42.79917282	113	ITA	Italy					
+384	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-5.552690016	7.62211586	46	CIV	Côte d'Ivoire					
+388	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-77.31068409	18.15616857	114	JAM	Jamaica					
+392	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	139.2716103	36.6554539	117	JPN	Japan	1	Float			G
+398	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	66.65359159	48.01963494	118	KAZ	Kazakhstan					
+400	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	37.13024774	30.65365973	116	JOR	Jordan					
+404	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	37.86096816	0.534797278	119	KEN	Kenya	1	Float			G
+408	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	127.1803633	40.1462645	183	PRK	Democratic People's Republic of Korea					
+410	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	127.8610254	36.45201023	124	KOR	Republic of Korea	1	Float			G
+414	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	47.49305029	29.53949468	125	KWT	Kuwait					
+417	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	74.52324839	41.46204516	120	KGZ	Kyrgyzstan					
+418	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	101.9901968	20.27482773	126	LAO	Lao People's Democratic Republic	1	Float			G
+422	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	35.89391711	33.92152458	127	LBN	Lebanon					
+426	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	28.25362195	-29.58041814	133	LSO	Lesotho					
+428	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	26.42461876	56.64196636	136	LVA	Latvia	1	Float			G
+430	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-9.311879038	6.448381009	128	LBR	Liberia					
+434	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	18.0295985	27.04042819	129	LBY	Libya					
+438	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	9.552985019	47.14167005	131	LIE	Liechtenstein	1	Float			G
+440	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	23.90517807	55.33680309	134	LTU	Lithuania	1	Float			G
+442	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	6.092656563	49.77679538	135	LUX	Luxembourg					
+446	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	113.5665388	22.1237259	137	MAC	China, Macao Special Administrative Region					
+450	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	46.6982339	-19.38514785	142	MDG	Madagascar					
+454	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	33.4884625	-13.40819859	158	MWI	Malawi					
+458	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	116.8346314	5.452415309	159	MYS	Malaysia					
+462	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	73.09672546	-0.614385021	143	MDV	Maldives	0	Float			G
+466	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-3.522016039	17.35311254	147	MLI	Mali					
+470	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	14.44617519	35.89194275	148	MLT	Malta					
+474	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-60.91544135	14.56086108	156	MTQ	Martinique					
+478	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-10.33187259	20.26089546	154	MRT	Mauritania					
+480	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	57.568022	-20.28581998	157	MUS	Mauritius					
+484	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-102.5148166	23.93378032	144	MEX	Mexico					
+492	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	7.424214814	43.73532918	140	MCO	Monaco					
+496	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	103.0728057	46.83892054	151	MNG	Mongolia					
+498	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	28.4650624	47.20236795	141	MDA	Republic of Moldova					
+499	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	19.25214024	42.78717043	150	MNE	Montenegro					
+500	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-62.19261223	16.73558313	155	MSR	Montserrat					
+504	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-6.281942841	31.8440131	139	MAR	Morocco					
+508	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	38.18479941	-14.27963886	153	MOZ	Mozambique					
+512	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	57.87743482	21.98805614	173	OMN	Oman					
+516	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	17.21907885	-22.13817068	161	NAM	Namibia					
+520	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	166.92313	-0.528742623	171	NRU	Nauru					
+524	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	83.94678863	28.25866332	170	NPL	Nepal					
+528	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	5.331480568	51.86728884	168	NLD	Netherlands					
+530	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-68.30676179	12.22720635	8	ANT	Netherlands Antilles					
+531	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-68.95033464	12.15058042	56	CUW	Curaçao					
+533	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-69.97050586	12.50878756	1	ABW	Aruba					
+534	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-63.06198692	18.03926508	218	SXM	Sint Maarten (Dutch part)					
+540	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	165.5067368	-21.41742531	162	NCL	New Caledonia					
+548	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	167.0679779	-15.34445547	257	VUT	Vanuatu					
+554	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	170.4755673	-43.98721568	172	NZL	New Zealand					
+558	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-85.03060315	12.84210839	166	NIC	Nicaragua					
+562	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	9.400167877	17.42143036	163	NER	Niger					
+566	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	8.097363256	9.585789025	165	NGA	Nigeria					
+570	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-169.8601693	-19.05000475	167	NIU	Niue					
+574	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	167.9515548	-29.03230018	164	NFK	Norfolk Island					
+578	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	11.47846389	61.34311134	169	NOR	Norway	1	Float			G
+580	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	145.7582114	15.19099517	152	MNP	Northern Mariana Islands					
+581	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-162.4343752	5.874443968	245	UMI	US Minor Outlying Islands					
+583	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	158.225216	6.880670092	79	FSM	Micronesia, Federated States of					
+584	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	171.0839119	7.110213497	145	MHL	Marshall Islands					
+585	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	134.5733878	7.502307591	179	PLW	Palau					
+586	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	68.80479684	29.36491634	174	PAK	Pakistan					
+591	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-81.26616623	8.450965746	175	PAN	Panama					
+598	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	145.8587761	-6.756057077	180	PNG	Papua New Guinea					
+600	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-60.54854225	-21.70216237	187	PRY	Paraguay					
+604	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-71.82093277	-13.58939705	177	PER	Peru					
+608	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	120.8601418	14.16591706	178	PHL	Philippines					
+612	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-128.3225873	-24.37538456	176	PCN	Pitcairn					
+616	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	19.40660158	52.1226733	181	POL	Poland	0	Float			G
+620	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-7.961599811	39.68509315	186	PRT	Portugal	1	Float			G
+624	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-14.40182514	12.11760394	89	GNB	Guinea-Bissau					
+626	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	125.9451052	-8.797497247	228	TLS	Timor-Leste					
+630	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-66.47591017	18.22753799	182	PRI	Puerto Rico	0	Float			G
+634	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	51.19152467	25.28355379	192	QAT	Qatar					
+638	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	55.53171398	-21.13183266	193	REU	Réunion					
+642	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	24.98481009	45.83893563	194	ROU	Romania					
+643	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	99.01404926	61.61899849	195	RUS	Russian Federation					
+646	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	29.92310194	-1.999842114	196	RWA	Rwanda					
+652	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-62.83173536	17.89513362	29	BLM	Saint Barthélemy					
+654	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-5.705752501	-15.96503946	202	SHN	Saint Helena					
+659	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-62.76628613	17.33994219	123	KNA	Saint Kitts and Nevis					
+660	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-63.05651612	18.21525315	4	AIA	Anguilla					
+662	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-60.96529553	13.89405601	130	LCA	Saint Lucia					
+663	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-63.04505461	18.0882685	138	MAF	Saint Martin (French Part)					
+666	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-56.33682442	46.85812735	209	SPM	Saint Pierre and Miquelon					
+670	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.19024321	13.24627968	251	VCT	Saint Vincent and the Grenadines					
+674	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	12.46329038	43.93841766	207	SMR	San Marino					
+678	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	6.609772265	0.241554875	212	STP	Sao Tome and Principe					
+682	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	44.54763347	24.12594211	197	SAU	Saudi Arabia					
+686	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-14.46636926	14.35920905	199	SEN	Senegal					
+688	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	20.805876	44.03145697	210	SRB	Serbia					
+690	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	55.46561591	-4.678053059	219	SYC	Seychelles					
+694	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-11.78306584	8.568604164	205	SLE	Sierra Leone					
+702	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	103.8107883	1.361009155	200	SGP	Singapore					
+703	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	19.48495604	48.70741446	214	SVK	Slovakia					
+704	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	105.802499	10.09643079	256	VNM	Viet Nam					
+705	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	14.82209486	46.11958061	215	SVN	Slovenia					
+706	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	46.20367477	4.406485729	208	SOM	Somalia					
+710	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	24.67184355	-29.99957544	283	ZAF	South Africa					
+716	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	29.86909584	-19.00075492	285	ZWE	Zimbabwe					
+724	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-3.554078296	40.39211472	71	ESP	Spain	0	Float			G
+728	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	30.32618773	7.290839152	211	SSD	South Sudan					
+732	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-13.13515523	24.66265342	70	ESH	Western Sahara					
+736	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	29.95650159	16.02643066	198	SDN	Sudan					
+740	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-55.90626394	4.132603197	213	SUR	Suriname					
+744	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	13.38071013	78.82894131	203	SJM	Svalbard and Jan Mayen Islands					
+748	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	31.50149288	-26.56471011	217	SWZ	Swaziland					
+752	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	14.3775338	60.60103109	216	SWE	Sweden	1	Float			G
+756	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	8.223158	46.96617097	43	CHE	Switzerland	1	Float			G
+760	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	38.50466565	35.01676176	220	SYR	Syrian Arab Republic (Syria)					
+762	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	69.294998	38.43069666	225	TJK	Tajikistan					
+764	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	101.0202951	15.13089239	224	THA	Thailand					
+768	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	0.97835765	8.532096072	223	TGO	Togo					
+772	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-171.8154473	-9.214545558	226	TKL	Tokelau					
+776	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-175.1959991	-21.19511329	229	TON	Tonga					
+780	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-61.29389504	10.41877263	230	TTO	Trinidad and Tobago					
+784	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	53.98279159	23.43322219	9	ARE	United Arab Emirates					
+788	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	9.572737411	34.11439971	231	TUN	Tunisia					
+792	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	35.42890329	38.9899684	232	TUR	Turkey	0	Float			G
+795	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	58.9787665	40.0912346	227	TKM	Turkmenistan					
+796	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-71.745121	21.80780585	221	TCA	Turks and Caicos Islands					
+798	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	178.6679611	-7.460048071	233	TUV	Tuvalu					
+800	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	32.39100438	1.279557331	236	UGA	Uganda					
+804	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	31.40270802	49.00735945	237	UKR	Ukraine					
+807	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	21.7007909	41.60048068	146	MKD	Macedonia, Republic of					
+818	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	29.77468534	26.57438204	68	EGY	Egypt					
+826	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-2.23830539	53.27691757	81	GBR	United Kingdom					
+831	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-2.200712402	49.71561166	83	GGY	Guernsey					
+832	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-2.136773508	49.22353354	115	JEY	Jersey					
+833	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-4.538190305	54.22880901	105	IMN	Isle of Man					
+834	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	34.80521182	-6.265332606	235	TZA	Tanzania, United Republic of	1	Float			G
+840	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-99.13830311	39.5277871	248	USA	United States of America	1	Float			G
+850	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-64.76960113	17.73297693	255	VIR	United States Virgin Islands					
+854	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-1.742843829	12.27491081	23	BFA	Burkina Faso					
+858	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-56.01387025	-32.8002838	247	URY	Uruguay					
+860	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	63.11944558	41.77560518	249	UZB	Uzbekistan					
+862	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-66.15642084	7.121324748	253	VEN	Venezuela (Bolivarian Republic)					
+876	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-176.2034788	-13.28471201	258	WLF	Wallis and Futuna Islands					
+882	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	-172.4430749	-13.61541469	259	WSM	Samoa					
+887	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	45.22389143	15.22242099	282	YEM	Yemen					
+894	2016	ANNUAL	NUMBER	1	2017.Q2.G.01	SG_STT_NSDSFND	Number of countries with national statistical plans that are fully funded	27.850329	-14.59701056	284	ZMB	Zambia					

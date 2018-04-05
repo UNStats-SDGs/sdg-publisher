@@ -332,15 +332,10 @@ def find_online_item(title):
 def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
-        # Get the csv file from the GitHub Repo (First version will be pivot only)
-        data_dir = r"/Users/trav5516/Box Sync/Projects/UNSD - HUB Pilot/Technical/Data/Dataset-pivot"
-        csv_url = metadata_url + '/master/csv/' + series["code"] + '_cube.pivot.csv'
-        csv_response = requests.get(csv_url)
-        series_title = series["code"] + "_" + indicator["code"].replace(".", "") + "_" + series["release"].replace('.','')
-        with open(os.path.join(data_dir, series_title + ".csv"), 'wb') as f:
-            f.write(csv_response.content)
+        data_dir = r"FIS4SDGs/csv/"
+        series_title = series["code"] + "_" + series["release"].replace('.', '')
 
-        file = os.path.join(data_dir, series_title + ".csv")
+        file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
             csv_item_properties["title"] = series_title
@@ -459,9 +454,9 @@ def create_group(group_info):
             return group
     except:
         traceback.print_exc()
-
-
-# cleanup_site()
+        
+# This will delete everything. Use with caution, with a wise and clear head!!!!
+#cleanup_site()
 process_sdg_information()
 # reassign_to_admin()
 print(failed_series)
