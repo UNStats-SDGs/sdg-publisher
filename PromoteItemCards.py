@@ -26,7 +26,7 @@ from IPython.display import display
 from arcgis.gis import GIS
 
 # set up the global information and variables
-def main():
+def main()
     # ### Create a connection to your ArcGIS Online Organization
     # This will rely on using the ArcGIS API for python to connect to your ArcGIS Online Organization to publish and
     # manage data.  For more information about this python library visit the developer
@@ -54,20 +54,34 @@ def main():
 
     print(failed_series)
 
-    # ### Get the JSON Data from the UN SDG Metadata API
-    # The SDG Metadata API is designed to  retrieve information and metadata on the
-    # [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
-    # The Inter-agency Expert Group on SDG Indicators released a series of PDFs that includes metadata for each Indicator.
-    # Those PDFs can be downloaded [here](http://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/).
-    # The metadata API is an Open Source project maintained by the UN Statisitics division and be be accessed on
-    # [github](https://github.com/UNStats-SDGs/sdg-metadata-api)
-    url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
-    req = request.Request(url)
-    response = urlopen.urlopen(req)
-    response_bytes = response.read()
-    json_data = json.loads(response_bytes.decode("UTF-8"))
 
-    return
+# ### Get the JSON Data from the UN SDG Metadata API
+# The SDG Metadata API is designed to  retrieve information and metadata on the
+# [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
+# The Inter-agency Expert Group on SDG Indicators released a series of PDFs that includes metadata for each Indicator.
+# Those PDFs can be downloaded [here](http://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/).
+# The metadata API is an Open Source project maintained by the UN Statisitics division and be be accessed on
+# [github](https://github.com/UNStats-SDGs/sdg-metadata-api)
+
+url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
+req = request.Request(url)
+response = urlopen.urlopen(req)
+response_bytes = response.read()
+json_data = json.loads(response_bytes.decode("UTF-8"))
+
+
+# Make sure the data is assigned to the admin user
+def reassign_to_admin():
+    user = gis_online_connection.users.get(online_username)
+    admin_user = gis_online_connection.users.get('unstats_admin')
+    if admin_user is None:
+        return
+
+    user_items = user.items(folder='Open Data', max_items=800)
+    for item in user_items:
+        print('reassigning item ' + item.title + ' to admin user')
+        item.reassign_to(admin_user.username, 'Open Data')
+
 
 def cleanup_site():
     user = gis_online_connection.users.get(online_username)
@@ -77,6 +91,7 @@ def cleanup_site():
         item.delete()
 
     return
+
 
 def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, series_code=None):
     try:
@@ -113,6 +128,7 @@ def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, s
 # process_sdg_information(goal_code='1',indicator_code='1.1',target_code='1.1.1',series_code='SI_POV_DAY1')
 # ##### property_update_only (default False):  If True this will only update the metadata in the item card and will not process the actual data sources
 # process_sdg_information(goal_code='1',indicator_code='1.1',target_code='1.1.1',series_code='SI_POV_DAY1',property_update_only=True)
+
 
 def process_sdg_information(goal_code=None, indicator_code=None, target_code=None, series_code=None,
                             property_update_only=False):
@@ -239,23 +255,34 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
         traceback.print_exc()
 
 
-# ### Find the Online Item
-def find_online_item(title):
-    try:
-        # Search for this ArcGIS Online Item
-        query_string = "title:'{}' AND owner:{}".format(title, online_username)
-        print('Searching for ' + title)
-        search_results = gis_online_connection.content.search(query_string)
+def set_field_alias(field_name):
+    if field_name == "series_release":
+        return "Series Release"
+    if field_name == "series_code":
+        return "Series Code"
+    if field_name == "series_description":
+        return "Series Description"
+    if field_name == "geoAreaCode":
+        return "Geographic Area Code"
+    if field_name == "geoAreaName":
+        return "Geographic Area Name"
+    if field_name == "Freq":
+        return "Frequency"
+    if field_name == "latest_year":
+        return "Latest Year"
+    if field_name == "latest_value":
+        return "Latest Value"
+    if field_name == "latest_source":
+        return "Latest Source"
+    if field_name == "latest_nature":
+        return "Latest Nature"
+    if field_name == "last_5_years_mean":
+        return "Mean of the Last 5 Years"
+    if field_name == "ISO3CD":
+        return "ISO3 Code"
+    else:
+        return field_name.capitalize().replace("_", " ")
 
-        if search_results:
-            for search_result in search_results:
-                if search_result["title"] == title:
-                    return search_result
-
-        return None
-    except:
-        print("Unexpected error:", sys.exc_info()[0])
-        return None
 
 # ### Analyze the CSV file
 # Using the ArcGIS REST API `analyze` endpoint, we can prepare the CSV file we are going to use before publishing it to
@@ -288,6 +315,25 @@ def analyze_csv(item_id):
         return None
 
 
+# ### Find the Online Item
+def find_online_item(title):
+    try:
+        # Search for this ArcGIS Online Item
+        query_string = "title:'{}' AND owner:{}".format(title, online_username)
+        print('Searching for ' + title)
+        search_results = gis_online_connection.content.search(query_string)
+
+        if search_results:
+            for search_result in search_results:
+                if search_result["title"] == title:
+                    return search_result
+
+        return None
+    except:
+        print("Unexpected error:", sys.exc_info()[0])
+        return None
+
+
 # ### Publish the CSV file
 # This function is where the majority of the work will happen. Here is a basic outline of the steps we will take:
 # - Begin by asking for the path to the CSV file itself
@@ -297,7 +343,8 @@ def analyze_csv(item_id):
 def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
-        series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + online_username + "_" + series["release"].replace('.', '')
+        series_title = series["code"] + "_" + series["release"].replace('.', '')
+
         file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
@@ -318,12 +365,11 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
                 print('Analyze Feature Service....')
                 publish_parameters = analyze_csv(csv_item["id"])
                 if publish_parameters is None:
+                    failed_series.append(series["code"])
                     return None
                 else:
                     publish_parameters["name"] = csv_item_properties["title"]
                     publish_parameters["layerInfo"]["name"] = csv_item_properties["snippet"]
-                    # TODO:  Update the layer infomation with a basic rendering based on the Latest Value
-                    # use the hex color from the SDG Metadata for the symbol color
 
                     print('Publishing Feature Service....')
                     csv_lyr = csv_item.publish(publish_parameters=publish_parameters, overwrite=True)
@@ -332,6 +378,8 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
                 csv_item.update(item_properties=csv_item_properties, thumbnail=thumbnail, data=file)
                 # Find the Feature Service and update the properties
                 csv_lyr = find_online_item(item_properties["title"])
+                if csv_lyr is None:
+                    return None
 
             # Move to the Open Data Folder
             if csv_item["ownerFolder"] is None:
@@ -367,39 +415,9 @@ def get_metadata():
         return None
 
 
-#Translate the names found in the Service Information for the alias fields
-def set_field_alias(field_name):
-    if field_name == "series_release":
-        return "Series Release"
-    if field_name == "series_code":
-        return "Series Code"
-    if field_name == "series_description":
-        return "Series Description"
-    if field_name == "geoAreaCode":
-        return "Geographic Area Code"
-    if field_name == "geoAreaName":
-        return "Geographic Area Name"
-    if field_name == "Freq":
-        return "Frequency"
-    if field_name == "latest_year":
-        return "Latest Year"
-    if field_name == "latest_value":
-        return "Latest Value"
-    if field_name == "latest_source":
-        return "Latest Source"
-    if field_name == "latest_nature":
-        return "Latest Nature"
-    if field_name == "last_5_years_mean":
-        return "Mean of the Last 5 Years"
-    if field_name == "ISO3CD":
-        return "ISO3 Code"
-    else:
-        return field_name.capitalize().replace("_", " ")
-
-
 # ### Create a Group for each SDG Goal
-# You can create a Group within your ArcGIS Online Organization for each SDG. As you publish Items, you can share them to the relevant Group(s). 
-# This function will create the Group, query the SDG Metadata API to return the Title, Summary, Description, Tags, and Thumbnail for that particular SDG.
+# You can create a Group within your ArcGIS Online Organization for each SDG. As you publish Items, you can share them to the relevant Group(s). This function will create the Group, query the SDG Metadata API to return the Title, Summary, Description, Tags, and Thumbnail for that particular SDG.
+
 def create_group(group_info):
     try:
         # Add the Service Definition to the Enterprise site
