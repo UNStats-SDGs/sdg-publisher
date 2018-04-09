@@ -25,8 +25,16 @@ import requests
 from IPython.display import display
 from arcgis.gis import GIS
 
-# set up the global information and variables
+# Initialize the application and set the global variables
 def main():
+    # set up the global information and variables
+    global data_dir
+    global metadata_dir
+    global open_data_group
+    global failed_series
+    global online_username
+    global gis_online_connection
+
     # ### Create a connection to your ArcGIS Online Organization
     # This will rely on using the ArcGIS API for python to connect to your ArcGIS Online Organization to publish and
     # manage data.  For more information about this python library visit the developer
@@ -36,37 +44,23 @@ def main():
     online_connection = "https://www.arcgis.com"
     gis_online_connection = GIS(online_connection, online_username, online_password)
 
-    # metadata_url:  This is the metadata for the API will provide the tags, icons and color information
-    # Get information from the local branch
-    data_dir = r"FIS4SDGs/csv/"
-    metadata_dir = r"FIS4SDGs/"
-
-    # open_data_group_id:  Provide the Group ID from ArcGIS Online the Data will be shared with
-    open_data_group_id = '15c1671f5fbc4a00b1a359d51ea6a546'
+    # open_data group_id:  Provide the Group ID from ArcGIS Online the Data will be shared with
+    # This should be a staging group to ge the data ready for publishing
+    open_data_group_id = '967dbf64d680450eaf424ac4a38799ad'
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
-    failed_series = []
 
+    # Get information from the local branch
+    data_dir = r"FIS4SDG/csv/"
+    metadata_dir = r"FIS4SDG"
+    
     # This will delete everything. Use with caution, with a wise and clear head!!!!
-    cleanup_site()
+    #cleanup_site()
 
     #run the primary function to update and publish the SDG infomation to a user content area
+    failed_series = []
     process_sdg_information()
 
     print(failed_series)
-
-    # ### Get the JSON Data from the UN SDG Metadata API
-    # The SDG Metadata API is designed to  retrieve information and metadata on the
-    # [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
-    # The Inter-agency Expert Group on SDG Indicators released a series of PDFs that includes metadata for each Indicator.
-    # Those PDFs can be downloaded [here](http://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/).
-    # The metadata API is an Open Source project maintained by the UN Statisitics division and be be accessed on
-    # [github](https://github.com/UNStats-SDGs/sdg-metadata-api)
-    url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
-    req = request.Request(url)
-    response = urlopen.urlopen(req)
-    response_bytes = response.read()
-    json_data = json.loads(response_bytes.decode("UTF-8"))
-
     return
 
 def cleanup_site():
@@ -118,7 +112,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                             property_update_only=False):
     try:
         sdg_metadata = get_metadata()
-        for goal in json_data:
+        for goal in get_goal_information():
             # Determine if we are processing this query Only process a specific series code
             if goal_code is not None and int(goal["code"]) != goal_code:
                 continue
@@ -188,11 +182,10 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 
                         # Build the metadata properties for the item card
                         item_properties = dict()
-                        item_properties["title"] = process_indicator["name"] + " (" + series["code"] + "): " + series[
-                            "description"]
+                        item_properties["title"] = process_indicator["name"] + ": " + series["description"]
                         if not series["description"]:
                             series["description"] = series["code"]
-                        snippet = series["code"] + ": " + series["description"]
+                        snippet = item_properties["title"] #series["code"] + ": " + series["description"]
                         item_properties["snippet"] = (snippet[:250] + "..") if len(snippet) > 250 else snippet
                         item_properties["description"] = "<p><strong>Series " + series["code"] + ": </strong>" + series[
                             "description"] + "</p>" + process_indicator["description"] + \
@@ -223,7 +216,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                             if online_item is not None:
                                 display(online_item)
                                 # Share this content with the open data group
-                                online_item.share(everyone=True, org=True, groups=open_data_group["id"],
+                                online_item.share(everyone=False, org=True, groups=open_data_group["id"],
                                                   allow_members_to_edit=False)
                                 # Update the Group Information with Data from the Indicator and targets
                                 open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
@@ -237,6 +230,22 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 
     except:
         traceback.print_exc()
+
+# ### Get the JSON Data from the UN SDG Metadata API
+# The SDG Metadata API is designed to  retrieve information and metadata on the
+# [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
+# The Inter-agency Expert Group on SDG Indicators released a series of PDFs that includes metadata for each Indicator.
+# Those PDFs can be downloaded [here](http://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/).
+# The metadata API is an Open Source project maintained by the UN Statisitics division and be be accessed on
+# [github](https://github.com/UNStats-SDGs/sdg-metadata-api)
+
+def get_goal_information():
+    url = "https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true"
+    req = request.Request(url)
+    response = urlopen.urlopen(req)
+    response_bytes = response.read()
+    json_data = json.loads(response_bytes.decode("UTF-8"))
+    return json_data
 
 
 # ### Find the Online Item
@@ -266,8 +275,8 @@ def find_online_item(title):
 
 def analyze_csv(item_id):
     try:
-        sharing_url = gis_online_connection.content.gis.url + "/sharing/rest/content/features/analyze"
-        analyze_params = {'f': 'json', 'token': gis_online_connection.con.token,
+        sharing_url = gis_online_connection._url + "/sharing/rest/content/features/analyze"
+        analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
                           'sourceLocale': 'en-us',
                           'filetype': 'csv', 'itemid': item_id}
         r = requests.post(sharing_url, data=analyze_params)
@@ -361,9 +370,10 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
 
 def get_metadata():
     try:
-        metadata_json_data = json.loads(metadata_dir + "/metadataAPI.json")
+        metadata_json_data = json.load(open(metadata_dir + "/metadataAPI.json"))
         return metadata_json_data
     except:
+        print("Unexpected error:", sys.exc_info()[0])
         return None
 
 
