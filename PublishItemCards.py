@@ -53,11 +53,12 @@ def main():
     data_dir = r"FIS4SDG/csv/"
     metadata_dir = r"FIS4SDG"
     
-    # This will delete everything. Use with caution, with a wise and clear head!!!!
-    #cleanup_site()
+    # This will delete everything in your staging folder for Open Data. Use with caution, with a wise and clear head!!!!
+    cleanup_site()
 
     #run the primary function to update and publish the SDG infomation to a user content area
     failed_series = []
+    #process_sdg_information(goal_code=1, target_code='1.1', indicator_code='1.1.1')
     process_sdg_information()
 
     print(failed_series)
@@ -143,7 +144,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
             # Iterate through each of the targets
             for target in goal["targets"]:
                 # Determine if we are processing this query Only process a specific target code
-                if target_code is not None and int(target["code"]) != target_code:
+                if target_code is not None and target["code"] != target_code:
                     continue
 
                 group_target_properties = dict()
@@ -306,10 +307,17 @@ def analyze_csv(item_id):
 def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
-        series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + online_username + "_" + series["release"].replace('.', '')
+        # check if service name is available if not update the link
+        series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + series["release"].replace('.', '')
+        series_num = 1
+        while not gis_online_connection.content.is_service_name_available(service_name= series_title, service_type = 'featureService'):
+            series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + series["release"].replace('.', '') + "_" + str(series_num)
+            series_num += 1
+
         file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
+            csv_item_properties["name"] = series_title
             csv_item_properties["title"] = series_title
             csv_item_properties["type"] = "CSV"
             csv_item_properties["url"] = ""
