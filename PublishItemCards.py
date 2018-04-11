@@ -58,19 +58,19 @@ def main():
 
     #run the primary function to update and publish the SDG infomation to a user content area
     failed_series = []
-    #process_sdg_information(goal_code=1, target_code='1.1', indicator_code='1.1.1')
-    process_sdg_information()
+    process_sdg_information(goal_code=[1], target_code='1.1', indicator_code='1.1.1')
+    #rocess_sdg_information([1])
 
     print(failed_series)
     return
 
+#This will only clean out data in your Open Data Site
 def cleanup_site():
     user = gis_online_connection.users.get(online_username)
     user_items = user.items(folder='Open Data', max_items=800)
     for item in user_items:
         print('deleting item ' + item.title)
         item.delete()
-
     return
 
 def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, series_code=None):
@@ -115,7 +115,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
         sdg_metadata = get_metadata()
         for goal in get_goal_information():
             # Determine if we are processing this query Only process a specific series code
-            if goal_code is not None and int(goal["code"]) != goal_code:
+            if goal_code is not None and int(goal["code"]) not in goal_code:
                 continue
 
             # Get the Thumbnail from the SDG API
@@ -149,7 +149,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 
                 group_target_properties = dict()
                 group_target_properties["tags"] = ["Target " + target["code"]]
-                open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
+                #open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
 
                 # Iterate through each of the indicators
                 for indicator in target["indicators"]:
@@ -162,15 +162,14 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                     process_indicator["tags"] = [process_indicator["name"]]
 
                     # Append the keyword tags from the metadata as well
-                    open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
+                    #open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
 
                     process_indicator["snippet"] = indicator["code"] + ": " + indicator["description"]
                     process_indicator["description"] = "<p><strong>Indicator " + indicator["code"] + ": </strong>" + \
-                                                       indicator[
-                                                           "description"] + "</p>" + "</p><p><strong>Target " + target[
-                                                           "code"] + ": </strong>" + target[
-                                                           "description"] + "</p>" + "<p>" + goal[
-                                                           "description"] + "</p>"
+                        indicator["description"] + "</p>" + "</p><p><strong>Target " + \
+                        target["code"] + ": </strong>" + \
+                        target["description"] + "</p>" + "<p>" + \
+                        goal["description"] + "</p>"
 
                     process_indicator["credits"] = "UNSD"
                     process_indicator["thumbnail"] = thumbnail
@@ -191,6 +190,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                         item_properties["description"] = "<p><strong>Series " + series["code"] + ": </strong>" + series[
                             "description"] + "</p>" + process_indicator["description"] + \
                                                          "<p><strong>Release Version</strong>: " + series["release"]
+                        item_properties["color"] = goal_metadata["colorInfo"]["hex"]
                         final_tags = group_goal_properties["tags"] + group_target_properties["tags"] + \
                                      process_indicator["tags"]
                         final_tags.extend(get_series_tags(goal_metadata=goal_metadata, indicator_code=indicator["code"],
@@ -220,7 +220,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                 online_item.share(everyone=False, org=True, groups=open_data_group["id"],
                                                   allow_members_to_edit=False)
                                 # Update the Group Information with Data from the Indicator and targets
-                                open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
+                                #open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
                             else:
                                 failed_series.append(series["code"])
                         except:
@@ -298,6 +298,19 @@ def analyze_csv(item_id):
         return None
 
 
+def get_renderer_infomation(feature_item, statistic_field="latest_value", color=None):
+    #get the min/max for this items
+    renderer_definition = {"type":"classBreaksDef","classificationField":statistic_field,
+                        "classificationMethod":"esriClassifyNaturalBreaks","breakCount":5}
+    renderer = feature_item.layers[0].generate_renderer(definition=renderer_definition, where=None)
+    size = 10
+    for classBreak in renderer["classBreakInfos"]:
+        classBreak["symbol"] = {"type": "esriSMS","style": "esriSMSCircle","size": size,"color": color}
+        size += 2
+    
+
+    return renderer
+
 # ### Publish the CSV file
 # This function is where the majority of the work will happen. Here is a basic outline of the steps we will take:
 # - Begin by asking for the path to the CSV file itself
@@ -339,11 +352,13 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
                 else:
                     publish_parameters["name"] = csv_item_properties["title"]
                     publish_parameters["layerInfo"]["name"] = csv_item_properties["snippet"]
-                    # TODO:  Update the layer infomation with a basic rendering based on the Latest Value
-                    # use the hex color from the SDG Metadata for the symbol color
-
                     print('Publishing Feature Service....')
                     csv_lyr = csv_item.publish(publish_parameters=publish_parameters, overwrite=True)
+
+                    # Update the layer infomation with a basic rendering based on the Latest Value
+                    # use the hex color from the SDG Metadata for the symbol color
+                    #rendering_information = get_renderer_infomation(csv_lyr,statistic_field="latest_value", color=item_properties["color"])
+                    #csv_lyr.layers[0].properties.drawingInfo.renderer = rendering_information
             else:
                 # Update the Data file for the CSV File
                 csv_item.update(item_properties=csv_item_properties, thumbnail=thumbnail, data=file)
@@ -375,7 +390,6 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
 
 # ### Collect SDG Metadata
 # For each new Item published, we can use the SDG Metadata API to return all the metadata associated with that layer
-
 def get_metadata():
     try:
         metadata_json_data = json.load(open(metadata_dir + "/metadataAPI.json"))
@@ -413,7 +427,6 @@ def set_field_alias(field_name):
         return "ISO3 Code"
     else:
         return field_name.capitalize().replace("_", " ")
-
 
 # ### Create a Group for each SDG Goal
 # You can create a Group within your ArcGIS Online Organization for each SDG. As you publish Items, you can share them to the relevant Group(s). 
