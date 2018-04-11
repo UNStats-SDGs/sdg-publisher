@@ -149,7 +149,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 
                 group_target_properties = dict()
                 group_target_properties["tags"] = ["Target " + target["code"]]
-                open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
+                #open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
 
                 # Iterate through each of the indicators
                 for indicator in target["indicators"]:
@@ -162,7 +162,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                     process_indicator["tags"] = [process_indicator["name"]]
 
                     # Append the keyword tags from the metadata as well
-                    open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
+                    #open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
 
                     process_indicator["snippet"] = indicator["code"] + ": " + indicator["description"]
                     process_indicator["description"] = "<p><strong>Indicator " + indicator["code"] + ": </strong>" + \
@@ -220,7 +220,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                 online_item.share(everyone=False, org=True, groups=open_data_group["id"],
                                                   allow_members_to_edit=False)
                                 # Update the Group Information with Data from the Indicator and targets
-                                open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
+                                #open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
                             else:
                                 failed_series.append(series["code"])
                         except:
