@@ -8,9 +8,7 @@
 	  "description": "",
 	  "copyrightText": "",
 	  "defaultVisibility": true,
-	  "relationships": [
-		
-	  ],
+	  "relationships": [],
 	  "isDataVersioned": false,
 	  "supportsCalculate": true,
 	  "supportsTruncate": false,
@@ -48,16 +46,16 @@
 			  "valueUnit": "unknown",
 			  "minSize": 6,
 			  "maxSize": 37.5,
-			  "minDataValue": 0.51504,
-			  "maxDataValue": 7.4918925
+			  "minDataValue": 0,
+			  "maxDataValue": 1
 			}
 		  ],
 		  "authoringInfo": {
 			"visualVariables": [
 			  {
 				"type": "sizeInfo",
-				"minSliderValue": 0.51504,
-				"maxSliderValue": 7.4918925
+				"minSliderValue": 0,
+				"maxSliderValue": 1
 			  }
 			]
 		  },
@@ -83,7 +81,7 @@
 				153,
 				255
 			  ],
-			  "width": 0.75,
+			  "width": 0.25,
 			  "type": "esriSLS",
 			  "style": "esriSLSSolid"
 			}
@@ -111,7 +109,7 @@
 					255,
 					255
 				  ],
-				  "width": 0.75,
+				  "width": 0.25,
 				  "type": "esriSLS",
 				  "style": "esriSLSSolid"
 				}
