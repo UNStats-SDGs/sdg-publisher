@@ -227,6 +227,13 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                     # Share this content with the open data group
                                     online_item.share(everyone=False, org=True, groups=open_data_group["id"],
                                                     allow_members_to_edit=False)
+                                display(online_item)
+                                # Share this content with the open data group
+                                online_item.share(everyone=False, org=True, groups=open_data_group["id"],
+                                                  allow_members_to_edit=False)
+                                
+                                # Update the Group Information with Data from the Indicator and targets
+                                #open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
                             else:
                                 failed_series.append(series["code"])
                         except:
