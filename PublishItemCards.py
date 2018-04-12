@@ -35,6 +35,7 @@ def main():
     global online_username
     global gis_online_connection
     global layer_json_data
+    global user_items
 
     # ### Create a connection to your ArcGIS Online Organization
     # This will rely on using the ArcGIS API for python to connect to your ArcGIS Online Organization to publish and
@@ -54,10 +55,14 @@ def main():
     data_dir = r"FIS4SDG/csv/"
     metadata_dir = r"FIS4SDG"
     
+    # for search and updates access may be needed for the users items
+    user = gis_online_connection.users.get(online_username)
+    user_items = user.items(folder='Open Data', max_items=800)
+
     #run the primary function to update and publish the SDG infomation to a user content area
     failed_series = []
-    process_sdg_information(goal_code=[1],target_code="1.1",indicator_code="1.1.1",series_code="SI_POV_DAY1", property_update_only=True, update_symbology=True, run_cleanup=False, update_sharing=False)
-    #rocess_sdg_information([1])
+    #process_sdg_information(goal_code=[1],target_code="1.1",indicator_code="1.1.1",series_code="SI_POV_DAY1", property_update_only=True, update_symbology=True, run_cleanup=False, update_sharing=False)
+    process_sdg_information(property_update_only=True, update_symbology=True,update_sharing=False)
 
     print(failed_series)
     return
@@ -65,7 +70,7 @@ def main():
 #This will only clean out data in your Open Data Site
 def cleanup_site():
     user = gis_online_connection.users.get(online_username)
-    user_items = user.items(folder='Open Data', max_items=800)
+    #user_items = user.items(folder='Open Data', max_items=800)
     for item in user_items:
         print('deleting item ' + item.title)
         item.delete()
@@ -85,6 +90,17 @@ def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, s
         traceback.print_exc()
         return []
 
+def update_item_categories(item,goal,target):
+    try:
+        update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
+        items = [{item["id"]:{"categories":["/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
+        update_params = {'f': 'json', 'token': gis_online_connection._con.token, 'items': json.dumps(items)}
+        r = requests.post(update_url, data=update_params)
+        update_json_data = json.loads(r.content.decode("UTF-8"))
+        print(update_json_data)
+    except:
+        traceback.print_exc()
+        return []
 
 # ## Process the SDG Information
 # ### process_sdg_information
@@ -214,12 +230,12 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                     online_item.update(item_properties=item_properties, thumbnail=thumbnail)
 
                                     # If Requested update the Symbology for the layer
-                                    #if(update_symbology):
-                                    #    get_renderer_infomation(feature_item=online_item,color=goal_metadata["colorInfo"]["rgb"])
+                                    if(update_symbology):
+                                        generate_renderer_infomation(feature_item=online_item,color=goal_metadata["colorInfo"]["rgb"])
                             else:
                                 online_item = publish_csv(indicator, series, item_properties=item_properties,
                                                           thumbnail=thumbnail,
-                                                          property_update_only=property_update_only)
+                                                          property_update_only=property_update_only, color=goal_metadata["colorInfo"]["rgb"])
 
                             #Only set the sharing when publishing
                             if online_item is not None:
@@ -227,12 +243,11 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                     # Share this content with the open data group
                                     online_item.share(everyone=False, org=True, groups=open_data_group["id"],
                                                     allow_members_to_edit=False)
+
                                 display(online_item)
-                                # Share this content with the open data group
-                                online_item.share(everyone=False, org=True, groups=open_data_group["id"],
-                                                  allow_members_to_edit=False)
-                                
                                 # Update the Group Information with Data from the Indicator and targets
+                                update_item_categories(online_item,goal["code"], target["code"])
+
                                 #open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
                             else:
                                 failed_series.append(series["code"])
@@ -288,7 +303,7 @@ def find_online_item(title, full_title=None, force_find=True):
         #If the Item was not found in the search but it should exist use Force Find to loop all the users items (this could take a bit)
         if force_find:
             user = gis_online_connection.users.get(online_username)
-            user_items = user.items(folder='Open Data', max_items=800)
+            #user_items = user.items(folder='Open Data', max_items=800)
             for item in user_items:
                 if item["title"] == full_title:
                     return item
@@ -329,32 +344,20 @@ def analyze_csv(item_id):
         return None
 
 
-def get_renderer_infomation(feature_item, statistic_field="latest_value", color=None):
+def generate_renderer_infomation(feature_item, statistic_field="latest_value", color=None):
     try:
         if len(color) == 3:
-            color.append(255)
+            color.append(130)
 
         layer_json_data = get_layer_template()
         #get the min/max for this item
         visual_params = layer_json_data["layerInfo"]
-
-        #size = 10
-        #for classBreak in renderer["classBreakInfos"]:
-         #   classBreak["symbol"] = {"type": "esriSMS","style": "esriSMSCircle","size": size,"color": color, "outline" : {"symbol": {"type": "esriSLS","style": "esriSLSSolid","color": ["#000000"],"width": 1}}}
-         #   size += 2
-
-        #Add a symbol for everything outside the class breaks
-        #renderer["defaultSymbol"] = {"type": "esriSMS","style": "esriSMSCircle","size": 6,"color": [16,0], "outline" : {"symbol": {"type": "esriSLS","style": "esriSLSSolid","color": [169,169,169,50],"width":0.5}}}
         definition_item = feature_item.layers[0]
 
         #get the min/max values
-        feature_set = definition_item.query(where='1=1',out_statistics= [{"statisticType": "max",
-                                                    "onStatisticField": "latest_value", 
-                                                    "outStatisticFieldName": "latest_value_max"
-                                                },
-                                                {"statisticType": "min",
-                                                    "onStatisticField": "latest_value", 
-                                                    "outStatisticFieldName": "latest_value_min"}])
+        out_statistics= [{"statisticType": "max","onStatisticField": "latest_value", "outStatisticFieldName": "latest_value_max"},
+                        {"statisticType": "min","onStatisticField": "latest_value", "outStatisticFieldName": "latest_value_min"}]
+        feature_set = definition_item.query(where='1=1',out_statistics=out_statistics)
 
         max_value = feature_set.features[0].attributes["latest_value_max"]
         min_value = feature_set.features[0].attributes["latest_value_min"]
@@ -363,7 +366,8 @@ def get_renderer_infomation(feature_item, statistic_field="latest_value", color=
 
         visual_params["drawingInfo"]["renderer"]["authoringInfo"]["visualVariables"][0]["minSliderValue"] = min_value
         visual_params["drawingInfo"]["renderer"]["authoringInfo"]["visualVariables"][0]["maxSliderValue"] = max_value
-        visual_params["drawingInfo"]["renderer"]["classBreakInfos"][0]["symbol"]["color"] = color.upper()
+        visual_params["drawingInfo"]["renderer"]["classBreakInfos"][0]["symbol"]["color"] = color
+        visual_params["drawingInfo"]["renderer"]["transparency"] = 25
 
         definition_update_params = definition_item.properties
         definition_update_params["drawingInfo"]["renderer"] = visual_params["drawingInfo"]["renderer"]
@@ -375,7 +379,7 @@ def get_renderer_infomation(feature_item, statistic_field="latest_value", color=
 
         return
     except:
-        print("Unexpected error:", sys.exc_info()[0])
+        print("Unexpected error in generate_renderer_infomation:", sys.exc_info()[0])
         return None
 
 # ### Publish the CSV file
@@ -384,7 +388,7 @@ def get_renderer_infomation(feature_item, statistic_field="latest_value", color=
 # - Check if the CSV file exists
 # - If exists, update and move to Open Data Folder under the owner content
 # - If it doesn't exist, publish as a new Item then move to the Open Data Group
-def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False):
+def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False, color=[169,169,169]):
     # Do we need to publish the hosted feature service for this layer
     try:
         # check if service name is available if not update the link
@@ -424,7 +428,7 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
 
                     # Update the layer infomation with a basic rendering based on the Latest Value
                     # use the hex color from the SDG Metadata for the symbol color
-                    #get_renderer_infomation(csv_lyr,statistic_field="latest_value", color=item_properties["color"])
+                    generate_renderer_infomation(csv_lyr,statistic_field="latest_value", color=color)
             else:
                 # Update the Data file for the CSV File
                 csv_item.update(item_properties=csv_item_properties, thumbnail=thumbnail, data=file)
