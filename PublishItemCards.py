@@ -214,8 +214,8 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                                     online_item.update(item_properties=item_properties, thumbnail=thumbnail)
 
                                     # If Requested update the Symbology for the layer
-                                    if(update_symbology):
-                                        get_renderer_infomation(feature_item=online_item,color=goal_metadata["colorInfo"]["rgb"])
+                                    #if(update_symbology):
+                                    #    get_renderer_infomation(feature_item=online_item,color=goal_metadata["colorInfo"]["rgb"])
                             else:
                                 online_item = publish_csv(indicator, series, item_properties=item_properties,
                                                           thumbnail=thumbnail,
@@ -424,7 +424,7 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
 
                     # Update the layer infomation with a basic rendering based on the Latest Value
                     # use the hex color from the SDG Metadata for the symbol color
-                    get_renderer_infomation(csv_lyr,statistic_field="latest_value", color=item_properties["color"])
+                    #get_renderer_infomation(csv_lyr,statistic_field="latest_value", color=item_properties["color"])
             else:
                 # Update the Data file for the CSV File
                 csv_item.update(item_properties=csv_item_properties, thumbnail=thumbnail, data=file)
