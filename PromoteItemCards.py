@@ -33,8 +33,10 @@ def main()
     # resources at [https://developers.arcgis.com/python/](https://developers.arcgis.com/python/]
     online_username = input('Username: ')
     online_password = getpass.getpass('Password: ')
+	# variable to store online connection address
     online_connection = "https://www.arcgis.com"
-    gis_online_connection = GIS(online_connection, online_username, online_password)
+    # make a connection with the username&pwd which the user input
+	gis_online_connection = GIS(online_connection, online_username, online_password)
 
     # metadata_url:  This is the metadata for the API will provide the tags, icons and color information
     # Get information from the local branch
@@ -42,16 +44,19 @@ def main()
     metadata_dir = r"FIS4SDGs/"
 
     # open_data_group_id:  Provide the Group ID from ArcGIS Online the Data will be shared with
-    open_data_group_id = '15c1671f5fbc4a00b1a359d51ea6a546'
+    # This should be a staging group to get the data ready for publishing
+	# open_data_group_id is unique, and you can see it from the http url of the group you open in ArcGIS Online.
+	# the right group_id must be used before you run this code!!!!
+	open_data_group_id = '15c1671f5fbc4a00b1a359d51ea6a546'
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
     failed_series = []
 
     # This will delete everything. Use with caution, with a wise and clear head!!!!
-    cleanup_site()
+    #cleanup_site()
 
     #run the primary function to update and publish the SDG infomation to a user content area
     process_sdg_information()
-
+	# print the failed ones.
     print(failed_series)
 
 
@@ -82,7 +87,8 @@ def reassign_to_admin():
         print('reassigning item ' + item.title + ' to admin user')
         item.reassign_to(admin_user.username, 'Open Data')
 
-
+# clear up the 'Open Data' folder of publishing site, with the given username.
+# cautious: Please double check before you call this function.
 def cleanup_site():
     user = gis_online_connection.users.get(online_username)
     user_items = user.items(folder='Open Data', max_items=800)
@@ -92,13 +98,16 @@ def cleanup_site():
 
     return
 
-
+#get series tags by specified goal, indicator, target, and series.
 def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, series_code=None):
     try:
+		#iterate all the targets in a specified goal
         for target in goal_metadata["targets"]:
             if target["target"] == target_code:
+				#iterate all the indicators in a specified target
                 for indicator in target["indicators"]:
                     if indicator["indicator"] == indicator_code:
+					#iterate all the series in a specified indicator
                         for series in indicator["series"]:
                             if series["series"] == series_code:
                                 return series["tags"]
@@ -154,7 +163,8 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
             else:
                 thumbnail = "http://undesa.maps.arcgis.com/sharing/rest/content/items/aaa0678dba0a466e8efef6b9f11775fe/data"
 
-            # Create a Group for the Goal
+			# Create a Group for the Goal, which stores the properties of this goal.
+			# please notice the value of group_goal_properties["title"], and group_goal_properties["tags"]
             group_goal_properties = dict()
             group_goal_properties["title"] = "SDG " + goal["code"]
             group_goal_properties["snippet"] = goal["title"]
@@ -167,9 +177,10 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                 # Determine if we are processing this query Only process a specific target code
                 if target_code is not None and int(target["code"]) != target_code:
                     continue
-
+				# Create a Group for the target, which stores the properties of this target.
                 group_target_properties = dict()
                 group_target_properties["tags"] = ["Target " + target["code"]]
+				# update the group tags, by appending the current target tags.
                 open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
 
                 # Iterate through each of the indicators
@@ -177,7 +188,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                     # Allow processing a single indicator
                     if indicator_code and not indicator["code"] == indicator_code:
                         continue
-
+					# Create a Group for the indicator, which stores the properties of this indicator.
                     process_indicator = dict()
                     process_indicator["name"] = "Indicator " + indicator["code"]  # eg. Indicator 1.1.1
                     process_indicator["tags"] = [process_indicator["name"]]
@@ -203,6 +214,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                             continue
 
                         # Build the metadata properties for the item card
+						# item card is the single item in this group, which seems likes a card in ArcGIS Online
                         item_properties = dict()
                         item_properties["title"] = process_indicator["name"] + " (" + series["code"] + "): " + series[
                             "description"]
@@ -254,7 +266,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
     except:
         traceback.print_exc()
 
-
+#Translate the names found in the Service Information for the alias fields
 def set_field_alias(field_name):
     if field_name == "series_release":
         return "Series Release"
@@ -318,7 +330,7 @@ def analyze_csv(item_id):
 # ### Find the Online Item
 def find_online_item(title):
     try:
-        # Search for this ArcGIS Online Item
+        # Search for this ArcGIS Online Item, with tile & username
         query_string = "title:'{}' AND owner:{}".format(title, online_username)
         print('Searching for ' + title)
         search_results = gis_online_connection.content.search(query_string)
@@ -343,16 +355,17 @@ def find_online_item(title):
 def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False):
     # Do we need to publish the hosted feature service for this layer
     try:
+		# construct the series_title by combining series_code, indicator, username and release info
         series_title = series["code"] + "_" + series["release"].replace('.', '')
-
-        file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
+        # construct the CSV file path by combining data_dir, series_code and suffix.
+		file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
             csv_item_properties["title"] = series_title
             csv_item_properties["type"] = "CSV"
             csv_item_properties["url"] = ""
 
-            # Does this CSV already exist
+            # Does this CSV already exist, if not, add the csv file to ArcGIS Online
             csv_item = find_online_item(csv_item_properties["title"])
             if csv_item is None:
                 print('Adding CSV File to ArcGIS Online....')
@@ -406,7 +419,6 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
 
 # ### Collect SDG Metadata
 # For each new Item published, we can use the SDG Metadata API to return all the metadata associated with that layer
-
 def get_metadata():
     try:
         metadata_json_data = json.loads(metadata_dir + "/metadataAPI.json")

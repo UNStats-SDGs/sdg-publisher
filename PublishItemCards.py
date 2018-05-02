@@ -28,7 +28,6 @@ from arcgis.gis import GIS
 # Initialize the application and set the global variables
 def main():
     # set up the global information and variables
-	
 	# global variable to store the directory where the CSVs are, relative to this file's directory.
     global data_dir
     # global variable to store the directory where the metadata json file is, relative to this file's directory.
@@ -58,7 +57,7 @@ def main():
 	# open_data_group_id is unique, and you can see it from the http url of the group you open in ArcGIS Online.
 	# the right group_id must be used before you run this code!!!!
 	open_data_group_id = '967dbf64d680450eaf424ac4a38799ad'
-	# make a connection to the group which you will publish data later.
+	# make a connection to the group which you will publish data later
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
 
     # Get information from the local branch, where you store the whole Repo on your machine.
@@ -313,10 +312,12 @@ def find_online_item(title):
 def analyze_csv(item_id):
     try:
         sharing_url = gis_online_connection._url + "/sharing/rest/content/features/analyze"
-        analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
+        # construct the analyze parameters
+		analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
                           'sourceLocale': 'en-us',
                           'filetype': 'csv', 'itemid': item_id}
-        r = requests.post(sharing_url, data=analyze_params)
+        # Post the request and get a response
+		r = requests.post(sharing_url, data=analyze_params)
         analyze_json_data = json.loads(r.content.decode("UTF-8"))
         for field in analyze_json_data["publishParameters"]["layerInfo"]["fields"]:
             field["alias"] = set_field_alias(field["name"])
@@ -464,7 +465,7 @@ def create_group(group_info):
             "protected": True
         })
 
-        # Check if there is a group here
+        # Check if there is a group here, if not create a new one, else update the group properties
         query_string = "title:'{}' AND owner:{}".format("SDG Open Data", online_username)
         search_results = gis_online_connection.groups.search(query_string)
         if not search_results:
