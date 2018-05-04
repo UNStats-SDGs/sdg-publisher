@@ -32,8 +32,10 @@ from arcgis.gis import GIS
 def main():
     # set up the global information and variables
 	# global variable to store the directory where the CSVs are(relative directory to current file )
-    global data_dir # global variable to store the directory where the metadata json file is(relative directory to current file)
-    # global metadata_dir # global variable to store the group ID which you will publish SDGs to
+    global data_dir
+    # global variable to store the directory where the metadata json file is(relative directory to current file)
+    global metadata_dir
+    # global variable to store the group ID which you will publish SDGs to
     global open_data_group
     # global variable to store series' names which are failed to publish
     global failed_series
