@@ -32,16 +32,14 @@ from arcgis.gis import GIS
 def main():
     # set up the global information and variables
 	# global variable to store the directory where the CSVs are(relative directory to current file )
-    global data_dir
-    # global variable to store the directory where the metadata json file is(relative directory to current file)
-	global metadata_dir
-	# global variable to store the group ID which you will publish SDGs to
+    global data_dir # global variable to store the directory where the metadata json file is(relative directory to current file)
+    # global metadata_dir # global variable to store the group ID which you will publish SDGs to
     global open_data_group
     # global variable to store series' names which are failed to publish
-	global failed_series
-	# global variable to store online user's name
+    global failed_series
+    # global variable to store online user's name
     global online_username	
-	# global variable to stroe the gis_online_connection in certain website with a given username and pass word.
+    # global variable to stroe the gis_online_connection in certain website with a given username and pass word
     global gis_online_connection
 
     # ### Create a connection to your ArcGIS Online Organization
@@ -50,17 +48,17 @@ def main():
     # resources at [https://developers.arcgis.com/python/](https://developers.arcgis.com/python/]
     online_username = input('Username: ')
     online_password = getpass.getpass('Password: ')
-	# variable to store online connection url
+    # variable to store online connection url
     online_connection = "https://www.arcgis.com"
-	# make a connection with the username & password
+    # make a connection with the username & password
     gis_online_connection = GIS(online_connection, online_username, online_password)
 
     # open_data group_id:  Provide the Group ID from ArcGIS Online the Data will be shared with
     # This should be a staging group to get the data ready for publishing
 	# open_data_group_id is unique, and you can see it from the http url of the group you open in ArcGIS Online.
 	# the right group_id must be used before you run this code!!!!
-	open_data_group_id = '967dbf64d680450eaf424ac4a38799ad'
-	# make a connection to the group which you will publish data later
+    open_data_group_id = '967dbf64d680450eaf424ac4a38799ad'
+    # make a connection to the group which you will publish data later
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
 
     # Get information from the local branch, where you store the whole Repo on your machine.
@@ -73,13 +71,13 @@ def main():
     #cleanup_site()
 
     #run the primary function to update and publish the SDG infomation to a user content area
-	failed_series = []
+    failed_series = []
 	
-	# the main function in which the whole process procedure is going
+    # the main function in which the whole process procedure is going
 	# where the CSVs are published and names of failed ones are recorded 
     process_sdg_information()
 	
-	# print the failed series
+    # print the failed series
     print(failed_series)
 	
     return
@@ -142,7 +140,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                             property_update_only=False):
     try:
         # get sdg metadata from SDGs metadata json file
-		sdg_metadata = get_metadata()
+        sdg_metadata = get_metadata()
 		# iterate all the goals, which are got from the UN SDG Metadata API
         for goal in get_goal_information():
             # Determine if we are processing this query Only process a specific series code
@@ -197,8 +195,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
                     process_indicator["name"] = "Indicator " + indicator["code"]  # eg. Indicator 1.1.1
                     process_indicator["tags"] = [process_indicator["name"]]
                     
-					# Append the indicator's tags to the open data group 
-					as well
+					# Append the indicator's tags to the open data group as well
                     open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
 					
 					# construct indicator description by combining  indicator, target, and goal description information
@@ -223,19 +220,21 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 						# item card is the single item in this group, which appears likes a card in ArcGIS Online
                         item_properties = dict()
                         item_properties["title"] = process_indicator["name"] + ": " + series["description"]
-                        # if series["description"] doesn't exist, put series["code"] instead.
-						if not series["description"]:
+
+                        # if series["description"] doesn't exist, put series["code"] instead
+                        if not series["description"]:
                             series["description"] = series["code"]
+
                         snippet = item_properties["title"] #series["code"] + ": " + series["description"]
                         item_properties["snippet"] = (snippet[:250] + "..") if len(snippet) > 250 else snippet
-                        
-						# construct series description by combining series, indicator, target, and goal description information
-						item_properties["description"] = "<p><strong>Series " + series["code"] + ": </strong>" + series[
+
+                        # construct series description by combining series, indicator, target, and goal description information
+                        item_properties["description"] = "<p><strong>Series " + series["code"] + ": </strong>" + series[
                             "description"] + "</p>" + process_indicator["description"] + \
                                                          "<p><strong>Release Version</strong>: " + series["release"]
-                        
-						# construct the final_tags for the item, inlcuding goal, target, indicator, series tags
-						final_tags = group_goal_properties["tags"] + group_target_properties["tags"] + \
+
+                        # construct the final_tags for the item, inlcuding goal, target, indicator, series tags
+                        final_tags = group_goal_properties["tags"] + group_target_properties["tags"] + \
                                      process_indicator["tags"]
                         final_tags.extend(get_series_tags(goal_metadata=goal_metadata, indicator_code=indicator["code"],
                                                           target_code=target["code"], series_code=series["code"]))
@@ -251,7 +250,7 @@ def process_sdg_information(goal_code=None, indicator_code=None, target_code=Non
 								# get the item by title
                                 online_item = find_online_item(item_properties["title"])
                                 # if nothing is found, append the current series to failed_series array.
-								if online_item is None:
+                                if online_item is None:
                                     failed_series.append(series["code"])
                                 else:
                                     # else Update the Item Properties from the item_properties
@@ -329,11 +328,11 @@ def analyze_csv(item_id):
     try:
         sharing_url = gis_online_connection._url + "/sharing/rest/content/features/analyze"
         # construct the analyze parameters
-		analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
+        analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
                           'sourceLocale': 'en-us',
                           'filetype': 'csv', 'itemid': item_id}
         # Post the request and get a response
-		r = requests.post(sharing_url, data=analyze_params)
+        r = requests.post(sharing_url, data=analyze_params)
         analyze_json_data = json.loads(r.content.decode("UTF-8"))
         for field in analyze_json_data["publishParameters"]["layerInfo"]["fields"]:
             field["alias"] = set_field_alias(field["name"])
@@ -362,10 +361,10 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
     try:
 		# construct the series_title by combining series_code, indicator, username and release info.
         series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + online_username + "_" + series["release"].replace('.', '')
-		# construct the CSV file path by combining data_dir, series_code and suffix.
-		file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
+        # construct the CSV file path by combining data_dir, series_code and suffix.
+        file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
         # if csv file is existed, try to publish
-		if os.path.isfile(file):
+        if os.path.isfile(file):
             csv_item_properties = copy.deepcopy(item_properties)
             csv_item_properties["title"] = series_title
             csv_item_properties["type"] = "CSV"
