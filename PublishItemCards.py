@@ -94,17 +94,21 @@ def main():
 
 
     # ### Create a connection to your ArcGIS Online Organization
-    # Use the ArcGIS API for python to connect to your ArcGIS Online Organization to publish and
-    # manage data.  For more information about this python library visit the developer
-    # resources at [https://developers.arcgis.com/python/](https://developers.arcgis.com/python/]
+    # Use the ArcGIS API for python to connect to your ArcGIS Online Organization 
+    # to publish and manage data.  For more information about this python library
+    # visit the developer resources at 
+    # [https://developers.arcgis.com/python/](https://developers.arcgis.com/python/]
     online_username = input('Username: ')
     online_password = getpass.getpass('Password: ')
     online_connection = "https://www.arcgis.com"
-    gis_online_connection = GIS(online_connection, online_username, online_password)
+    gis_online_connection = GIS(online_connection, 
+                                online_username, 
+                                online_password)
 
 
-    # open_data group_id:  Provide the Group ID from ArcGIS Online the Data will be shared with. This
-    # should be a staging group to ge the data ready for publishing.
+    # open_data group_id:  Provide the Group ID from ArcGIS Online the Data will 
+    # be shared with. This should be a staging group to ge the data ready for 
+    # publishing.
     # open_data_group_id = '967dbf64d680450eaf424ac4a38799ad'   # Travis
     open_data_group_id = 'ad013d2911184063a0f0c97d252daf32'     # Luis
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
@@ -121,16 +125,17 @@ def main():
 
 
     # run the primary function to update and publish the SDG infomation to a user content area
-    failed_series = []
-    # process_sdg_information(goal_code=[1],
-    # target_code="1.1",
-    # indicator_code="1.1.1",
-    # series_code="SI_POV_DAY1", 
-    # property_update_only=True, 
-    # update_symbology=True, 
-    # run_cleanup=False, 
-    # update_sharing=False
-    # )
+    
+    # process_sdg_information(
+    #         goal_code=[1],
+    #         target_code="1.1",
+    #         indicator_code="1.1.1",
+    #         series_code="SI_failed_series = []POV_DAY1", 
+    #         property_update_only=True, 
+    #         update_symbology=True, 
+    #         run_cleanup=False, 
+    #         update_sharing=False
+    #          )
     process_sdg_information(
             property_update_only=True, 
             update_symbology=True,
@@ -140,7 +145,8 @@ def main():
     print(failed_series)
     return
 
-
+###############################################################################
+    
 # ### Cleanup staging folder for Open Data
 # This will delete everything in your staging folder for Open Data
 def cleanup_site():
@@ -238,9 +244,10 @@ def find_online_item(title, full_title=None, force_find=True):
 def generate_renderer_infomation(feature_item, statistic_field="latest_value", color=None):
     try:
         if len(color) == 3:
-            color.append(130)
+            color.append(130)  ###---What is this????
 
         layer_json_data = get_layer_template()
+        
         #get the min/max for this item
         visual_params = layer_json_data["layerInfo"]
         definition_item = feature_item.layers[0]
@@ -252,11 +259,13 @@ def generate_renderer_infomation(feature_item, statistic_field="latest_value", c
 
         max_value = feature_set.features[0].attributes["latest_value_max"]
         min_value = feature_set.features[0].attributes["latest_value_min"]
+        
         visual_params["drawingInfo"]["renderer"]["visualVariables"][0]["minDataValue"] = min_value
         visual_params["drawingInfo"]["renderer"]["visualVariables"][0]["maxDataValue"] = max_value
 
         visual_params["drawingInfo"]["renderer"]["authoringInfo"]["visualVariables"][0]["minSliderValue"] = min_value
         visual_params["drawingInfo"]["renderer"]["authoringInfo"]["visualVariables"][0]["maxSliderValue"] = max_value
+        
         visual_params["drawingInfo"]["renderer"]["classBreakInfos"][0]["symbol"]["color"] = color
         visual_params["drawingInfo"]["renderer"]["transparency"] = 25
 
@@ -274,17 +283,68 @@ def generate_renderer_infomation(feature_item, statistic_field="latest_value", c
         return None
     
 
-def update_item_categories(item,goal,target):
+#Translate the names found in the Service Information for the alias fields
+def set_field_alias(field_name):
+    if field_name == "series_release":
+        return "Series Release"
+    if field_name == "series_code":
+        return "Series Code"
+    if field_name == "series_description":
+        return "Series Description"
+    if field_name == "geoAreaCode":
+        return "Geographic Area Code"
+    if field_name == "geoAreaName":
+        return "Geographic Area Name"
+    if field_name == "Freq":
+        return "Frequency"
+    if field_name == "latest_year":
+        return "Latest Year"
+    if field_name == "latest_value":
+        return "Latest Value"
+    if field_name == "latest_source":
+        return "Latest Source"
+    if field_name == "latest_nature":
+        return "Latest Nature"
+    if field_name == "last_5_years_mean":
+        return "Mean of the Last 5 Years"
+    if field_name == "ISO3CD":
+        return "ISO3 Code"
+    else:
+        return field_name.capitalize().replace("_", " ")
+    
+    
+# ### Analyze the CSV file
+# Using the ArcGIS REST API `analyze` endpoint, we can prepare the CSV file we
+# are going to use before publishing it to ArcGIS Online. This will help us by 
+# returning information about the file inlcuding fields as well as sample records.
+# This step will also lead into future steps in the publishing process.
+# More info about the analyze endpoint can be found
+# [here](https://developers.arcgis.com/rest/users-groups-and-items/analyze.htm).
+
+def analyze_csv(item_id):
     try:
-        update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
-        items = [{item["id"]:{"categories":["/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
-        update_params = {'f': 'json', 'token': gis_online_connection._con.token, 'items': json.dumps(items)}
-        r = requests.post(update_url, data=update_params)
-        update_json_data = json.loads(r.content.decode("UTF-8"))
-        print(update_json_data)
+        sharing_url = gis_online_connection._url + "/sharing/rest/content/features/analyze"
+        analyze_params = {'f': 'json', 
+                          'token': gis_online_connection._con.token,
+                          'sourceLocale': 'en-us',
+                          'filetype': 'csv', 
+                          'itemid': item_id}
+        r = requests.post(sharing_url, data=analyze_params)
+        analyze_json_data = json.loads(r.content.decode("UTF-8"))
+        for field in analyze_json_data["publishParameters"]["layerInfo"]["fields"]:
+            field["alias"] = set_field_alias(field["name"])
+
+            # Indicator is coming in as a date Field make the correct
+            if field["name"] == "indicator":
+                field["type"] = "esriFieldTypeString"
+                field["sqlType"] = "sqlTypeNVarchar"
+
+        # set up some of the layer information for display
+        analyze_json_data["publishParameters"]["layerInfo"]["displayField"] = "geoAreaName"
+        return analyze_json_data["publishParameters"]
     except:
-        traceback.print_exc()
-        return []
+        print("Unexpected error:", sys.exc_info()[0])
+        return None
 
 
 # ### Publish the CSV file
@@ -293,13 +353,14 @@ def update_item_categories(item,goal,target):
 # - If exists, update and move to Open Data Folder under the owner content
 # - If it doesn't exist, publish as a new Item then move to the Open Data Group
 def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False, color=[169,169,169]):
-    # Do we need to publish the hosted feature service for this layer
+    # Do we need to publish the hosted feature service for this layer?
     try:
-        # check if service name is available if not update the link
+        # Check if service name is available; if not, update the link
         series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + series["release"].replace('.', '')
         series_num = 1
         while not gis_online_connection.content.is_service_name_available(service_name= series_title, service_type = 'featureService'):
-            series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + series["release"].replace('.', '') + "_" + str(series_num)
+            series_title = series["code"] + "_" + indicator["code"].replace(".","") + "_" + series["release"].replace('.', '') + \
+              "_" + str(series_num)
             series_num += 1
 
         file = os.path.join(data_dir, series["code"] + "_cube.pivot.csv")
@@ -314,7 +375,8 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
             csv_item = find_online_item(csv_item_properties["title"])
             if csv_item is None:
                 print('Adding CSV File to ArcGIS Online....')
-                csv_item = gis_online_connection.content.add(item_properties=csv_item_properties, thumbnail=thumbnail,
+                csv_item = gis_online_connection.content.add(item_properties=csv_item_properties, 
+                                                             thumbnail=thumbnail,
                                                              data=file)
                 if csv_item is None:
                     return None
@@ -360,7 +422,20 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
     except:
         print("Unexpected error:", sys.exc_info()[0])
         return None
-    
+
+
+def update_item_categories(item,goal,target):
+    try:
+        update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
+        items = [{item["id"]:{"categories":["/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
+        update_params = {'f': 'json', 'token': gis_online_connection._con.token, 'items': json.dumps(items)}
+        r = requests.post(update_url, data=update_params)
+        update_json_data = json.loads(r.content.decode("UTF-8"))
+        print(update_json_data)
+    except:
+        traceback.print_exc()
+        return []
+
 
 # ## Process the SDG Information
 # ### process_sdg_information
@@ -404,26 +479,32 @@ def process_sdg_information(goal_code=None,
         layer_json_data = get_layer_template()
         
         for goal in get_goal_information():
-            # Determine if we are processing this query Only process a specific series code
+            
+            # Determine whether this query only processes a specific goal, and
+            # if so, whether the current goal is *not* that specific goal.
             if goal_code is not None and int(goal["code"]) not in goal_code:
-                continue # Skip the code below, and continue with the next iteration of the loop
+                # Skip the code below, and continue with the next goal
+                continue
 
-            # Get all the metadata items for this goal, including its thumbnail
+            # Get all the metadata items for the current goal
             for goal_item in sdg_metadata:
                 if goal_item["goal"] == int(goal["code"]):
                     goal_metadata = goal_item
                     break
-
+                
+            # Determine whether there is no metadata info for the current goal
             if goal_metadata is None:
-                continue # Skip the code below, and continue with the next iteration of the loop
+                # Skip the code below, and continue with the next goal
+                continue
 
-            # If a thumbnail was not found, use a default thumbnail for icon
+            # Take the thumbnail url for the current goal from the metadata info. 
+            # If a thumbnail was not found in the metadata, use a default thumbnail.
             if "icon_url_sq" in goal_metadata:
                 thumbnail = goal_metadata["icon_url_sq"]
             else:
                 thumbnail = "http://undesa.maps.arcgis.com/sharing/rest/content/items/aaa0678dba0a466e8efef6b9f11775fe/data"
 
-            # Create a Group for the Goal
+            # Create a dictionary containing the annotations for the current item's goal
             group_goal_properties = dict()
             group_goal_properties["title"] = "SDG " + goal["code"]
             group_goal_properties["snippet"] = goal["title"]
@@ -431,68 +512,85 @@ def process_sdg_information(goal_code=None,
             group_goal_properties["tags"] = [group_goal_properties["title"]]
             group_goal_properties["thumbnail"] = thumbnail
 
-            # Iterate through each of the targets
+            # Iterate through each of the targets for the current goal
             for target in goal["targets"]:
-                # Determine if we are processing this query Only process a specific target code
+                # Determine whether this query only processes a specific target,
+                # and if so, whether the current target is *not* that specific target
                 if target_code is not None and target["code"] != target_code:
+                    # Skip the code below, and continue with the next target within the current goal
                     continue
-
+                
+                # Create a dictionary containing the annotations for the current item's target
                 group_target_properties = dict()
                 group_target_properties["tags"] = ["Target " + target["code"]]
-                #open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
+                #----delete---open_data_group.update(tags=open_data_group["tags"] + group_target_properties["tags"])
 
-                # Iterate through each of the indicators
+                # Iterate through each of the indicators for the current target
                 for indicator in target["indicators"]:
-                    # Allow processing a single indicator
+                    # Determine whether this query only processes a specific indicator,
+                    # and if so, whether the current indicator is *not* that specific indicator
                     if indicator_code and not indicator["code"] == indicator_code:
+                        # Skip the code below, and continue with the next indicator within the current target
                         continue
-
+                    
+                    # Create a dictionary containing the annotations for the current item's indicator
                     process_indicator = dict()
                     process_indicator["name"] = "Indicator " + indicator["code"]  # eg. Indicator 1.1.1
                     process_indicator["tags"] = [process_indicator["name"]]
-
-                    # Append the keyword tags from the metadata as well
-                    #open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
-
+                    #----delete---Append the keyword tags from the metadata as well
+                    #----delete---open_data_group.update(tags=open_data_group["tags"] + process_indicator["tags"])
                     process_indicator["snippet"] = indicator["code"] + ": " + indicator["description"]
-                    process_indicator["description"] = "<p><strong>Indicator " + indicator["code"] + ": </strong>" + \
-                        indicator["description"] + "</p>" + "</p><p><strong>Target " + \
-                        target["code"] + ": </strong>" + \
-                        target["description"] + "</p>" + "<p>" + \
-                        goal["description"] + "</p>"
-
+                    process_indicator["description"] = \
+                        "<p><strong>Indicator " + indicator["code"] + ": </strong>" + indicator["description"] + "</p>" + \
+                        "<p><strong>Target " +  target["code"] + ": </strong>" + target["description"] + "</p>" + \
+                        "<p>" + goal["description"] + "</p>"
                     process_indicator["credits"] = "UNSD"
                     process_indicator["thumbnail"] = thumbnail
 
-                    # Iterate through each of the series
+                    # Iterate through each of the series for the current indicator
                     for series in indicator["series"]:
-                        # Determine if we are processing this query Only process a specific series code
+                        # Determine whether this query only processes a specific series,
+                        # and if so, whether the current series is *not* that specific series
                         if indicator_code and not (series["code"] == series_code or series_code is None):
+                           # Skip the code below, and continue with the next series within the current indicator
                             continue
-
+                        
+                        # ------------------------------------------------
                         # Build the metadata properties for the item card
                         # ------------------------------------------------
+                        
                         item_properties = dict()
                         item_properties["title"] = process_indicator["name"] + ": " + series["description"]
                         if not series["description"]:
                             series["description"] = series["code"]
                         snippet = item_properties["title"] #series["code"] + ": " + series["description"]
                         item_properties["snippet"] = (snippet[:250] + "..") if len(snippet) > 250 else snippet
-                        item_properties["description"] = "<p><strong>Series " + series["code"] + ": </strong>" + series[
-                            "description"] + "</p>" + process_indicator["description"] + \
-                                                         "<p><strong>Release Version</strong>: " + series["release"]
-                        # Initialize the array of tags with Goal, Target, and Indicator numers.                                                         
-                        final_tags = group_goal_properties["tags"] + group_target_properties["tags"] + \
+                        item_properties["description"] = \
+                            "<p><strong>Series " + series["code"] + ": </strong>" + series["description"] + "</p>" + \
+                            process_indicator["description"] + \
+                            "<p><strong>Release Version</strong>: " + series["release"]
+                            
+                        # Initialize the array of tags with Goal, Target, and Indicator numbers.                                                         
+                        final_tags = group_goal_properties["tags"] + \
+                                     group_target_properties["tags"] + \
                                      process_indicator["tags"]
+                                     
                         # Extend the array of tags by adding the series-level tags taken from the metadata file (e.g., "poverty")            
-                        final_tags.extend(get_series_tags(goal_metadata=goal_metadata, indicator_code=indicator["code"],
-                                                          target_code=target["code"], series_code=series["code"]))
+                        final_tags.extend(get_series_tags(goal_metadata=goal_metadata, 
+                                                          indicator_code=indicator["code"],
+                                                          target_code=target["code"], 
+                                                          series_code=series["code"]
+                                                          ))
+                        
                         # Append the release number to the array of tags (e.g., '2017.Q2.G.01')
                         final_tags.append(series["release"])
+                        
                         item_properties["tags"] = final_tags
 
+                        # ------------------------------
                         # Add this item to ArcGIS Online
                         # ------------------------------
+                        
                         print("Processing series code:", indicator["code"], series["code"])
                         try:
                             if property_update_only:
@@ -517,16 +615,19 @@ def process_sdg_information(goal_code=None,
                                                           property_update_only=property_update_only, 
                                                           color=goal_metadata["colorInfo"]["rgb"])
 
-                            #Only set the sharing when publishing
+                            # Only set the sharing when updating or publishing
                             if online_item is not None:
                                 if update_sharing:
                                     # Share this content with the open data group
-                                    online_item.share(everyone=False, org=True, groups=open_data_group["id"],
-                                                    allow_members_to_edit=False)
+                                    online_item.share(everyone=False, 
+                                                      org=True, 
+                                                      groups=open_data_group["id"],
+                                                      allow_members_to_edit=False)
 
                                 display(online_item)
                                 # Update the Group Information with Data from the Indicator and targets
-                                update_item_categories(online_item,goal["code"], target["code"])
+                                update_item_categories(online_item,goal["code"], 
+                                                       target["code"])
 
                                 #open_data_group.update(tags=open_data_group["tags"] + [series["code"]])
                             else:
@@ -541,76 +642,11 @@ def process_sdg_information(goal_code=None,
         traceback.print_exc()
 
 
-
-
-
-
-# ### Analyze the CSV file
-# Using the ArcGIS REST API `analyze` endpoint, we can prepare the CSV file we are going to use before publishing it to
-# ArcGIS Online. This will help us by returning information about the file inlcuding fields as well as sample records.
-# This step will also lead into future steps in the publishing process.
-# More info about the analyze endpoint can be found
-# [here](https://developers.arcgis.com/rest/users-groups-and-items/analyze.htm).
-
-def analyze_csv(item_id):
-    try:
-        sharing_url = gis_online_connection._url + "/sharing/rest/content/features/analyze"
-        analyze_params = {'f': 'json', 'token': gis_online_connection._con.token,
-                          'sourceLocale': 'en-us',
-                          'filetype': 'csv', 'itemid': item_id}
-        r = requests.post(sharing_url, data=analyze_params)
-        analyze_json_data = json.loads(r.content.decode("UTF-8"))
-        for field in analyze_json_data["publishParameters"]["layerInfo"]["fields"]:
-            field["alias"] = set_field_alias(field["name"])
-
-            # Indicator is coming in as a date Field make the correct
-            if field["name"] == "indicator":
-                field["type"] = "esriFieldTypeString"
-                field["sqlType"] = "sqlTypeNVarchar"
-
-        # set up some of the layer information for display
-        analyze_json_data["publishParameters"]["layerInfo"]["displayField"] = "geoAreaName"
-        return analyze_json_data["publishParameters"]
-    except:
-        print("Unexpected error:", sys.exc_info()[0])
-        return None
-
-
-
-
-
-#Translate the names found in the Service Information for the alias fields
-def set_field_alias(field_name):
-    if field_name == "series_release":
-        return "Series Release"
-    if field_name == "series_code":
-        return "Series Code"
-    if field_name == "series_description":
-        return "Series Description"
-    if field_name == "geoAreaCode":
-        return "Geographic Area Code"
-    if field_name == "geoAreaName":
-        return "Geographic Area Name"
-    if field_name == "Freq":
-        return "Frequency"
-    if field_name == "latest_year":
-        return "Latest Year"
-    if field_name == "latest_value":
-        return "Latest Value"
-    if field_name == "latest_source":
-        return "Latest Source"
-    if field_name == "latest_nature":
-        return "Latest Nature"
-    if field_name == "last_5_years_mean":
-        return "Mean of the Last 5 Years"
-    if field_name == "ISO3CD":
-        return "ISO3 Code"
-    else:
-        return field_name.capitalize().replace("_", " ")
-
 # ### Create a Group for each SDG Goal
-# You can create a Group within your ArcGIS Online Organization for each SDG. As you publish Items, you can share them to the relevant Group(s). 
-# This function will create the Group, query the SDG Metadata API to return the Title, Summary, Description, Tags, and Thumbnail for that particular SDG.
+# You can create a Group within your ArcGIS Online Organization for each SDG. 
+# As you publish Items, you can share them to the relevant Group(s). 
+# This function will create the Group, query the SDG Metadata API to return the 
+# Title, Summary, Description, Tags, and Thumbnail for that particular SDG.
 def create_group(group_info):
     try:
         # Add the Service Definition to the Enterprise site
