@@ -126,21 +126,31 @@ def main():
 
     # run the primary function to update and publish the SDG infomation to a user content area
     
-    # process_sdg_information(
-    #         goal_code=[1],
-    #         target_code="1.1",
-    #         indicator_code="1.1.1",
-    #         series_code="SI_failed_series = []POV_DAY1", 
-    #         property_update_only=True, 
-    #         update_symbology=True, 
-    #         run_cleanup=False, 
-    #         update_sharing=False
-    #          )
     process_sdg_information(
-            property_update_only=True, 
-            update_symbology=True,
-            update_sharing=False
-            )
+             goal_code=[1],
+             target_code="1.1",
+             indicator_code="1.1.1",
+             series_code="SI_POV_DAY1", 
+             property_update_only=False, 
+             update_symbology=False, 
+             run_cleanup=False, 
+             update_sharing=True
+              )
+     
+     #def process_sdg_information(goal_code=None, 
+     #                       target_code=None, 
+     #                       indicator_code=None, 
+     #                       series_code=None,
+     #                       property_update_only=False, 
+     #                       update_symbology=False, 
+     #                       run_cleanup=False, 
+     #                       update_sharing=True):
+    
+    #process_sdg_information(
+    #        property_update_only=True, 
+    #        update_symbology=True,
+    #        update_sharing=False
+    #        )
 
     print(failed_series)
     return
