@@ -79,7 +79,8 @@ from IPython.display import display
 from arcgis.gis import GIS
 
 
-# Initialize the application
+###############################################################################
+
 def main():
     
     # Set up the global information and variables
@@ -114,7 +115,8 @@ def main():
     open_data_group = gis_online_connection.groups.get(open_data_group_id)
 
         
-    # Get data and metadata from the local branch ("r" prefix means "raw string literal")
+    # Get data and metadata from the local branch ("r" prefix means "raw string 
+    # literal")
     data_dir = r"C:/Users/L.GonzalezMorales/Documents/GitHub/sdg-publisher/FIS4SDG/csv/"
     metadata_dir = r"C:/Users/L.GonzalezMorales/Documents/GitHub/sdg-publisher/FIS4SDG"
     
@@ -124,19 +126,21 @@ def main():
     user_items = user.items(folder='Open Data', max_items=800)
 
 
-    # run the primary function to update and publish the SDG infomation to a user content area
+    # run the primary function to update and publish the SDG infomation to a 
+    # user content area
     
-    process_sdg_information(
-             goal_code=[1],
-             target_code="1.1",
-             indicator_code="1.1.1",
-             series_code="SI_POV_DAY1", 
-             property_update_only=False, 
-             update_symbology=False, 
-             run_cleanup=False, 
-             update_sharing=True
-              )
+    #process_sdg_information(
+    #         goal_code=[1],
+    #         target_code="1.1",
+    #         indicator_code="1.1.1",
+    #         series_code="SI_POV_DAY1", 
+    #         property_update_only=False, 
+    #         update_symbology=False, 
+    #         run_cleanup=False, 
+    #         update_sharing=True
+    #         )
      
+    process_sdg_information(goal_code=[2],run_cleanup=True)
      #def process_sdg_information(goal_code=None, 
      #                       target_code=None, 
      #                       indicator_code=None, 
@@ -184,7 +188,8 @@ def get_metadata():
     
     
 # ### Collect Layer info
-# Return all the information pertaining to the layer template from the layerinfo.json file
+# Return all the information pertaining to the layer template from the 
+# layerinfo.json file
 def get_layer_template():
     layer_json_data = json.load(open(metadata_dir + "/layerinfo.json"))
     return layer_json_data
@@ -202,8 +207,12 @@ def get_goal_information():
 
 
 # ### Get series tags
-# Get list of tags assigned to each series in the metadata file (concepts from SDG vocablary)
-def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, series_code=None):
+# Get list of tags assigned to each series in the metadata file (concepts from 
+# SDG vocablary)
+def get_series_tags(goal_metadata=None, 
+                    indicator_code=None, 
+                    target_code=None, 
+                    series_code=None):
     try:
         for target in goal_metadata["targets"]:
             if target["target"] == target_code:
@@ -219,7 +228,9 @@ def get_series_tags(goal_metadata=None, indicator_code=None, target_code=None, s
     
 
 # ### Find an existing online item for an indicator
-def find_online_item(title, full_title=None, force_find=True):
+def find_online_item(title, 
+                     full_title=None, 
+                     force_find=True):
         
     try:
         if full_title is None:
@@ -228,7 +239,8 @@ def find_online_item(title, full_title=None, force_find=True):
         # Search for this ArcGIS Online Item
         query_string = "title:'{}' AND owner:{}".format(title, online_username)
         print('Searching for ' + full_title)
-        # The search() method returns a list of Item objects that match the search criteria
+        # The search() method returns a list of Item objects that match the 
+        # search criteria
         search_results = gis_online_connection.content.search(query_string)
 
         if search_results:
@@ -237,7 +249,8 @@ def find_online_item(title, full_title=None, force_find=True):
                     return search_result
 
 
-        #If the Item was not found in the search but it should exist use Force Find to loop all the users items (this could take a bit)
+        # If the Item was not found in the search but it should exist use Force 
+        # Find to loop all the users items (this could take a bit)
         if force_find:
             user = gis_online_connection.users.get(online_username)
             user_items = user.items(folder='Open Data', max_items=800)
@@ -251,7 +264,9 @@ def find_online_item(title, full_title=None, force_find=True):
         return None
 
 
-def generate_renderer_infomation(feature_item, statistic_field="latest_value", color=None):
+def generate_renderer_infomation(feature_item, 
+                                 statistic_field="latest_value", 
+                                 color=None):
     try:
         if len(color) == 3:
             color.append(130)  ###---What is this????
@@ -263,8 +278,13 @@ def generate_renderer_infomation(feature_item, statistic_field="latest_value", c
         definition_item = feature_item.layers[0]
 
         #get the min/max values
-        out_statistics= [{"statisticType": "max","onStatisticField": "latest_value", "outStatisticFieldName": "latest_value_max"},
-                        {"statisticType": "min","onStatisticField": "latest_value", "outStatisticFieldName": "latest_value_min"}]
+        out_statistics= [{"statisticType": "max",
+                          "onStatisticField": "latest_value", 
+                          "outStatisticFieldName": "latest_value_max"},
+                        {"statisticType": "min",
+                         "onStatisticField": "latest_value", 
+                         "outStatisticFieldName": "latest_value_min"}]
+        
         feature_set = definition_item.query(where='1=1',out_statistics=out_statistics)
 
         max_value = feature_set.features[0].attributes["latest_value_max"]
@@ -362,7 +382,12 @@ def analyze_csv(item_id):
 # - Check if the CSV file exists
 # - If exists, update and move to Open Data Folder under the owner content
 # - If it doesn't exist, publish as a new Item then move to the Open Data Group
-def publish_csv(indicator, series, item_properties, thumbnail, property_update_only=False, color=[169,169,169]):
+def publish_csv(indicator, 
+                series, 
+                item_properties, 
+                thumbnail, 
+                property_update_only=False, 
+                color=[169,169,169]):
     # Do we need to publish the hosted feature service for this layer?
     try:
         # Check if service name is available; if not, update the link
@@ -434,11 +459,13 @@ def publish_csv(indicator, series, item_properties, thumbnail, property_update_o
         return None
 
 
-def update_item_categories(item,goal,target):
+def update_item_categories(item, goal, target):
     try:
         update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
         items = [{item["id"]:{"categories":["/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
-        update_params = {'f': 'json', 'token': gis_online_connection._con.token, 'items': json.dumps(items)}
+        update_params = {'f': 'json', 
+                         'token': gis_online_connection._con.token, 
+                         'items': json.dumps(items)}
         r = requests.post(update_url, data=update_params)
         update_json_data = json.loads(r.content.decode("UTF-8"))
         print(update_json_data)
@@ -601,7 +628,7 @@ def process_sdg_information(goal_code=None,
                         # Add this item to ArcGIS Online
                         # ------------------------------
                         
-                        print("Processing series code:", indicator["code"], series["code"])
+                        print("\nProcessing series code:", indicator["code"], series["code"])
                         try:
                             if property_update_only:
                                 online_item = find_online_item(process_indicator["name"], 
