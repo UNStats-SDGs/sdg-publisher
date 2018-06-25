@@ -17,7 +17,7 @@ Initial setup
           the organization’s main Open Data Site
 3. Define a master source of metadata[1]
 4. Define an authoritative source of geometries (points or polygons) that represent geographic location of
-each record in the data set.[2]
+   each record in the data set.[2]
 5. Define an authoritative source of statistical data on SDG indicators to be published.[3]
 
 Preparation of datasets for publication
