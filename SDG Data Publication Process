@@ -1,0 +1,73 @@
+SDG Data Publication Process
+
+The purpose of this note is to illustrate UNSD’s workflows to publish SDG Indicators data from CSV files 
+as spatial data layers on the UN SDG Data Hub in ArcGIS Online.
+
+The UNSD workflow can be adapted to meet the specific needs and working environments of different
+organizations that participate in the Federated Information System for the SDGs initiative.
+
+Initial setup
+1. Create an ArcGIS Online organization and individual
+2. Create the following groups within the ArcGIS Online organization
+      a. “Staging Open Data” Groups(one for each authorized data publisher in the organization) 
+          Used to collect data items that are ready to be reviewed by the organization’s curator 
+          before publishing
+      b. “Public Open Data” Group: Used by the organization’s curator to publish data items on
+          the organization’s main Open Data Site
+3. Define a master source of metadata[1]
+4. Define an authoritative source of geometries (points or polygons) that represent geographic location of
+   each record in the data set.[2]
+5. Define an authoritative source of statistical data on SDG indicators to be published.[3]
+
+Preparation of datasets for publication
+
+Data for individual SDG indicator series are extracted, joined with their corresponding geometries, 
+written into csv files (tabular format). 
+
+The structure of these files is designed to facilitate the representation of the data in maps; therefore, 
+each row represents one geographic feature, and all areas are included, regardless of whether they have
+data or not.[4]
+
+Publication[5]
+1. Cleanup the staging folder for Open Data
+2. Collect layer template information[6]
+3. Collect information describing the nested structure and content of the global SDG indicator
+   framework (code, title, and description of each node on the goal > target > indicator > series 
+   hierarchy)[7]
+4. Collect the list of tags assigned to each series:
+   ● Structural tags used to classify data items by Goal, Target, Indicator, Series, and Release
+   ● Semantic tags used to classify data items by topic[8]
+5. Define renderer parameters for each item (i.e., data field to be mapped by default, color, 
+   max/min values, breaks, transparency, etc.)   
+6. Translate the names found in the Service Information into the alias names for publication (e.g., 
+   "latest_year" into "Latest Year", etc.).
+7. Using the ArcGIS REST API `analyze` endpoint, prepare the CSV files by returning information 
+   about fields as sample records.[9] 
+8. Publish the CSV files
+   ● If the csv file alreadyexists, update and move to Open Data Folder 
+   ● If it doesn't exist, publish as a new Item then move to the Open Data Folder
+   ● Update the layer information with rendering parameters
+9. Build the metadata properties for the item card 
+
+
+
+
+
+[1] E.g. in the case of UNSD, metadata elements for SDG data series are collected from a json file which is available 
+    in a git repository (https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/FIS4SDG/metadataAPI.json
+    ).  Other organizations may setup a web API for metadata elements.
+[2] In the case of UNSD, SDG Indicators data is only available at the country level, and countries are represented only by the 
+    coordinates of their centroids (https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/FIS4SDG/CountryListXY.csv). 
+    Other organizations may use polygons to represent the boundaries of national and subnational geographic regions. Geometries
+    can be stored in static files (e.g., csv, GeoJSON, shapefiles) or in a geospatial database.
+[3] The official source of Global SDG Indicators data is the SDG API maintained by UNSD as secretariat of the IAEG-SDGs 
+    (https://unstats.un.org/SDGAPI/swagger/)
+[4] For current UNSD applications, the time dimension is represented as individual year columns in a “pivoted” or “wide” structure. 
+    Other applications may require a “normalized” or “long” structure (with a single column for the years). This transformation is made
+    using a script in R (https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/FIS4SDG/r/R%20script.R)
+[5] https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/PublishItemCards.py
+[6] https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/FIS4SDG/layerinfo.json
+[7] https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=true
+[8] Participants of the FIS4SDGs initiative are encouraged to use a subset of tagsfrom the UN BIS Thesaurus (http://metadata.un.org/)
+    maintained by the UN Dag Hammarskjöld Library
+[9] More info about the analyze endpoint is available from https://developers.arcgis.com/rest/users-groups-and-items/analyze.htm.
