@@ -7,7 +7,6 @@ The UNSD workflow can be adapted to meet the specific needs and working environm
 organizations that participate in the Federated Information System for the SDGs initiative.
 
 Initial setup
-
 1. Create an ArcGIS Online organization and individual
 2. Create the following groups within the ArcGIS Online organization
       a. “Staging Open Data” Groups(one for each authorized data publisher in the organization) 
@@ -30,7 +29,6 @@ each row represents one geographic feature, and all areas are included, regardle
 data or not.[4]
 
 Publication[5]
-
 1. Cleanup the staging folder for Open Data
 2. Collect layer template information[6]
 3. Collect information describing the nested structure and content of the global SDG indicator
@@ -50,6 +48,10 @@ Publication[5]
    ● If it doesn't exist, publish as a new Item then move to the Open Data Folder
    ● Update the layer information with rendering parameters
 9. Build the metadata properties for the item card 
+
+
+
+
 
 [1] E.g. in the case of UNSD, metadata elements for SDG data series are collected from a json file which is available 
     in a git repository (https://raw.githubusercontent.com/UNStats-SDGs/sdg-publisher/lgTester/FIS4SDG/metadataAPI.json
