@@ -1,0 +1,18 @@
+Goal	ColorScheme	Credits
+1	FFDA99, FAC590, F5967F, F1786E, ED5C5E, E5233D, BF162F, 93071F	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+2	EFDAB9, F4CD87, E4C27B, DDA73A, BC801E, 996600, 5B3000, 422400	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+3	BFE0B8, 9BC194, 75B26F, 4CA146, 4C8146, 266254, 1B5058, 053E44	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+4	F5DDDD, E1B3B2, CF8D8C, C84F59, C22033, A22035, 792037, 462039	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+5	EAD8A4, F6C78F, F8A081, F57E63, F25F48, EF402D, 9A3033, 60030A	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+6	F5E79B, ADD9B5, 64CBD0, 27BFE6, 3092BE, 396998, 414476, 492054	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+7	FFD88F, FBC412, F5A50E, F18F0B, DF7408, AD3800, 853C00, 604000	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+8	F5DDDD, E1B3B2, CF8D8C, C84F59, C22033, A31C44, 792037, 462039	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+9	EAD8A4, F9BB7D, F9AC58, F49422, F26A2E, E25C27, BF4116, 60030A	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+10	F4BDD3, EC99BA, DA74AA, DA4594, E01A83, B51860, 7F0844, 560130	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+11	FFE3C2, FECB8F, FBB35E, F89D2A, DD691B, C6580C, 993300, 7F1909	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+12	FFE3C2, FECB8F, FBB35E, F99D25, BF8D2C, 996600, 824B19, 60030A	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+13	E5DFA5, C8CC93, 99AB89, 6C7B69, 48773C, 2C6334, 14472B, 103F3F	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+14	F5E79B, ADD9B5, 64CBD0, 27BFE6, 1F97D4, 396998, 414476, 492054	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+15	D3E5AC, A4CF9A, 79BD6F, 3FAE49, 2F9B5F, 198252, 0B6B52, 085C60	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+16	F5E79B, ADD9B5, 64CBD0, 27BFE6, 1F97D4, 1469A0, 414476, 492054	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017
+17	F5E79B, ADD9B5, 64CBD0, 27BFE6, 1F97D4, 1469A0, 14496B, 05354F	Prepared by Sarah Bell, Esri’s Cartography Lab, 27 July 2017

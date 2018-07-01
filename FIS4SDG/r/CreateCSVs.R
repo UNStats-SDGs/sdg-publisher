@@ -126,8 +126,6 @@ for(i in xx:xx)
           
         }
       
-    
-        
         # Create grid of key columns
         geoAreaCodes  <- countryListXY$geoAreaCode
         slice$sliceId <- 1:nrow(slice)
